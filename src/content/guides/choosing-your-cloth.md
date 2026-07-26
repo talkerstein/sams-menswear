@@ -38,4 +38,4 @@ Want no wool? I keep **vegan suiting and shirtings**: recycled and plant-based c
 
 ## See them for yourself
 
-Browse the [cloth library](/fabrics) (around 200 cloths you can filter by colour, weave and season), then [design your suit](/design) or bring the shortlist to your fitting and we'll pull the real bolts.
+Browse the [cloth library](/fabrics), a colour and weave reference you can filter by season, then [design your suit](/design) or bring your shortlist to the fitting, where Sam puts the actual cloth in your hands.
