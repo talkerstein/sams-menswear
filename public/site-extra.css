@@ -587,8 +587,8 @@ body::before {
 
 .dz-lead { margin-top: 28px; padding: clamp(20px, 3vw, 28px); background: var(--paper-cream); border: 1px solid var(--rule); border-left: 3px solid var(--oxblood); }
 .dz-form { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px; }
-.dz-form input { font-family: var(--serif-body); font-size: 16px; padding: 12px; background: var(--paper); border: 1px solid var(--rule-strong); color: var(--ink); outline: none; width: 100%; }
-.dz-form input:focus { border-color: var(--oxblood); }
+.dz-form input, .dz-form select { font-family: var(--serif-body); font-size: 16px; padding: 12px; background: var(--paper); border: 1px solid var(--rule-strong); color: var(--ink); outline: none; width: 100%; }
+.dz-form input:focus, .dz-form select:focus { border-color: var(--oxblood); }
 .dz-form input[name="email"], .dz-form .dz-when, .dz-form button { grid-column: 1 / -1; }
 .dz-when { display: flex; flex-direction: column; gap: 6px; font-family: var(--serif); font-style: italic; font-size: 13px; letter-spacing: .04em; color: var(--ink-mute); }
 .dz-hp { position: absolute !important; left: -9999px !important; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
@@ -602,6 +602,13 @@ body::before {
   .dz-stage { position: static; max-width: 420px; margin: 0 auto; }
   .dz-form { grid-template-columns: 1fr; }
 }
+
+/* ─── Wedding: venues band ──────────────────────────────────────────── */
+.wed-venues { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 14px 0; align-items: baseline; max-width: 62rem; }
+.wed-venue { font-family: var(--serif); font-size: clamp(22px, 3vw, 34px); font-weight: 500; color: var(--ink); line-height: 1.2; }
+.wed-venue em { font-style: italic; font-size: 0.55em; color: var(--ink-mute); letter-spacing: .06em; margin-left: 8px; }
+.wed-venue + .wed-venue::before { content: '·'; color: var(--gold); margin: 0 18px; font-size: 0.8em; }
+.wed-venues-note { margin-top: 22px; font-family: var(--serif-body); font-style: italic; font-size: 17px; color: var(--ink-mute); max-width: 56ch; }
 
 /* ─── Reviews page ───────────────────────────────────────────────────── */
 .rev-aggregate {

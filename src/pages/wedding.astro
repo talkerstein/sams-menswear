@@ -204,11 +204,35 @@ const serviceSchema = {
     </div>
   </section>
 
-  <!-- TESTIMONIALS -->
+  <!-- THE HALLS (honest venue band — clients marry there; no venue relationship claimed) -->
   <section class="section tight">
     <div class="container">
       <div class="section-head" data-reveal>
         <div class="chapter-no">No. 06</div>
+        <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">Married <em>across the GTA.</em></h2>
+        <div class="right">The halls our grooms walk into</div>
+      </div>
+      <p class="body-prose" data-reveal style="max-width: 58ch; font-size: 19px;">
+        We don't book the hall — your family does that. But season after season, the grooms measured in this studio walk into the same rooms:
+      </p>
+      <div class="wed-venues" data-reveal>
+        <span class="wed-venue">Bellvue Manor<em>Vaughan</em></span>
+        <span class="wed-venue">Chateau Le Jardin<em>Woodbridge</em></span>
+        <span class="wed-venue">The Universal<em>Vaughan</em></span>
+        <span class="wed-venue">Paramount<em>Woodbridge</em></span>
+        <span class="wed-venue">The Old Mill<em>Toronto</em></span>
+      </div>
+      <p class="wed-venues-note" data-reveal>
+        — and the hall you've booked. Wherever the wedding is, the fitting travels: the studio in Vaughan, or a house call anywhere in the GTA. We don't work with the venues; we make sure you outdress them.
+      </p>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section tight">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <div class="chapter-no">No. 07</div>
         <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">From the <em>groom's side.</em></h2>
         <div class="right">Letters, after the wedding</div>
       </div>
@@ -220,7 +244,7 @@ const serviceSchema = {
   <section class="section">
     <div class="container">
       <div class="section-head" data-reveal>
-        <div class="chapter-no">No. 07</div>
+        <div class="chapter-no">No. 08</div>
         <h2 class="h-1" style="text-transform: uppercase; max-width: 20ch;">The wedding <em>reading room.</em></h2>
         <div class="right">Everything a groom needs to know</div>
       </div>
@@ -266,6 +290,59 @@ const serviceSchema = {
     </div>
   </section>
 
+  <!-- WHOLE-PARTY BOOKING -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <div class="chapter-no">No. 09</div>
+        <h2 class="h-1" style="text-transform: uppercase; max-width: 20ch;">The whole party, <em>one booking.</em></h2>
+        <div class="right">Groom · groomsmen · both fathers</div>
+      </div>
+      <div class="feature-grid cols-2" data-reveal>
+        <div>
+          <p class="body-prose" style="font-size: 19px;">
+            Coordinating five men and two fathers is a project — unless one tailor measures all of them against the same notebook. Tell us the date and the size of the party, and Sam calls you back to plan it: one group fitting at the studio, or a house call where everyone already is. Out-of-town groomsmen get a measuring guide and a video walkthrough, then a fitting when they land.
+          </p>
+          <p class="body-prose" style="margin-top: 16px; font-size: 17px; color: var(--ink-mute);">
+            No obligation — the planning conversation is free, like every first consultation.
+          </p>
+        </div>
+        <div class="dz-lead" style="margin-top: 0;">
+          <h3 class="h-4" style="text-transform: uppercase; color: var(--navy);">Plan the party fitting</h3>
+          <form class="dz-form" data-party-form>
+            <input type="text" name="name" placeholder="Your name" autocomplete="name" required/>
+            <input type="tel" name="phone" placeholder="Phone" autocomplete="tel" required/>
+            <input type="email" name="email" placeholder="Email" autocomplete="email"/>
+            <label class="dz-when">Wedding date
+              <input type="date" name="weddingdate" aria-label="Wedding date"/>
+            </label>
+            <label class="dz-when" style="grid-column: 1 / -1;">How many are we dressing?
+              <select name="partysize" aria-label="Party size">
+                <option value="groom">Just the groom (for now)</option>
+                <option value="2-4">2–4 — groom &amp; a few</option>
+                <option value="5-7" selected>5–7 — the party &amp; a father</option>
+                <option value="8+">8+ — the whole line, both fathers</option>
+              </select>
+            </label>
+            <label class="dz-when" style="grid-column: 1 / -1;">Any groomsmen out of town?
+              <select name="outoftown" aria-label="Out of town groomsmen">
+                <option value="no">No — everyone's local</option>
+                <option value="yes">Yes — some fly in</option>
+              </select>
+            </label>
+            <input type="text" name="company" class="dz-hp" tabindex="-1" autocomplete="off" aria-hidden="true"/>
+            <button type="submit" class="btn is-dark" style="color: var(--ink); border-color: var(--ink);">Have Sam call about the party</button>
+          </form>
+          <div class="dz-ack" data-party-ack hidden>
+            <div class="dz-ack-seal">✓</div>
+            <p data-party-lead><strong>Got it.</strong> Sam will call to plan the party fitting — <span data-party-summary></span>.</p>
+            <p class="dz-fallback" data-party-fallback hidden style="font-size:14px;"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- BOOKING CTA -->
   <section class="section flush">
     <div class="container">
@@ -291,5 +368,49 @@ const serviceSchema = {
   </section>
 
   <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <script>
+    // Whole-party booking → shared SamsLead pipe as a 'wedding-party' lead.
+    const form = document.querySelector('[data-party-form]');
+    form?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const val = (n) => { const el = form.querySelector('[name="' + n + '"]'); return el ? el.value.trim() : ''; };
+      // Honeypot: silently pretend success for bots.
+      if (val('company')) { form.hidden = true; const a = document.querySelector('[data-party-ack]'); if (a) a.hidden = false; return; }
+      const name = val('name'), phone = val('phone'), email = val('email');
+      const weddingdate = val('weddingdate'), partysize = val('partysize'), outoftown = val('outoftown');
+      if (!name || !phone) { form.querySelector(!name ? '[name="name"]' : '[name="phone"]').focus(); return; }
+      // Urgency: weddings plan 9-12 months out, so a near date is a call-now lead.
+      let urgency = 'nurture';
+      if (weddingdate) {
+        const days = Math.round((new Date(weddingdate) - new Date()) / 86400000);
+        urgency = days <= 90 ? 'HOT — call now' : days <= 270 ? 'warm' : 'nurture';
+      }
+      const size = { 'groom': 'groom only', '2-4': 'party of 2-4', '5-7': 'party of 5-7', '8+': 'party of 8+' }[partysize] || partysize;
+      const summary = size + (weddingdate ? ', wedding ' + weddingdate : '') + (outoftown === 'yes' ? ', out-of-town groomsmen' : '');
+      const btn = form.querySelector('button[type="submit"]');
+      if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+      let result = { ok: false };
+      try {
+        result = (window.SamsLead && window.SamsLead.send)
+          ? await window.SamsLead.send('wedding-party', { name, phone, email, weddingdate, partysize: size, outoftown, urgency })
+          : { ok: false };
+      } catch (err) { result = { ok: false }; }
+      const ack = document.querySelector('[data-party-ack]');
+      const sum = document.querySelector('[data-party-summary]');
+      if (sum) sum.textContent = summary;
+      if (!result.ok && window.SamsLead) {
+        // Honest fallback: we did NOT reach Sam automatically — offer the direct paths.
+        const lead = document.querySelector('[data-party-lead]');
+        if (lead) lead.innerHTML = '<strong>Almost there.</strong> One tap reaches Sam directly — <span>' + summary + '</span>';
+        const wa = window.SamsLead.whatsapp('Hi Sam — wedding party booking: ' + summary + '. — ' + name + ', ' + phone);
+        const mail = window.SamsLead.mailto('Wedding party booking — ' + name, { Name: name, Phone: phone, Email: email, 'Wedding date': weddingdate, Party: size, 'Out-of-town': outoftown });
+        const fb = document.querySelector('[data-party-fallback]');
+        if (fb) { fb.innerHTML = 'Reach Sam right now: <a href="' + wa + '" target="_blank" rel="noopener">WhatsApp the details</a>, <a href="' + mail + '">email them</a>, or <a href="tel:' + window.SamsLead.PHONE + '">call ' + window.SamsLead.PHONE_DISP + '</a>.'; fb.hidden = false; }
+      }
+      form.hidden = true;
+      if (ack) ack.hidden = false;
+    });
+  </script>
 
 </BaseLayout>
