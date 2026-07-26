@@ -59,6 +59,16 @@ const serviceSchema = {
         <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">Made to <em>your specification.</em></h2>
         <div class="right">Measured &amp; made to fit</div>
       </div>
+      {g.optionPhotos && g.optionPhotos.length > 0 && (
+        <div class="opt-rail" data-reveal-stagger>
+          {g.optionPhotos.map((p) => (
+            <figure>
+              <div class="opt-photo"><img src={p.src} alt={p.alt} loading="lazy"/></div>
+              <figcaption>{p.label}</figcaption>
+            </figure>
+          ))}
+        </div>
+      )}
       <div class="feature-grid cols-2" data-reveal-stagger>
         {g.details.map((d, i) => (
           <div>
@@ -69,6 +79,26 @@ const serviceSchema = {
         ))}
       </div>
       <p class="body-prose" data-reveal style="max-width: 60ch; margin-top: clamp(28px,4vw,44px);">{g.cloth} <a href="/fabrics" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">Explore the cloth library &rarr;</a></p>
+
+      <!-- Conversion band: answers how long, what you pay when, and what
+           happens if it needs altering, at the point the choice is made. -->
+      <div class="pillar-cta" data-reveal>
+        <div>
+          <div class="eyebrow-rule">The terms, plainly</div>
+          <h3 class="h-2" style="margin-top: 14px; text-transform: none;">No guessing at <em style="font-style: italic; font-weight: 400; color: var(--oxblood);">the number.</em></h3>
+          <ul class="pillar-cta__terms">
+            <li><b>On the bench</b> <span>{g.turnaround || 'Three to four weeks. Twelve days if it is urgent and the cloth is in.'}</span></li>
+            <li><b>Payment</b> <span>Half when the cloth is chosen, half on delivery.</span></li>
+            <li><b>Alterations</b> <span>Part of the price, not a line item at the end.</span></li>
+            <li><b>Reorders</b> <span>Your pattern is kept, so the next one is a phone call.</span></li>
+          </ul>
+        </div>
+        <div class="pillar-cta__act">
+          <a href="/book" class="btn is-primary" data-open-booking data-no-transition>{g.ctaLabel || 'Book a fitting'}</a>
+          <a href="/design" class="btn" data-no-transition>Design it first &rarr;</a>
+          <p class="pillar-cta__note">You get one firm price before anything is cut, and the first consultation costs nothing.</p>
+        </div>
+      </div>
     </div>
   </section>
 

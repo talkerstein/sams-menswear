@@ -6,6 +6,14 @@
 export const garments = [
   {
     slug: 'suits',
+    optionPhotos: [
+      { src: '/media/sam/sam-fitting-shoulder.webp', alt: "Sam measuring sleeve length from the shoulder; the client's shirt cuff carries a stitched monogram", label: 'The shoulder' },
+      { src: '/media/sam/sam-fitting-cuff.webp', alt: "Sam measuring a client's cuff, the working buttonholes on the navy sleeve visible under the tape", label: 'The sleeve' },
+      { src: '/media/cloth/f021.webp', alt: "Close weave of a charcoal worsted suiting", label: 'The cloth' },
+      { src: '/media/sam/sam-red-jacket.webp', alt: "Sam pinning a red dinner jacket with a black shawl lapel on the dress form, tape around his neck", label: 'The finishing' },
+    ],
+    turnaround: 'Three to four weeks. Twelve days if it is urgent and the cloth is in.',
+    ctaLabel: 'Book a suit fitting',
     nav: 'Custom Suits',
     eyebrow: 'The Garments',
     title: 'Custom & Tailored Suits',
@@ -49,6 +57,14 @@ export const garments = [
   },
   {
     slug: 'tuxedos',
+    optionPhotos: [
+      { src: '/media/sam/sam-red-jacket.webp', alt: "Sam pinning a red dinner jacket with a black shawl lapel on the dress form, tape around his neck", label: 'The lapel' },
+      { src: '/media/sam/sam-collar.webp', alt: "Sam taking a neck measurement with a tape at a client's collar in the Vaughan studio", label: 'The collar' },
+      { src: '/media/cloth/f001.webp', alt: "Close weave of a midnight barathea tuxedo cloth", label: 'The cloth' },
+      { src: '/media/sam/sam-fitting-cuff.webp', alt: "Sam measuring a client's cuff, the working buttonholes on the navy sleeve visible under the tape", label: 'The cuff' },
+    ],
+    turnaround: 'Three to four weeks. Start earlier for a wedding so the fittings are calm.',
+    ctaLabel: 'Book a black-tie fitting',
     nav: 'Tuxedos',
     eyebrow: 'The Garments',
     title: 'Custom Tuxedos',
@@ -86,6 +102,13 @@ export const garments = [
   },
   {
     slug: 'trousers',
+    optionPhotos: [
+      { src: '/media/sam/sam-fitting-shoulder.webp', alt: "Sam measuring sleeve length from the shoulder; the client's shirt cuff carries a stitched monogram", label: 'Measured on you' },
+      { src: '/media/cloth/f090.webp', alt: "Close weave of a mid-grey trouser cloth", label: 'The cloth' },
+      { src: '/media/sam/sam-fitting-cuff.webp', alt: "Sam measuring a client's cuff, the working buttonholes on the navy sleeve visible under the tape", label: 'The finishing' },
+    ],
+    turnaround: 'Two to three weeks once your pattern is on file.',
+    ctaLabel: 'Book a trouser fitting',
     nav: 'Trousers',
     eyebrow: 'The Garments',
     title: 'Trousers',
@@ -123,6 +146,14 @@ export const garments = [
   },
   {
     slug: 'dress-shirts',
+    optionPhotos: [
+      { src: '/media/sam/sam-collar.webp', alt: "Sam taking a neck measurement with a tape at a client's collar in the Vaughan studio", label: 'The collar' },
+      { src: '/media/sam/sam-fitting-cuff.webp', alt: "Sam measuring a client's cuff, the working buttonholes on the navy sleeve visible under the tape", label: 'The cuff' },
+      { src: '/media/sam/sam-fitting-shoulder.webp', alt: "Sam measuring sleeve length from the shoulder; the client's shirt cuff carries a stitched monogram", label: 'The sleeve' },
+      { src: '/media/cloth/f003.webp', alt: "Close weave of a two-ply cotton shirting", label: 'The cloth' },
+    ],
+    turnaround: 'Two to three weeks, the first shirt and the twentieth alike.',
+    ctaLabel: 'Order your first shirt',
     nav: 'Dress Shirts',
     eyebrow: 'The Garments',
     title: 'Custom Dress Shirts',
@@ -233,6 +264,13 @@ export const garments = [
   },
   {
     slug: 'kapotas',
+    optionPhotos: [
+      { src: '/media/sam/sam-red-jacket.webp', alt: "Sam pinning a red dinner jacket with a black shawl lapel on the dress form, tape around his neck", label: 'On the form' },
+      { src: '/media/sam/sam-collar.webp', alt: "Sam taking a neck measurement with a tape at a client's collar in the Vaughan studio", label: 'The collar' },
+      { src: '/media/cloth/f142.webp', alt: "Close weave of a fine dark wool", label: 'The cloth' },
+    ],
+    turnaround: 'Three to four weeks. Order before Yom Tov, not during it.',
+    ctaLabel: 'Book a private fitting',
     nav: 'Kapotas & Traditional',
     eyebrow: 'The Garments',
     title: 'Kapotas & Traditional Jewish Menswear',
@@ -389,6 +427,13 @@ export const garments = [
   },
   {
     slug: 'womens',
+    optionPhotos: [
+      { src: '/media/sam/sam-fitting-shoulder.webp', alt: "Sam measuring sleeve length from the shoulder; the client's shirt cuff carries a stitched monogram", label: 'The shoulder' },
+      { src: '/media/sam/sam-fitting-cuff.webp', alt: "Sam measuring a client's cuff, the working buttonholes on the navy sleeve visible under the tape", label: 'The sleeve' },
+      { src: '/media/cloth/f104.webp', alt: "Close weave of a fine suiting cloth", label: 'The cloth' },
+    ],
+    turnaround: 'Three to four weeks on the bench.',
+    ctaLabel: 'Book a fitting',
     nav: "Women's Suits & Skirts",
     eyebrow: 'The Garments',
     title: "Women's Suits & Skirts",

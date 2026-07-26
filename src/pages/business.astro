@@ -58,6 +58,30 @@ const serviceSchema = {
     </div>
   </section>
 
+  <!-- Real studio photography: the working suit being measured, not rendered. -->
+  <section class="section tight">
+    <div class="container">
+      <div class="opt-rail" data-reveal-stagger>
+        <figure>
+          <div class="opt-photo opt-photo--low"><img src="/media/sam/sam-fitting-shoulder.webp" alt="Sam measuring sleeve length from the shoulder of a client in a waistcoat at the Vaughan studio" loading="lazy"/></div>
+          <figcaption>The shoulder</figcaption>
+        </figure>
+        <figure>
+          <div class="opt-photo"><img src="/media/sam/sam-collar.webp" alt="Sam taking a neck measurement at the collar of a client's navy business suit" loading="lazy"/></div>
+          <figcaption>The collar</figcaption>
+        </figure>
+        <figure>
+          <div class="opt-photo opt-photo--low"><img src="/media/sam/sam-fitting-cuff.webp" alt="Sam measuring a client's cuff, working buttonholes visible on the navy sleeve" loading="lazy"/></div>
+          <figcaption>The cuff</figcaption>
+        </figure>
+        <figure>
+          <div class="opt-photo"><img src="/media/sam/sam-consult.webp" alt="Sam sitting with a client choosing cloth and details over the lookbook" loading="lazy"/></div>
+          <figcaption>The choosing</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
   <!-- DRESSING FOR YOUR PROFESSION -->
   <section class="section tight">
     <div class="container">
@@ -222,10 +246,34 @@ const serviceSchema = {
     <div class="container">
       <div class="section-head" data-reveal>
         <div class="chapter-no">No. 05</div>
-        <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">From <em>Bay Street.</em></h2>
-        <div class="right">Letters from the working week</div>
+        <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">In their <em>own words.</em></h2>
+        <div class="right">Unedited &middot; Google reviews</div>
       </div>
-      <Testimonials items={[reviews[6], reviews[9], reviews[11]]} />
+      <Testimonials items={[reviews[2], reviews[6], reviews[11]]} />
+    </div>
+  </section>
+
+  <!-- Conversion band: the working buyer's actual questions, answered. -->
+  <section class="section tight">
+    <div class="container">
+      <div class="pillar-cta" data-reveal>
+        <div>
+          <div class="eyebrow-rule">One conversation</div>
+          <h3 class="h-2" style="margin-top: 14px; text-transform: none;">Plan the whole week, <em style="font-style: italic; font-weight: 400; color: var(--oxblood);">once.</em></h3>
+          <ul class="pillar-cta__terms">
+            <li><b>The visit</b> <span>Seventy minutes. We map the rotation, the seasonal cloths and the shirts to match.</span></li>
+            <li><b>On the bench</b> <span>Three to four weeks a suit, two to three a shirt.</span></li>
+            <li><b>Payment</b> <span>Half when the cloth is chosen, half on delivery.</span></li>
+            <li><b>Alterations</b> <span>Part of the price. Bodies change; the suit follows.</span></li>
+            <li><b>Next time</b> <span>Your pattern is kept, so a second suit is a phone call.</span></li>
+          </ul>
+        </div>
+        <div class="pillar-cta__act">
+          <a href="/book" class="btn is-primary" data-open-booking data-no-transition>Plan your rotation</a>
+          <a href="/design" class="btn" data-no-transition>Design it first &rarr;</a>
+          <p class="pillar-cta__note">Most men arrive wanting one suit and leave with a three-year plan. Bring the suit you wear most and Sam will tell you what it is costing you.</p>
+        </div>
+      </div>
     </div>
   </section>
 
