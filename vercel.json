@@ -3,52 +3,239 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": "www.customsuitandshirt.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.customsuitandshirt.com"
+        }
+      ],
       "destination": "https://customsuitandshirt.com/$1",
       "permanent": true
     },
-    { "source": "/our-services/kapotas", "destination": "/kapotas", "permanent": true },
-    { "source": "/our-services/kapotas/", "destination": "/kapotas", "permanent": true },
-    { "source": "/our-services/custom-suits", "destination": "/suits", "permanent": true },
-    { "source": "/our-services/custom-suits/", "destination": "/suits", "permanent": true },
-    { "source": "/our-services/shirts", "destination": "/dress-shirts", "permanent": true },
-    { "source": "/our-services/shirts/", "destination": "/dress-shirts", "permanent": true },
-    { "source": "/our-services/vegan-wear", "destination": "/vegan", "permanent": true },
-    { "source": "/our-services/vegan-wear/", "destination": "/vegan", "permanent": true },
-    { "source": "/our-services/outerwear", "destination": "/outerwear", "permanent": true },
-    { "source": "/our-services/outerwear/", "destination": "/outerwear", "permanent": true },
-    { "source": "/our-services/tuxedo", "destination": "/tuxedos", "permanent": true },
-    { "source": "/our-services/tuxedo/", "destination": "/tuxedos", "permanent": true },
-    { "source": "/our-services/tuxedos", "destination": "/tuxedos", "permanent": true },
-    { "source": "/our-services/tuxedos/", "destination": "/tuxedos", "permanent": true },
-    { "source": "/our-services/trousers", "destination": "/trousers", "permanent": true },
-    { "source": "/our-services/trousers/", "destination": "/trousers", "permanent": true },
-    { "source": "/our-services/pants", "destination": "/trousers", "permanent": true },
-    { "source": "/our-services/pants/", "destination": "/trousers", "permanent": true },
-    { "source": "/our-services/accessories", "destination": "/custom", "permanent": true },
-    { "source": "/our-services/accessories/", "destination": "/custom", "permanent": true },
-    { "source": "/our-services", "destination": "/suits", "permanent": true },
-    { "source": "/our-services/", "destination": "/suits", "permanent": true },
-    { "source": "/about-us", "destination": "/about", "permanent": true },
-    { "source": "/about-us/", "destination": "/about", "permanent": true },
-    { "source": "/contact-us", "destination": "/book", "permanent": true },
-    { "source": "/contact-us/", "destination": "/book", "permanent": true },
-    { "source": "/shop", "destination": "/suits", "permanent": true },
-    { "source": "/shop/", "destination": "/suits", "permanent": true },
-    { "source": "/tailoring-process", "destination": "/process", "permanent": true },
-    { "source": "/tailoring-process/", "destination": "/process", "permanent": true },
-    { "source": "/wedding-special", "destination": "/wedding", "permanent": true },
-    { "source": "/wedding-special/", "destination": "/wedding", "permanent": true },
-    { "source": "/lookbook", "destination": "/fabrics", "permanent": true },
-    { "source": "/lookbook/", "destination": "/fabrics", "permanent": true },
-    { "source": "/articles", "destination": "/guides", "permanent": true },
-    { "source": "/articles/", "destination": "/guides", "permanent": true },
-    { "source": "/the-perfect-custom-dress-shirt-in-toronto-business-to-yeshiva-to-date-night", "destination": "/dress-shirts", "permanent": true },
-    { "source": "/the-perfect-custom-dress-shirt-in-toronto-business-to-yeshiva-to-date-night/", "destination": "/dress-shirts", "permanent": true },
-    { "source": "/toronto-professionals-are-trading-big-box-stores-for-sams-custom-suit", "destination": "/guides/custom-suits-toronto-without-downtown", "permanent": true },
-    { "source": "/toronto-professionals-are-trading-big-box-stores-for-sams-custom-suit/", "destination": "/guides/custom-suits-toronto-without-downtown", "permanent": true },
-    { "source": "/wp-content/uploads/2024/09/Sams-Menswear-Lookbook-2024.pdf", "destination": "/fabrics", "permanent": true },
-    { "source": "/guides/what-groomsmen-actually-want-to-wear", "destination": "/guides/what-your-groomsmen-actually-want-to-wear", "permanent": true },
-    { "source": "/guides/what-groomsmen-actually-want-to-wear/", "destination": "/guides/what-your-groomsmen-actually-want-to-wear", "permanent": true }
+    {
+      "source": "/our-services/kapotas",
+      "destination": "/kapotas",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/kapotas/",
+      "destination": "/kapotas",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/custom-suits",
+      "destination": "/suits",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/custom-suits/",
+      "destination": "/suits",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/shirts",
+      "destination": "/dress-shirts",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/shirts/",
+      "destination": "/dress-shirts",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/vegan-wear",
+      "destination": "/vegan",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/vegan-wear/",
+      "destination": "/vegan",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/outerwear",
+      "destination": "/outerwear",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/outerwear/",
+      "destination": "/outerwear",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/tuxedo",
+      "destination": "/tuxedos",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/tuxedo/",
+      "destination": "/tuxedos",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/tuxedos",
+      "destination": "/tuxedos",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/tuxedos/",
+      "destination": "/tuxedos",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/trousers",
+      "destination": "/trousers",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/trousers/",
+      "destination": "/trousers",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/pants",
+      "destination": "/trousers",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/pants/",
+      "destination": "/trousers",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/accessories",
+      "destination": "/custom",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/accessories/",
+      "destination": "/custom",
+      "permanent": true
+    },
+    {
+      "source": "/our-services",
+      "destination": "/suits",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/",
+      "destination": "/suits",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/about-us/",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/book",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us/",
+      "destination": "/book",
+      "permanent": true
+    },
+    {
+      "source": "/shop",
+      "destination": "/suits",
+      "permanent": true
+    },
+    {
+      "source": "/shop/",
+      "destination": "/suits",
+      "permanent": true
+    },
+    {
+      "source": "/tailoring-process",
+      "destination": "/process",
+      "permanent": true
+    },
+    {
+      "source": "/tailoring-process/",
+      "destination": "/process",
+      "permanent": true
+    },
+    {
+      "source": "/wedding-special",
+      "destination": "/wedding",
+      "permanent": true
+    },
+    {
+      "source": "/wedding-special/",
+      "destination": "/wedding",
+      "permanent": true
+    },
+    {
+      "source": "/lookbook",
+      "destination": "/fabrics",
+      "permanent": true
+    },
+    {
+      "source": "/lookbook/",
+      "destination": "/fabrics",
+      "permanent": true
+    },
+    {
+      "source": "/articles",
+      "destination": "/guides",
+      "permanent": true
+    },
+    {
+      "source": "/articles/",
+      "destination": "/guides",
+      "permanent": true
+    },
+    {
+      "source": "/the-perfect-custom-dress-shirt-in-toronto-business-to-yeshiva-to-date-night",
+      "destination": "/dress-shirts",
+      "permanent": true
+    },
+    {
+      "source": "/the-perfect-custom-dress-shirt-in-toronto-business-to-yeshiva-to-date-night/",
+      "destination": "/dress-shirts",
+      "permanent": true
+    },
+    {
+      "source": "/toronto-professionals-are-trading-big-box-stores-for-sams-custom-suit",
+      "destination": "/guides/custom-suits-toronto-without-downtown",
+      "permanent": true
+    },
+    {
+      "source": "/toronto-professionals-are-trading-big-box-stores-for-sams-custom-suit/",
+      "destination": "/guides/custom-suits-toronto-without-downtown",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2024/09/Sams-Menswear-Lookbook-2024.pdf",
+      "destination": "/fabrics",
+      "permanent": true
+    },
+    {
+      "source": "/guides/what-groomsmen-actually-want-to-wear",
+      "destination": "/guides/what-your-groomsmen-actually-want-to-wear",
+      "permanent": true
+    },
+    {
+      "source": "/guides/what-groomsmen-actually-want-to-wear/",
+      "destination": "/guides/what-your-groomsmen-actually-want-to-wear",
+      "permanent": true
+    },
+    {
+      "source": "/almanac/the-traveling-tailor-save",
+      "destination": "/almanac",
+      "permanent": true
+    },
+    {
+      "source": "/almanac/the-traveling-tailor-save/",
+      "destination": "/almanac",
+      "permanent": true
+    }
   ]
 }

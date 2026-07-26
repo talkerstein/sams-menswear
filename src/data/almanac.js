@@ -105,7 +105,7 @@ export const themes = [
     "slug": "the-last-minute-panic",
     "title": "The Last-Minute Panic",
     "teaser": "Men who left it too late, and what the clock cost them.",
-    "description": "Eleven tales of men who left the suit too late: the scramble, the rental compromise, rush premiums, and the odd save Sam pulled off at the bench.",
+    "description": "Ten tales of men who left the suit too late: the scramble, the rental compromise, rush premiums, and the odd save Sam pulled off at the bench.",
     "tales": [
       {
         "num": 12,
@@ -193,7 +193,7 @@ export const themes = [
     "slug": "the-fused-suit-bubble",
     "title": "The Fused-Suit Bubble",
     "teaser": "Cheap glue instead of canvas, and the day it let go.",
-    "description": "Eleven fitting-room tales of fused mall-chain suits (bubbling lapels, split seams, shiny cloth) and the canvassed answer that outlasts them.",
+    "description": "Ten fitting-room tales of fused mall-chain suits (bubbling lapels, split seams, shiny cloth) and the canvassed answer that outlasts them.",
     "tales": [
       {
         "num": 22,
@@ -281,7 +281,7 @@ export const themes = [
     "slug": "the-online-gamble",
     "title": "The Online Gamble",
     "teaser": "A suit ordered from a screen, sized by hope, and the man who has to wear it.",
-    "description": "Eleven fitting-room tales about buying suits online and by app: sizing roulette, \"close enough,\" return spirals, and cloth nothing like the photo.",
+    "description": "Nine fitting-room tales about buying suits online and by app: sizing roulette, \"close enough,\" return spirals, and cloth nothing like the photo.",
     "tales": [
       {
         "num": 32,
@@ -361,7 +361,7 @@ export const themes = [
     "slug": "the-upsell",
     "title": "The Hard Sell",
     "teaser": "The shop that sold the man whatever paid the most commission, never what fit.",
-    "description": "Eleven tales of the hard sell: commission counters and mall chains that pushed the priciest suit, sold what no man needed, and never once told the truth about fit.",
+    "description": "Ten tales of the hard sell: commission counters and mall chains that pushed the priciest suit, sold what no man needed, and never once told the truth about fit.",
     "tales": [
       {
         "num": 42,
@@ -625,7 +625,7 @@ export const themes = [
     "slug": "the-fit-that-changed-him",
     "title": "The Fit That Changed Him",
     "teaser": "The first time a suit was built for the body a man actually has.",
-    "description": "Eleven fitting-room tales of athletic, tall, short and bigger men who never fit off-the-rack, and the moment a proper suit changed how they saw themselves.",
+    "description": "Ten fitting-room tales of athletic, tall, short and bigger men who never fit off-the-rack, and the moment a proper suit changed how they saw themselves.",
     "tales": [
       {
         "num": 72,
@@ -706,94 +706,6 @@ export const themes = [
         "body": "Years on the tools had given him a strong, swayed lower back, and every jacket he owned flared out at the tail and pooled fabric below the collar, that ripple across the shoulders he'd assumed was just how he was built and how jackets fell. Nobody had ever told him it could be cut out. Sam saw it the moment he turned around, took the excess from the collar and shaped the back to follow his posture instead of a mannequin's. The jacket lay flat and clean from neck to hem. The man ran a hand down his own back in the mirror, feeling for the old bunch of fabric that wasn't there. 'Thirty years,' he said. 'Nobody ever did that.'",
         "lesson": "A back that isn't ramrod-straight isn't a flaw. It's a shape a real tailor reads and follows.",
         "guide": "/guides/how-a-suit-should-fit"
-      }
-    ]
-  },
-  {
-    "slug": "the-traveling-tailor-save",
-    "title": "The Traveling-Tailor Save",
-    "teaser": "When the shop couldn't come to a man, Sam brought the tape to his door, and saved the week.",
-    "description": "The Traveling-Tailor Save: 11 almanac tales of Sam's GTA house calls: measuring busy executives, out-of-town wedding parties, and men who couldn't get downtown.",
-    "tales": [
-      {
-        "num": 82,
-        "title": "The Tape at the Boardroom Door",
-        "who": "A managing partner in North York, days from a keynote",
-        "body": "He kept the appointment three times and cancelled it three times, not from rudeness, but from a calendar that owned him. Every window closed by nine and reopened past dark. His assistant finally said what he wouldn't: he was never coming to the shop. So Sam went to the fourteenth floor at seven in the morning, tape over his shoulder, and measured him between a coffee and a conference call. Fourteen minutes, jacket off, shoulders squared against the window light.\n\nThe suit arrived two weeks later, pressed and ready for the stage. He never once left his building. The turn was simple: the mountain does not always come to the tailor, so the tailor learns the road.",
-        "lesson": "A good suit should fit your life before it fits your shoulders, and sometimes that means the fitting comes to you.",
-        "guide": "/guides/the-traveling-tailor"
-      },
-      {
-        "num": 83,
-        "title": "The Wedding That Landed Friday",
-        "who": "A groomsman flying into Woodbridge for a Sunday wedding",
-        "body": "The party was scattered across three cities: two in the GTA, one landing from Calgary on Friday night. The groom had panicked quietly for a month: how do you match six men who are never in the same room? Sam took the measurements he could take in the shop, then met the last man Saturday morning at his brother's kitchen table in Maple, tape and chalk laid out beside the coffee.\n\nBy noon the sixth jacket was marked for its final take-in. Sunday they stood together, matched, and no one at the wedding knew the last fitting had happened over a breakfast table twenty-four hours before.",
-        "lesson": "A scattered wedding party is a scheduling problem, not a tailoring one, and the tailor who travels solves both.",
-        "guide": "/guides/coordinating-groomsmen"
-      },
-      {
-        "num": 84,
-        "title": "The Man Who Could Not Get Downtown",
-        "who": "A retired judge in Thornhill, no longer driving",
-        "body": "He had bought suits from the same shops for fifty years, always downtown, always by car. Then the license lapsed, the knee gave out, and the world narrowed to a few quiet streets. His daughter called, half apologizing, asking whether anyone still did house calls. Sam said of course. That was how his own father had started.\n\nHe came on a Tuesday afternoon, spread the cloth books on the dining table, and let the old man choose the way he always had: by touch, by weight, by the fall of the fabric across his hand. Dignity does not require a car. It requires someone willing to bring the shop to the door.",
-        "lesson": "Getting older shouldn't cost a man his good clothes. The tailor comes to him.",
-        "guide": "/guides/the-traveling-tailor"
-      },
-      {
-        "num": 85,
-        "title": "The Site Trailer in Concord",
-        "who": "A construction executive on a job that never stopped",
-        "body": "His daughter's wedding was in five weeks and he had not been measured, because he had not left the site in a month. The build was behind, the crews were double-shifted, and every time he meant to drive to the shop, something poured or cracked or arrived late. His wife made the call in a tone Sam recognized: the tone of a woman who will not be embarrassed at her own daughter's wedding.\n\nSam met him in the site trailer, hard hats on the shelf, blueprints rolled in the corner. Measured him standing on plywood in his work boots. The father-of-the-bride suit came out beautifully, and he wore it without a single lost hour of the build.",
-        "lesson": "The father of the bride never has time, so the fitting finds him where he already is.",
-        "guide": "/guides/father-of-the-bride-and-groom-suit"
-      },
-      {
-        "num": 86,
-        "title": "The Twins Who Wouldn't Sit Still",
-        "who": "A mother in Richmond Hill with two boys and one Saturday",
-        "body": "Two b'nai mitzvah, six weeks apart, and a mother with a spreadsheet and no free Saturday until autumn. Bringing two eleven-year-olds to a shop, keeping them still long enough to be measured, and doing it around hockey and Hebrew school had defeated her twice already. She asked, mostly hoping, whether Sam might just come to the house.\n\nHe did: Sunday morning, kitchen island cleared, both boys measured inside twenty minutes because at home they weren't nervous, only impatient for lunch. Two small suits, cut to grow a little, ready for two proud mornings on the bimah. The house call turned a logistics knot into a memory.",
-        "lesson": "For a boy's first real suit, comfort in the room matters as much as the measurements.",
-        "guide": "/guides/the-bar-mitzvah-suit"
-      },
-      {
-        "num": 87,
-        "title": "The Layover Fitting",
-        "who": "A consultant in Markham, home four days a month",
-        "body": "He lived on airplanes. Monday out, Thursday back, a weekend with the family, then gone again. He had wanted a proper suit for two years and never once been in the city during shop hours to get one. It sat on his list like a promise to himself he couldn't keep.\n\nSam met him on a Sunday at his kitchen table between flights: measured, chose cloth, talked through the cut in under an hour. The next month, same window, the fitting; the month after, delivery. Three short visits stretched across a season the man was mostly airborne. The suit waited patiently in the closet, but it fit like it had never left his side.",
-        "lesson": "A man who travels for a living can still own something made just for him. The tailor just works around the flights.",
-        "guide": "/guides/what-a-custom-suit-costs"
-      },
-      {
-        "num": 88,
-        "title": "The Rehab Room in Vaughan",
-        "who": "A grandfather recovering after surgery, six weeks to a wedding",
-        "body": "The surgery went well; the timing was cruel. His grandson's wedding fell inside the recovery, and he was under strict orders not to drive, not to strain, barely to climb stairs. He told his family he simply wouldn't dress up. He'd sit at the back in whatever fit. They wouldn't hear of it.\n\nSam came to the house and measured him in the chair by the window, gently, the way you measure a man whose body is still healing. He built a little ease into the waist and shoulders for comfort. On the wedding day the grandfather stood for the photos, straight and proud, in a suit no one would have guessed was cut around a cane.",
-        "lesson": "Health takes what it takes, but it doesn't have to take a man's dignity at the family table.",
-        "guide": "/guides/suits-for-hard-to-fit-bodies"
-      },
-      {
-        "num": 89,
-        "title": "The Two Brothers, One City Apart",
-        "who": "Groom in Kleinburg, best man in Mississauga, three weeks out",
-        "body": "The best man traveled for work as much as the groom stayed put, and their calendars never once overlapped. An online order had already gone wrong for one of them: a box arrived, nothing fit, and the return window was a maze. With three weeks left, panic set in. Two men, two cities, one wedding, no shared free afternoon.\n\nSam went to each of them separately: the groom at home one evening, the best man at his office another. Same cloth, same buttons, measured by the same hands so the two suits would truly match. On the day they stood side by side and looked like they'd been fitted in the same room. They never had been.",
-        "lesson": "A box on your porch can't tell if the shoulders sit right. A tailor who comes to you can.",
-        "guide": "/guides/custom-vs-rental-wedding-suit"
-      },
-      {
-        "num": 90,
-        "title": "The New Father's Interview",
-        "who": "A young man in Maple with a newborn and a big interview",
-        "body": "The baby was three weeks old, the interview was in ten days, and the man had not slept a full night in a month. Getting to a shop meant leaving a exhausted wife alone with a newborn, and he wouldn't do it. He nearly showed up to the biggest interview of his career in a suit two sizes off from before the wedding weight.\n\nSam came by in the evening, measured him quietly in the living room while the baby slept in the next room, and cut a clean, honest navy that made him look like a man in command of his life, even if he wasn't sleeping. He got the job. The suit did some of the talking he was too tired to do.",
-        "lesson": "The right suit walks into the room a step ahead of you, even on no sleep.",
-        "guide": "/guides/the-interview-suit"
-      },
-      {
-        "num": 91,
-        "title": "The Snowbird's Short Window",
-        "who": "A couple in Thornhill, south for the winter, home for a simcha",
-        "body": "They wintered in Florida and came back only for two weeks in the cold, landing days before a family wedding with a to-do list longer than the trip. There was no room in fourteen days to shop for a suit the proper way, choose, fit, and finish. He'd resigned himself to wearing an old one that no longer buttoned.\n\nSam met them the morning after they landed, measured at the kitchen table over coffee and the last of the jet lag, and worked the schedule tight: one visit to measure, one to fit, delivery the day before the wedding. He flew home in a suit that fit the man he was now, not the one who'd left in the fall.",
-        "lesson": "A tight visit home is enough for a proper suit if the tailor comes to the table on day one.",
-        "guide": "/guides/wedding-suit-timeline"
       }
     ]
   },
