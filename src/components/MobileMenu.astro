@@ -1,6 +1,13 @@
 ---
-// Full-screen mobile menu drawer. Primary houses + a secondary link group
-// so every page is reachable on mobile without crowding the desktop nav.
+// Full-screen mobile menu drawer. The four houses lead as visual rows (their
+// card art), then garments + studio link groups, then a thumb-reach contact
+// strip (call / WhatsApp) so the two conversion paths are always one tap away.
+const houses = [
+  { href: '/wedding', t: 'Wedding', d: 'Groom, groomsmen & fathers', img: '/media/art/house-wedding.webp' },
+  { href: '/business', t: 'Business', d: 'Boardroom & everyday', img: '/media/art/house-business.webp' },
+  { href: '/custom', t: 'Custom', d: 'Suits & shirts, one pattern', img: '/media/art/house-shirts.webp' },
+  { href: '/traditional', t: 'Traditional', d: 'Bekishe, kapota, kittel', img: '/media/art/house-traditional.webp' },
+];
 ---
 <aside class="mobile-menu" data-mobile-menu>
   <div class="mobile-menu__head">
@@ -12,12 +19,18 @@
       </svg>
     </button>
   </div>
-  <nav aria-label="Mobile primary">
-    <a href="/wedding">Wedding <em>Suits</em></a>
-    <a href="/business">Business <em>Suits</em></a>
-    <a href="/custom">Custom <em>Suits &amp; Shirts</em></a>
-    <a href="/traditional">Traditional <em>Menswear</em></a>
-    <a href="/book" data-open-booking data-no-transition><em>Book a</em> Fitting</a>
+  <nav class="mobile-menu__houses" aria-label="Mobile primary">
+    {houses.map((h) => (
+      <a href={h.href} class="mm-house">
+        <span class="mm-house__img"><img src={h.img} alt="" width="112" height="134" loading="lazy"/></span>
+        <span class="mm-house__body">
+          <span class="mm-house__t">{h.t}</span>
+          <span class="mm-house__d">{h.d}</span>
+        </span>
+        <span class="mm-house__arrow" aria-hidden="true">&rarr;</span>
+      </a>
+    ))}
+    <a href="/book" class="mm-book" data-open-booking data-no-transition><em>Book a</em> Fitting</a>
   </nav>
   <nav class="mobile-menu__secondary" aria-label="Mobile garments">
     <a href="/suits">Suits</a>
@@ -45,4 +58,8 @@
     <a href="/locations">Locations</a>
     <a href="/faq">FAQ</a>
   </nav>
+  <div class="mobile-menu__contact">
+    <a href="tel:+16474580711" data-no-transition>Call Sam</a>
+    <a href="https://wa.me/16474580711?text=Hi%20Sam%20%E2%80%94%20I%27d%20like%20to%20ask%20about%20a%20fitting." target="_blank" rel="noopener" data-no-transition>WhatsApp</a>
+  </div>
 </aside>

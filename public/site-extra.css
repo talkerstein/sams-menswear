@@ -812,8 +812,17 @@ body::before {
 }
 .mega-inner {
   max-width: var(--max-w); margin: 0 auto; padding: clamp(28px,3vw,44px) var(--gutter);
-  display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1.15fr; gap: clamp(16px,2vw,36px);
+  display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr 1.1fr; gap: clamp(16px,2vw,36px);
 }
+/* Visual house tiles (the card art) inside the Explore panel */
+.mega-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 16px; }
+.mega-tile { display: flex; flex-direction: column; gap: 2px; text-decoration: none; }
+.mega-tile__img { display: block; aspect-ratio: 5 / 6; overflow: hidden; border: 1px solid var(--rule); background: var(--paper); }
+.mega-tile__img img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.94); transition: transform var(--t-med) ease; }
+.mega-tile:hover .mega-tile__img img { transform: scale(1.045); }
+.mega-tile__t { margin-top: 8px; font-family: var(--serif); font-size: 16px; color: var(--ink); line-height: 1.2; }
+.mega-tile__d { font-family: var(--serif-body); font-size: 12.5px; color: var(--ink-mute); }
+.mega-tile:hover .mega-tile__t { color: var(--oxblood); }
 .mega-h { font-family: var(--serif); font-style: italic; font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; }
 .mega-link { display: flex; flex-direction: column; gap: 1px; padding: 6px 0; text-decoration: none; }
 .mega-link__t { font-family: var(--serif); font-size: 17px; color: var(--ink); }

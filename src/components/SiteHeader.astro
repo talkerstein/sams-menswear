@@ -11,12 +11,12 @@ const items = [
 ];
 const bookCurrent = nav === 'book';
 
-// Mega-menu content
+// Mega-menu content — houses carry their card art (visual tiles).
 const houses = [
-  { href: '/wedding', t: 'Wedding Suits', d: 'Groom, groomsmen & fathers' },
-  { href: '/business', t: 'Business Suits', d: 'Boardroom & everyday' },
-  { href: '/custom', t: 'Custom Suits & Shirts', d: 'One pattern, one body' },
-  { href: '/traditional', t: 'Traditional Menswear', d: 'Bekishe, kapota, kittel' },
+  { href: '/wedding', t: 'Wedding Suits', d: 'Groom, groomsmen & fathers', img: '/media/art/house-wedding.webp' },
+  { href: '/business', t: 'Business Suits', d: 'Boardroom & everyday', img: '/media/art/house-business.webp' },
+  { href: '/custom', t: 'Custom Suits & Shirts', d: 'One pattern, one body', img: '/media/art/house-shirts.webp' },
+  { href: '/traditional', t: 'Traditional Menswear', d: 'Bekishe, kapota, kittel', img: '/media/art/house-traditional.webp' },
 ];
 const garments = [
   { href: '/suits', t: 'Custom Suits', d: 'Two- & three-piece, made to you' },
@@ -77,14 +77,32 @@ const studio = [
     </button>
   </div>
 
+  <script>
+    // The house art in the Explore panel and mobile drawer is lazy so it never
+    // taxes normal page loads — force the fetch on first menu interaction.
+    const eager = (sel: string) => document.querySelectorAll<HTMLImageElement>(sel).forEach((i) => { i.loading = 'eager'; i.src = i.src; });
+    const mega = document.querySelector('[data-mega]');
+    const loadMega = () => eager('.mega-tile img');
+    mega?.addEventListener('pointerenter', loadMega, { once: true });
+    mega?.addEventListener('click', loadMega, { once: true });
+    mega?.addEventListener('focusin', loadMega, { once: true });
+    document.querySelector('[data-nav-toggle]')?.addEventListener('click', () => eager('.mm-house__img img'), { once: true });
+  </script>
+
   <!-- Full-width mega panel -->
   <div class="mega-panel" data-mega-panel aria-hidden="true">
     <div class="mega-inner">
-      <div class="mega-col">
+      <div class="mega-col mega-col--houses">
         <div class="mega-h">By Occasion</div>
-        {houses.map((h) => (
-          <a class="mega-link" href={h.href}><span class="mega-link__t">{h.t}</span><span class="mega-link__d">{h.d}</span></a>
-        ))}
+        <div class="mega-tiles">
+          {houses.map((h) => (
+            <a class="mega-tile" href={h.href}>
+              <span class="mega-tile__img"><img src={h.img} alt="" width="220" height="330" loading="lazy"/></span>
+              <span class="mega-tile__t">{h.t}</span>
+              <span class="mega-tile__d">{h.d}</span>
+            </a>
+          ))}
+        </div>
       </div>
       <div class="mega-col">
         <div class="mega-h">By Garment</div>
