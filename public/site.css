@@ -1044,6 +1044,22 @@ a:hover { color: var(--oxblood); }
 .footer-grid a { color: var(--paper-cream); font-family: var(--serif); font-size: 16px; letter-spacing: 0.04em; }
 .footer-grid a:hover { color: var(--gold-soft); }
 
+.brand__cap {
+  height: 0.62em;
+  width: auto;
+  margin-right: 10px;
+  color: var(--gold);
+  flex: none;
+  display: inline-block;
+  vertical-align: baseline;
+}
+.footer-mark {
+  height: 54px;
+  width: auto;
+  color: var(--gold-soft);
+  display: block;
+  margin-bottom: 16px;
+}
 .footer-brand {
   font-family: var(--serif);
   font-size: 28px;

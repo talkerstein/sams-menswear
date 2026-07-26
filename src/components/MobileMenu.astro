@@ -11,7 +11,7 @@ const houses = [
 ---
 <aside class="mobile-menu" data-mobile-menu>
   <div class="mobile-menu__head">
-    <a href="/" class="brand">Sam<span class="brand__ampersand">'s</span> Menswear</a>
+    <a href="/" class="brand"><svg class="brand__cap" viewBox="208.5 -10.6 302.5 152" aria-hidden="true"><path fill="currentColor" d="M276.366 2.81313C259.979 6.25528 245.053 13.1967 238.521 20.3952C224.898 35.435 216.533 67.5141 216.533 104.749C216.533 131.444 218.639 133.158 251.198 132.986C282.812 132.815 292.338 131.501 342.588 120.346C375.664 113.005 391.822 112.034 411.088 116.247C432.718 120.975 466.581 117.661 484.1 109.12C495.101 103.75 503.037 95.5798 503.023 89.6096C503.023 79.4403 493.669 71.2562 476.551 66.4144C463.831 62.8151 451.555 56.8306 444.292 50.689C426.129 35.3208 389.501 14.3822 371.868 9.26895C339.738 -0.0577107 302.107 -2.60005 276.366 2.81313Z"/></svg>Sam<span class="brand__ampersand">'s</span> Menswear</a>
     <button class="nav-toggle" data-menu-close aria-label="Close menu">
       <svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
         <line x1="5" y1="5" x2="21" y2="21"/>
@@ -22,7 +22,7 @@ const houses = [
   <nav class="mobile-menu__houses" aria-label="Mobile primary">
     {houses.map((h) => (
       <a href={h.href} class="mm-house">
-        <span class="mm-house__img"><img src={h.img} alt="" width="112" height="134" loading="lazy"/></span>
+        <span class="mm-house__img"><img src={h.img} alt={`${h.t} — ${h.d}`} width="112" height="134" loading="lazy"/></span>
         <span class="mm-house__body">
           <span class="mm-house__t">{h.t}</span>
           <span class="mm-house__d">{h.d}</span>
