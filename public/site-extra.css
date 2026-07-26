@@ -594,6 +594,9 @@ body::before {
 .dz-hp { position: absolute !important; left: -9999px !important; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 .dz-form button { white-space: nowrap; }
 .dz-ack { display: flex; flex-direction: column; gap: 14px; align-items: flex-start; margin-top: 6px; }
+/* The success block must stay hidden until JS reveals it — author display:flex
+   would otherwise beat the UA [hidden] rule and show "✓ Got it —." on load. */
+.dz-ack[hidden] { display: none; }
 .dz-ack-seal { width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid var(--gold); color: var(--gold); display: grid; place-items: center; font-size: 20px; }
 .dz-ack p { font-family: var(--serif-body); color: var(--ink-soft); margin: 0; }
 

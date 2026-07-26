@@ -50,7 +50,7 @@ const origin = Astro.site?.href?.replace(/\/$/, '') || 'https://customsuitandshi
         })}
       </div>
       <p class="rev-more" data-reveal>
-        These are a dozen of Sam's <strong>150+ five-star</strong> Google reviews.
+        These are a dozen of Sam's <strong>{reviewAggregate.reviewCount}+</strong> Google reviews.
         <a href={reviewAggregate.sourceUrl} target="_blank" rel="noopener" data-no-transition>Read all of them on Google&nbsp;&rarr;</a>
       </p>
     </div>

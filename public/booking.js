@@ -60,12 +60,10 @@
     '3:00 PM',  '3:30 PM',  '4:00 PM',  '4:30 PM',
     '5:00 PM',  '5:30 PM',  '6:00 PM',  '6:30 PM',  '7:00 PM',
   ];
-  // Fictional unavailable slots (different per day for realism)
+  // All slots show as open — this is a REQUEST, not a live calendar; Sam
+  // confirms personally. Never fake availability the calendar doesn't know.
   function unavailableSlots(d) {
-    const seed = d.getDate() * 7 + d.getMonth() * 3;
-    const skip = new Set();
-    for (let i = 0; i < 5; i++) skip.add((seed + i * 5) % SLOTS_BASE.length);
-    return skip;
+    return new Set();
   }
   function isClosed(d) {
     const dow = d.getDay();
@@ -224,7 +222,7 @@
     const labelEl = $('#booking-modal .bm-progress .label');
     if (labelEl) {
       if (state.step < 5) labelEl.textContent = `Step ${state.step + 1} of 5 · ${labels[state.step]}`;
-      else labelEl.textContent = 'Confirmed';
+      else labelEl.textContent = 'Request sent';
     }
 
     // Update summary mini
@@ -563,13 +561,13 @@
     const seal = sent
       ? `<svg viewBox="0 0 40 40" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 20 L 18 28 L 32 12"/></svg>`
       : `<svg viewBox="0 0 40 40" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 L34 30 H6 Z"/><line x1="20" y1="16" x2="20" y2="23"/><circle cx="20" cy="27" r="0.7" fill="currentColor"/></svg>`;
-    const heading = sent ? 'The atelier <em>has you on the page.</em>' : 'One last step — <em>send it to Sam.</em>';
+    const heading = sent ? 'Request sent — <em>Sam confirms within a day.</em>' : 'One last step — <em>send it to Sam.</em>';
     const blurb = sent
       ? `Sam will personally confirm by ${state.contact === 'email' ? 'email' : state.contact === 'text' ? 'text' : 'phone'} within one business day. We only use your details to arrange the fitting.`
       : `Your details are ready but haven't reached the atelier's inbox automatically. Tap <strong>Send to Sam</strong> below (it opens your email, already filled in) or call directly — either way you're on the books in seconds.`;
     w.innerHTML = `
       <div class="seal">${seal}</div>
-      <div class="chapter-no">${sent ? 'Confirmed' : 'Almost there'}</div>
+      <div class="chapter-no">${sent ? 'Request sent' : 'Almost there'}</div>
       <h2>${heading}</h2>
       <p class="body-prose">${blurb}</p>
       <dl class="summary">

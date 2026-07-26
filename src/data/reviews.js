@@ -5,7 +5,7 @@
 
 export const reviewAggregate = {
   ratingValue: '4.7',
-  reviewCount: 157, // conservative floor — Sam has 100+ Google reviews
+  reviewCount: 150, // conservative floor — one number everywhere; can only grow truer
   source: 'Google',
   sourceUrl: 'https://www.google.com/maps/search/?api=1&query=Sam%27s+Menswear+318+Charlton+Avenue+Vaughan',
 };
