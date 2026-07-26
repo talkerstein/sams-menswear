@@ -80,3 +80,27 @@ and sending it back as one PNG. Source of truth:
 1. **Almanac house-call chapter** — 11 tales dramatising GTA house calls, plus its theme description. Disclosed fiction, but it markets a service he doesn't offer. Fold into the queued Almanac prune.
 2. **/custom and /business are starved pillars.** /wedding has 9 sections, /traditional 6, /business 5, **/custom 3** — with no testimonials, no FAQ block and no guide links at all. Mirror the /traditional pattern (Testimonials + reading-room list + FaqBlock with page-specific FAQs). Honest review picks: /custom → reviews[2] off-the-rack convert, [6] first custom suit, [11] first-timer. /business → same three; **its current "From Bay Street" heading sits over reviews[9], which is a wedding review** (still unfixed — mislabelled proof).
 3. **GBP fixes** (Rishon): Sunday 9am → 10am, check Saturday, review velocity is the #1 lever.
+
+---
+
+# UPDATE — 2026-07-26 (late afternoon)
+
+## Shipped since Sam's answers
+- **Pillar pages fed.** /custom went 3 sections -> 7 (3 real reviews, 8 FAQs, 11 guide links); /business gained a reading room + 7 FAQs. Both emit one FAQPage each. Its "From Bay Street" heading (which sat over a wedding review) is now "In their own words" over three reviews that fit.
+- **Real photography placed.** The four unused studio photos of Sam are now on /custom's option columns, /business, and the GarmentPage option rail (dress-shirts, suits, tuxedos, trousers, womens, kapotas via `optionPhotos` in garments.js).
+- **Conversion bands.** `.pillar-cta` on /custom, /business and every garment page: turnaround, 50/50, alterations included, kept pattern, with per-page turnaround + CTA label (`turnaround`, `ctaLabel` in garments.js).
+- **Almanac pruned.** The Traveling-Tailor Save chapter deleted (10 tales premised on house calls) -> 9 chapters, 90 tales, 301 to /almanac. Five chapter descriptions claimed "Eleven tales" over nine or ten; corrected.
+- **Last two stock photos deleted** (bench.jpg, alterations.jpg) and replaced with real Sam photos. The bench one was captioned "Sam... hand-stitching" — neither true.
+- **Invented cloth specs gone** ("280g", "Italian super 130s") and **/fabrics reframed** from stock list to colour/weave reference; "we'll pull the real bolt" removed from 4 places.
+
+## Notes for next time
+- `.opt-photo--low` exists because the portrait studio shots crop to the middle ~50% in a landscape box. Use it on any portrait photo in an option tile.
+- The `/media/suit/*` sprites are SuitBuilder compositing overlays (a lapel on an empty canvas). Not usable as standalone images.
+- Real photo inventory is thin: 4 Sam shots, 7 cloth macros, 5 journey frames. **A shoot is the highest-value unblock and Sam said "any time".**
+
+## Queue
+1. Photo shoot (Rishon) — everything visual is bottlenecked on it.
+2. GBP: Sunday 9am -> 10am, check Saturday, review velocity.
+3. Gift flow Stripe link still stubbed (`GIFT_PAYMENT_LINK=''`).
+4. Almanac: 90 tales still to prune toward ~60, plus the "From the Letters" real-review track.
+5. Unverified: "twenty-six measurements". Sam's "38" was party size.
