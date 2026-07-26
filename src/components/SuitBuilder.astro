@@ -548,8 +548,9 @@
           if (ackLead) ackLead.innerHTML = '<strong>Your look is ready.</strong> One tap sends it to Sam — <span data-ack-spec>' + spec + '</span>';
           if (window.SamsLead) {
             const mail = window.SamsLead.mailto('My suit look — ' + (name || 'website'), { Name: name, Phone: phone, Email: email, 'Need by': eventdate, Look: spec });
+            const wa = window.SamsLead.whatsapp ? window.SamsLead.whatsapp('Hi Sam — my suit look: ' + spec + (name ? ' — ' + name : '')) : null;
             const fb = root.querySelector('[data-look-fallback]');
-            if (fb) { fb.innerHTML = 'To reach Sam right now: <a href="' + mail + '">email your look</a> or <a href="tel:' + window.SamsLead.PHONE + '">call ' + window.SamsLead.PHONE_DISP + '</a>.'; fb.hidden = false; }
+            if (fb) { fb.innerHTML = 'To reach Sam right now: ' + (wa ? '<a href="' + wa + '" target="_blank" rel="noopener">WhatsApp your look</a>, ' : '') + '<a href="' + mail + '">email it</a>, or <a href="tel:' + window.SamsLead.PHONE + '">call ' + window.SamsLead.PHONE_DISP + '</a>.'; fb.hidden = false; }
           }
         }
         form.hidden = true;

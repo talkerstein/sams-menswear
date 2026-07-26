@@ -111,7 +111,7 @@ export const themes = [
         "num": 12,
         "title": "The Thursday Before",
         "who": "A groom in Woodbridge, nine days out",
-        "body": "Daniel had meant to call in March. Then work got loud, the venue changed twice, and suddenly it was a Thursday in June with the wedding the following Sunday-week. He came in apologizing before he'd sat down. A true custom suit needs weeks — the cloth alone travels. Sam didn't lecture. He walked him to the rack of near-finished pieces, found a navy that wanted only a groom his size, and spent the nine days he had making it fit like it was cut for Daniel from the start. It wasn't magic. It was a head start that happened to be there.\n\nDaniel got married in a suit that looked planned. He knows how close it was.",
+        "body": "Noah had meant to call in March. Then work got loud, the venue changed twice, and suddenly it was a Thursday in June with the wedding the following Sunday-week. He came in apologizing before he'd sat down. A true custom suit needs weeks — the cloth alone travels. Sam didn't lecture. He walked him to the rack of near-finished pieces, found a navy that wanted only a groom his size, and spent the nine days he had making it fit like it was cut for Noah from the start. It wasn't magic. It was a head start that happened to be there.\n\nNoah got married in a suit that looked planned. He knows how close it was.",
         "lesson": "A late start narrows your choices to whatever's already halfway home — call before the field shrinks.",
         "guide": "/guides/wedding-suit-timeline"
       },
@@ -183,7 +183,7 @@ export const themes = [
         "num": 21,
         "title": "The Big-Box Suit and the Shrinking Choices",
         "who": "A groom in Woodbridge, six days out",
-        "body": "By the time Nathan admitted he'd left it too long, the good options had thinned. He tried a big-box shop first — six days out, the racks in his size held one brown suit and a shiny grey he'd never have chosen with time to think. Late timing had made his taste irrelevant; he could take what was there or nothing.\n\nHe came to Sam almost as a last resort. Sam couldn't manufacture weeks, but he could offer a navy that suited a wedding and a groom both, and make it fit in the days left. Nathan got the suit he'd have picked freely — barely. The lesson stung more than the price.",
+        "body": "By the time Gabe admitted he'd left it too long, the good options had thinned. He tried a big-box shop first — six days out, the racks in his size held one brown suit and a shiny grey he'd never have chosen with time to think. Late timing had made his taste irrelevant; he could take what was there or nothing.\n\nHe came to Sam almost as a last resort. Sam couldn't manufacture weeks, but he could offer a navy that suited a wedding and a groom both, and make it fit in the days left. Gabe got the suit he'd have picked freely — barely. The lesson stung more than the price.",
         "lesson": "The longer you wait, the more the calendar chooses for you — book early enough to choose for yourself.",
         "guide": "/guides/the-navy-suit"
       }
@@ -199,7 +199,7 @@ export const themes = [
         "num": 22,
         "title": "The Lapel That Blistered",
         "who": "A young accountant in Thornhill, first real job",
-        "body": "Daniel bought his first grown-up suit at the mall chain the week he was hired — navy, on sale, a proud purchase. Nine months later he took it in for its first dry-clean before a firm dinner. It came back with the lapels rippled like a cheap paperback left in the rain, little bubbles running the whole length of both sides. He thought the cleaner had ruined it. Sam looked, pressed a thumb along the edge, and shook his head gently. The glue holding the front canvas had let go in the heat of the press; there was no canvas to speak of, only fusible web. Nothing to re-stitch, nothing to save. Daniel had paid for a suit that was never built to be cleaned even once.",
+        "body": "Jordan bought his first grown-up suit at the mall chain the week he was hired — navy, on sale, a proud purchase. Nine months later he took it in for its first dry-clean before a firm dinner. It came back with the lapels rippled like a cheap paperback left in the rain, little bubbles running the whole length of both sides. He thought the cleaner had ruined it. Sam looked, pressed a thumb along the edge, and shook his head gently. The glue holding the front canvas had let go in the heat of the press; there was no canvas to speak of, only fusible web. Nothing to re-stitch, nothing to save. Jordan had paid for a suit that was never built to be cleaned even once.",
         "lesson": "A fused front is glued, not sewn — and the first hot press can turn the lapels to blisters.",
         "guide": "/guides/fully-canvassed-vs-fused"
       },
@@ -332,14 +332,6 @@ export const themes = [
         "guide": "/guides/suits-for-hard-to-fit-bodies"
       },
       {
-        "num": 38,
-        "title": "The Interview on Monday",
-        "who": "A new graduate in Maple, Friday afternoon",
-        "body": "He'd ordered online with a week to spare, which felt responsible. Then the tracking sat unmoved for six days, and on Friday afternoon — interview Monday — an email arrived to say the item was, regretfully, out of stock. No suit, no time, and a first real job on the line. He walked into Sam's flushed and rehearsing an apology for asking the impossible. Sam heard him out, then went to the rack and pulled a clean charcoal that nearly fit, pinned the waist and the hem while the young man stood very still, and promised it pressed and ready Sunday. \"A screen can run out of stock,\" Sam said, chalk in hand. \"A shop with a needle doesn't.\"",
-        "lesson": "When the date is fixed and the stakes are real, a shop you can walk into beats a warehouse you can only email.",
-        "guide": "/guides/the-interview-suit"
-      },
-      {
         "num": 39,
         "title": "The Tuxedo Sized by Optimism",
         "who": "A groom in Concord, three weeks out",
@@ -463,7 +455,7 @@ export const themes = [
         "num": 52,
         "title": "The Groom Who Came in Winter",
         "who": "A groom in Richmond Hill, an August wedding",
-        "body": "Daniel walked in the first week of January with a printout of his date and a sheepish smile, sure he was too early. He was, Sam told him — early in the best way. There was time to order the cloth from the mill, time for a first fitting with room to think, time for his shoulders to be studied at leisure rather than chased. Two fittings unhurried, a third just to be sure. By August the suit hung on the rack a full week before the wedding, pressed and waiting, and Daniel spent his last days worrying about his vows instead of his hem. He said afterward that getting dressed took four minutes and felt like nothing at all. That is the whole trick.",
+        "body": "Ilan walked in the first week of January with a printout of his date and a sheepish smile, sure he was too early. He was, Sam told him — early in the best way. There was time to order the cloth from the mill, time for a first fitting with room to think, time for his shoulders to be studied at leisure rather than chased. Two fittings unhurried, a third just to be sure. By August the suit hung on the rack a full week before the wedding, pressed and waiting, and Ilan spent his last days worrying about his vows instead of his hem. He said afterward that getting dressed took four minutes and felt like nothing at all. That is the whole trick.",
         "lesson": "The earliest grooms are never the anxious ones — time is the one thing money can't rush into a suit.",
         "guide": "/guides/wedding-suit-timeline"
       },

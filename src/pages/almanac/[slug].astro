@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import AuthorBio from '../../components/AuthorBio.astro';
 import { themes, getTheme, almanacDisclaimer } from '../../data/almanac.js';
 
 export function getStaticPaths() {
@@ -11,6 +10,9 @@ const site = Astro.site?.href?.replace(/\/$/, '') || 'https://customsuitandshirt
 const idx = themes.findIndex((t) => t.slug === theme.slug);
 const next = themes[(idx + 1) % themes.length];
 const paras = (s) => String(s || '').split(/\n\n+/).map((p) => p.trim()).filter(Boolean);
+// Sequential tale numbering computed from position (not the stored num field),
+// so pruning a tale never leaves a gap in the printed numbers.
+const numOffset = themes.slice(0, idx).reduce((n, t) => n + t.tales.length, 0);
 const breadcrumb = {
   '@context': 'https://schema.org', '@type': 'BreadcrumbList',
   itemListElement: [
@@ -51,9 +53,9 @@ const breadcrumb = {
     <section class="section" style="padding-top: clamp(28px,4vw,44px);">
       <div class="container">
         <div class="tale-list" data-reveal>
-          {theme.tales.map((t) => (
+          {theme.tales.map((t, ti) => (
             <article class="tale">
-              <div class="tale__num">№ {String(t.num).padStart(3, '0')}</div>
+              <div class="tale__num">№ {String(numOffset + ti + 1).padStart(3, '0')} <span class="tale__cue">· composite</span></div>
               <h2 class="tale__title">{t.title}</h2>
               <div class="tale__who">{t.who}</div>
               {paras(t.body).map((p) => <p class="tale__body">{p}</p>)}
@@ -63,7 +65,9 @@ const breadcrumb = {
         </div>
 
         <div style="max-width: 46rem; margin-top: clamp(36px,5vw,60px);">
-          <AuthorBio reviewed={false} />
+          <!-- No AuthorBio here on purpose: real credentials (portrait, star
+               rating, reviews link) never sit beside disclosed fiction. -->
+          <p class="almanac-note">Tales told in Sam's voice, drawn from thirty years of composite experience — not case files, and never customer reviews. For the real thing: <a href="/about">about Sam</a> · <a href="/reviews">his Google reviews</a> · <a href="/guides">the practical guides</a>.</p>
         </div>
       </div>
     </section>

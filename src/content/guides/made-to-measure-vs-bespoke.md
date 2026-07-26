@@ -19,7 +19,7 @@ After 30-plus years at the bench here in Vaughan, I'll tell you straight: I fit 
 
 Made-to-measure starts from an existing base pattern and adjusts it to your numbers. Bespoke starts from nothing — a pattern drafted from scratch to your body. That's the real line.
 
-With made-to-measure, we take your measurements, pick the closest block, and tweak it — sleeve length, waist suppression, jacket length, and so on. The suit comes back essentially finished. With bespoke, I draft a paper pattern unique to you, cut the cloth by hand, and build the suit up over fittings so I can shape it directly on your body. One adjusts a good template; the other creates a template that only fits you.
+With made-to-measure, we take your measurements, pick the closest block, and tweak it — sleeve length, waist suppression, jacket length, and so on. The suit comes back essentially finished. With bespoke, a paper pattern is drafted unique to you, the cloth cut fresh to it, and the suit built up over fittings and shaped directly on your body. One adjusts a good template; the other creates a template that only fits you.
 
 Everything else — number of fittings, price, timeline — flows from that one difference.
 

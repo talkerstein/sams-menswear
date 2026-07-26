@@ -57,7 +57,7 @@ Weekday rekels take a hard-wearing wool or wool-blend that shrugs off a full wee
 
 ## Can you make these to my community's exact custom?
 
-Yes. Bring the details — length, buttons, lapel, whether it's a rekel, kapote, or bekishe — and Sam cuts to that. He builds to your minhag, not a generic template.
+Yes. Bring the details — length, buttons, lapel, whether it's a rekel, kapote, or bekishe — and it's made to exactly that. Your minhag, not a generic template.
 
 Every group has its particulars: the exact length, how the lapel sits, single or double-breasted, the fabric weight. If you have a garment you already like, bring it — Sam can read the pattern off it and improve the fit. If you're starting fresh, tell him the custom and he'll take it from there. [Design your garment →](/design)
 

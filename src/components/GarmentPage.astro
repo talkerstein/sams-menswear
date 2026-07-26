@@ -12,7 +12,6 @@ const serviceSchema = {
   name: g.serviceName,
   serviceType: g.serviceType,
   provider: { '@id': `${site}/#business` },
-  employee: { '@id': `${site}/#sam` },
   areaServed: gta.map((c) => ({ '@type': 'City', name: c })),
   url: `${site}/${g.slug}`,
   description: g.serviceDesc,
@@ -58,7 +57,7 @@ const serviceSchema = {
       <div class="section-head" data-reveal>
         <div class="chapter-no">What you choose</div>
         <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">Made to <em>your specification.</em></h2>
-        <div class="right">Drawn &amp; cut by hand</div>
+        <div class="right">Measured &amp; made to fit</div>
       </div>
       <div class="feature-grid cols-2" data-reveal-stagger>
         {g.details.map((d, i) => (

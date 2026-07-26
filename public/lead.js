@@ -15,6 +15,8 @@
   const PHONE      = '+16474580711';
   const PHONE_DISP = '647 · 458 · 0711';
   const EMAIL      = 'samskosher@gmail.com';
+  // WhatsApp click-to-chat (same number as PHONE, digits only for wa.me).
+  const WHATSAPP   = '16474580711';
 
   // POST the lead to the CRM. Returns { ok, reason }.
   async function send(kind, data) {
@@ -56,5 +58,10 @@
       '&body=' + encodeURIComponent(body + '\n\n— Sent from customsuitandshirt.com');
   }
 
-  window.SamsLead = { send, mailto, PHONE, PHONE_DISP, EMAIL, configured: !!LEAD_WEBHOOK };
+  // Build a wa.me click-to-chat link with an optional pre-filled message.
+  function whatsapp(text) {
+    return 'https://wa.me/' + WHATSAPP + (text ? '?text=' + encodeURIComponent(text) : '');
+  }
+
+  window.SamsLead = { send, mailto, whatsapp, PHONE, PHONE_DISP, EMAIL, WHATSAPP, configured: !!LEAD_WEBHOOK };
 })();

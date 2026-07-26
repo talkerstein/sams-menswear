@@ -890,6 +890,7 @@ body::before {
 .tale-list { max-width: 46rem; display: flex; flex-direction: column; gap: clamp(26px,4vw,42px); }
 .tale { border-top: 1px solid var(--rule); padding-top: clamp(20px,3vw,28px); }
 .tale__num { font-family: var(--serif); font-style: italic; font-size: 12px; letter-spacing: .22em; color: var(--gold); }
+.tale__cue { font-style: normal; font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: var(--ink-mute); opacity: .75; }
 .tale__title { font-family: var(--serif); font-size: clamp(23px,3vw,30px); line-height: 1.12; color: var(--navy); text-transform: none; margin: 6px 0 4px; }
 .tale__who { font-family: var(--serif); font-style: italic; font-size: 15px; color: var(--ink-mute); margin-bottom: 12px; }
 .tale__body { font-family: var(--serif-body); font-size: 17px; line-height: 1.65; color: var(--ink-soft); margin: 0 0 12px; max-width: 62ch; }

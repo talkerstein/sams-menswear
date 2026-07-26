@@ -10,14 +10,14 @@ export const garments = [
     eyebrow: 'The Garments',
     title: 'Custom & Tailored Suits',
     metaTitle: "Custom & Tailored Suits in Toronto & Vaughan — Sam's Menswear",
-    metaDesc: "Men's custom and tailored suits for Toronto & Vaughan — bespoke or made-to-measure, cut by hand by Sam. Navy, charcoal, three-piece and separates, drafted to your body and kept on a pattern. First fitting free; Sam comes to you across the GTA.",
-    lede: 'A custom-tailored suit is the whole craft in one garment — a pattern drafted to your body, cloth chosen for how you live, and a fit off-the-rack can never reach. Sam cuts each one by hand in Vaughan.',
+    metaDesc: "Men's custom and tailored suits for Toronto & Vaughan — bespoke or made-to-measure, measured and fitted by Sam. Navy, charcoal, three-piece and separates, drafted to your body and kept on a pattern. First fitting free; Sam comes to you across the GTA.",
+    lede: 'A custom-tailored suit is the whole craft in one garment — a pattern drafted to your body, cloth chosen for how you live, and a fit off-the-rack can never reach. Sam measures and fits each one personally in Vaughan.',
     image: '/media/art/garment-suit.webp',
     imageAlt: 'A finished navy three-piece suit on a tailor’s dress form',
     intro: [
-      "A custom suit starts with a pattern drawn to your own shoulders, stance and stride — not a factory size adjusted after the fact. That single difference is why a custom suit sits clean when you reach, sit and stand, and why it still looks right in year five. Whether you want made-to-measure or full bespoke, every custom suit Sam cuts begins the same way: measured by hand, in Vaughan.",
+      "A custom suit starts with a pattern drawn to your own shoulders, stance and stride — not a factory size adjusted after the fact. That single difference is why a custom suit sits clean when you reach, sit and stand, and why it still looks right in year five. Whether you want made-to-measure or full bespoke, every custom suit begins the same way: measured by hand, in Vaughan.",
       "Two-piece or three, single or double-breasted, notch, peak or shawl — every choice is made with you, and once your pattern is on file, the next suit begins from it. Sam will tell you honestly which tier (made-to-measure or full bespoke) is the right spend for how often you'll wear it.",
-      "Every suit is fully customized to you — two-piece or three, single or double-breasted, your cloth, lining and buttons. And Toronto clients don't trade a workday for a fitting: Sam cuts by hand at the Vaughan studio on the Thornhill line and brings the tape, the cloth books and the fitting to your Toronto office, condo or home. Tailored suits for Bay Street, Yorkville and across the GTA, kept on a pattern for life.",
+      "Every suit is fully customized to you — two-piece or three, single or double-breasted, your cloth, lining and buttons. And Toronto clients don't trade a workday for a fitting: Sam works from the Vaughan studio on the Thornhill line and brings the tape, the cloth books and the fitting to your Toronto office, condo or home. Tailored suits for Bay Street, Yorkville and across the GTA, kept on a pattern for life.",
     ],
     details: [
       { t: 'Two-piece, three-piece & separates', d: 'The classic two-piece, a three-piece with waistcoat, or an odd jacket cut to pair with grey trousers.' },
@@ -25,7 +25,7 @@ export const garments = [
       { t: 'Your lapel, your line', d: 'Notch, peak or shawl; button stance, vents, working cuffs, and a lining you actually choose.' },
       { t: 'A pattern kept for life', d: 'Drafted on your first visit and kept in the notebook — every future order starts from it.' },
     ],
-    cloth: "Sam is a custom suit tailor of over thirty years, cutting by hand in Vaughan. Choose from house and mill cloths across three price shelves — a year-round worsted, a winter flannel, a summer high-twist — and Sam quotes the garment honestly before a thread is cut.",
+    cloth: "Sam is a custom suit tailor of over thirty years, working from Vaughan. Choose from house and mill cloths across three price shelves — a year-round worsted, a winter flannel, a summer high-twist — and Sam quotes the garment honestly before a thread is cut.",
     relatedGuides: [
       { href: '/guides/bespoke-vs-made-to-measure-vs-off-the-rack', label: 'Bespoke vs made-to-measure vs off-the-rack' },
       { href: '/guides/what-a-custom-suit-costs', label: 'What a custom suit costs' },
@@ -39,12 +39,12 @@ export const garments = [
     ],
     serviceType: 'Custom suit tailoring',
     serviceName: 'Custom & Tailored Suits',
-    serviceDesc: "Men's custom and tailored suits cut by hand in Vaughan and across Toronto — bespoke and made-to-measure, two-piece, three-piece and separates, drafted to a personal pattern.",
+    serviceDesc: "Men's custom and tailored suits made to measure in Vaughan and across Toronto — bespoke and made-to-measure, two-piece, three-piece and separates, drafted to a personal pattern.",
     faqs: [
       { q: 'How much does a custom suit cost in Toronto?', a: "It depends entirely on the cloth and construction. As a market guide: off-the-rack runs $150–500, made-to-measure $500–2,500, and full bespoke $3,000 and up. I show you options across every one of those shelves on your first visit and quote your garment honestly before a thread is cut." },
-      { q: "What's the difference between bespoke, made-to-measure and off-the-rack?", a: "Off-the-rack is cut to an average and altered toward you. Made-to-measure adjusts a factory's existing pattern to your numbers. Bespoke starts with no pattern at all — I draft one from your body and cut the cloth by hand. Different price, different fit, different life." },
+      { q: "What's the difference between bespoke, made-to-measure and off-the-rack?", a: "Off-the-rack is cut to an average and altered toward you. Made-to-measure adjusts a factory's existing pattern to your numbers. Bespoke starts with no pattern at all — a fresh one is drafted for your body alone. Different price, different fit, different life." },
       { q: 'Is a bespoke suit actually worth it?', a: "For a hard-to-fit body, a wedding, or a man who wears a suit weekly — yes. For a suit you'll wear twice a year, made-to-measure is the smarter spend, and I'll tell you so. I'd rather you buy the right tier once than overspend to impress me." },
-      { q: 'What makes the best custom-tailored suit?', a: "The best custom-tailored suits share four things: a pattern drafted to your own body rather than an adjusted factory size, full or half floating canvas instead of fused glue, cloth chosen for how you live, and hand-finished detail. Just as important is a tailor who keeps your pattern on file and re-fits it as your body changes — I do all of this by hand in Vaughan." },
+      { q: 'What makes the best custom-tailored suit?', a: "The best custom-tailored suits share four things: a pattern drafted to your own body rather than an adjusted factory size, full or half floating canvas instead of fused glue, cloth chosen for how you live, and hand-finished detail. Just as important is a tailor who keeps your measurements on file and re-fits the suit as your body changes — that's how I work in Vaughan." },
     ],
   },
   {
@@ -355,8 +355,8 @@ export const garments = [
     eyebrow: 'The Garments',
     title: 'Vegan & Cruelty-Free Tailoring',
     metaTitle: "Vegan & Cruelty-Free Custom Suits — Sam's Menswear, Vaughan",
-    metaDesc: 'Made-to-measure suits and jackets in vegan, plant-based and cruelty-free cloths, cut by hand by Sam in Vaughan & Toronto — tailoring that fits your values and your body.',
-    lede: "A suit that fits your values as well as your body. Sam cuts made-to-measure suits, jackets and shirts in vegan, plant-based and cruelty-free cloths — with no compromise on how they hang.",
+    metaDesc: 'Made-to-measure suits and jackets in vegan, wool-free cloths, measured and fitted by Sam in Vaughan & Toronto — tailoring that fits your values and your body.',
+    lede: "A suit that fits your values as well as your body. Sam offers made-to-measure suits, jackets and shirts in vegan, wool-free cloths — with no compromise on how they hang.",
     image: '/media/art/garment-vegan.webp',
     imageAlt: 'A clean modern tailored suit in natural cruelty-free cloth on a dress form',
     intro: [
@@ -366,7 +366,7 @@ export const garments = [
     details: [
       { t: 'Plant-based & cruelty-free cloth', d: 'Organic cotton, linen, and modern vegan wools and blends — cloths chosen to drape, not just to comply.' },
       { t: 'Vegan linings & buttons', d: 'Cupro or viscose linings and corozo or recycled buttons in place of horn.' },
-      { t: 'The same hand construction', d: 'Cut, canvassed where suitable, and fitted by hand — no shortcut on how it wears.' },
+      { t: 'The same construction', d: 'Canvassed where suitable and fitted in person — no shortcut on how it wears.' },
       { t: 'For every occasion', d: 'Business, wedding or everyday — vegan tailoring that doesn’t announce itself, it just fits.' },
     ],
     cloth: "Organic cottons and linens, and modern vegan wool alternatives — chosen honestly for how they hang and last, not only for the label.",
@@ -380,7 +380,7 @@ export const garments = [
     ],
     serviceType: 'Vegan and cruelty-free tailoring',
     serviceName: 'Vegan & Cruelty-Free Tailoring',
-    serviceDesc: 'Made-to-measure suits, jackets and shirts in vegan, plant-based and cruelty-free cloths, cut by hand in Vaughan.',
+    serviceDesc: 'Made-to-measure suits, jackets and shirts in vegan, wool-free cloths, made to measure in Vaughan.',
     faqs: [
       { q: 'Do you make vegan suits?', a: "Yes — made-to-measure suits and jackets in plant-based and cruelty-free cloths, with vegan linings and buttons, built with the same hand construction as any other garment." },
       { q: 'What vegan fabrics can I choose?', a: "Organic cottons, linens, and modern vegan wool alternatives and blends. I'll show you the ones that actually drape and last, and tell you honestly how each behaves." },
@@ -394,11 +394,11 @@ export const garments = [
     title: "Women's Suits & Skirts",
     metaTitle: "Women's Custom Suits & Skirts — Sam's Menswear, Vaughan & Toronto",
     metaDesc: "Bespoke women's suits, blazers, skirts and trousers made to measure by Sam in Vaughan & Toronto — sharp, graceful tailoring cut to a woman's own pattern.",
-    lede: "Tailoring cut for a woman's frame, not adapted from a man's. Sam makes bespoke women's suits, blazers, skirts and trousers — sharp, graceful, and drafted to your own pattern.",
+    lede: "Tailoring cut for a woman's frame, not adapted from a man's. Sam makes custom women's suits, blazers, skirts and trousers — sharp, graceful, and made to your own measurements.",
     image: '/media/art/garment-womens.webp',
     imageAlt: 'An elegant women’s tailored blazer and pencil skirt on a female dress form',
     intro: [
-      "A great deal of womenswear is cut to a size chart and altered toward you. Sam drafts a pattern from your own measurements, so a jacket closes cleanly, a skirt sits at your waist, and trousers fall from the hip the way they should — the same bespoke method, cut for a woman's proportions.",
+      "A great deal of womenswear is cut to a size chart and altered toward you. Here a pattern is built from your own measurements, so a jacket closes cleanly, a skirt sits at your waist, and trousers fall from the hip the way they should — the same made-to-fit method, cut for a woman's proportions.",
       "A tailored suit for the office or the courtroom, a sharp blazer to wear with everything, a skirt or trousers made to match — considered, graceful, and kept on a pattern for the next one.",
     ],
     details: [

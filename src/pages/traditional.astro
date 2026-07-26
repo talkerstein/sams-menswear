@@ -16,13 +16,13 @@ const serviceSchema = {
   provider: { '@id': `${site}/#business` },
   areaServed: gta.map((c) => ({ '@type': 'City', name: c })),
   url: `${site}/traditional`,
-  description: 'Traditional Jewish menswear cut by hand in Vaughan and Thornhill — bekishe, kapota, kittel, Shabbos suits and chosson tailoring, handled with discretion and never on Shabbos.',
+  description: 'Traditional Jewish menswear made to measure in Vaughan and Thornhill — bekishe, kapota, kittel, Shabbos suits and chosson tailoring, handled with discretion and never on Shabbos.',
 };
 
 // Niche FAQ — long-tail intent (kapota/bekishe/kittel/chosson/Shabbos suit,
 // Thornhill–Vaughan). FaqBlock renders these + emits FAQPage JSON-LD.
 const traditionalFaqs = [
-  { q: 'Do you make a custom kapota or bekishe in the Thornhill–Vaughan area?', a: "Yes. Sam cuts bekishe, kapota and rekel by hand at the Vaughan studio on the Thornhill line, with proper allowance for the gartel and tzitzis, in satin or fine wool. Families come from across Thornhill, Vaughan, Bathurst and the wider GTA." },
+  { q: 'Do you make a custom kapota or bekishe in the Thornhill–Vaughan area?', a: "Yes. Sam measures and fits bekishe, kapota and rekel personally at the Vaughan studio on the Thornhill line — made to your measurements, with proper allowance for the gartel and tzitzis, in satin or fine wool. Families come from across Thornhill, Vaughan, Bathurst and the wider GTA." },
   { q: 'How much does a custom bekishe, kapota or Shabbos suit cost?', a: "It depends on the cloth and the garment — a fine-wool kapota and a satin bekishe sit at different prices — so Sam gives you an honest quote at the consultation, with no showroom markup and no pressure. The first conversation costs nothing." },
   { q: 'When should I order before Yom Tov or a wedding?', a: "Kittels for the Yamim Noraim should be ordered by the end of Elul; a chosson's wardrobe nine to twelve months before the wedding; a bar mitzvah suit about six months out. If a date is tight, call — Sam will tell you honestly what's still possible." },
   { q: 'Do you tailor the full chosson wardrobe?', a: "Yes — the Shabbos and kallah suits, the chuppah kittel, and the bekishe for sheva brachos, drawn together, coordinated with the kallah's side and the mechutanim, and finished in the days before the wedding." },
@@ -42,7 +42,7 @@ const traditionalFaqs = [
       <div data-reveal>
         <div class="eyebrow-rule">House № 04 &middot; Traditional</div>
         <h1>For <em>Shabbos, Yom Tov,</em> and every simcha in between.</h1>
-        <p class="lede">Traditional menswear cut with the discretion and craft a community expects. Bekishe, kapota, kittel, Shabbos suits, bar mitzvah and chosson tailoring &mdash; drawn personally, finished by hand.</p>
+        <p class="lede">Traditional menswear made with the discretion and craft a community expects. Bekishe, kapota, kittel, Shabbos suits, bar mitzvah and chosson tailoring &mdash; measured personally, fitted to the man who'll wear it.</p>
         <div class="hero-cta-row">
           <a href="/book" class="btn is-primary" data-open-booking data-no-transition>Book a Fitting</a>
           <a href="tel:+16474580711" class="hero-cta-call" data-no-transition>or call 647 · 458 · 0711</a>

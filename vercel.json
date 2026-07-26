@@ -1,6 +1,12 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.customsuitandshirt.com" }],
+      "destination": "https://customsuitandshirt.com/:path*",
+      "permanent": true
+    },
     { "source": "/our-services/kapotas", "destination": "/kapotas", "permanent": true },
     { "source": "/our-services/kapotas/", "destination": "/kapotas", "permanent": true },
     { "source": "/our-services/custom-suits", "destination": "/suits", "permanent": true },

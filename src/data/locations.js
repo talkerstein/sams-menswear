@@ -24,7 +24,7 @@ export const locations = [
     intro: [
       "Vaughan is home. For a custom suit in Vaughan, this is where it begins — Sam has cut suits here for more than thirty years, and the studio on Charlton Avenue is a quiet, unhurried room where one person is measured at a time and nobody is rushed toward a rack. No traffic, no downtown parking, no showroom pressure.",
       "It's a short drive from Maple, Concord, Woodbridge and Kleinburg, and Vaughan is a wedding town — Sam dresses grooms, groomsmen and both fathers for receptions at the Woodbridge and Vaughan banquet halls (Bellvue Manor, Chateau Le Jardin, The Universal and Paramount EventSpace, Eagles Nest). The whole party measured together, coordinated, and made to fit — never rented.",
-      "There's a strong traditional community here too, through Thornhill Woods and Patterson, and Sam makes the fine dark suit, the kapota and the simcha garments to match. Where a store sells men's suits off a rack in Vaughan, Sam draws, cuts and fits each one by hand on his oldest principle: the suit is built around you.",
+      "There's a strong traditional community here too, through Thornhill Woods and Patterson, and Sam makes the fine dark suit, the kapota and the simcha garments to match. Where a store sells men's suits off a rack in Vaughan, Sam measures and fits each one personally on his oldest principle: the suit is built around you.",
     ],
     faqs: [
       {
@@ -99,7 +99,7 @@ export const locations = [
     ],
     intro: [
       "North York runs on time nobody has to spare. So for professionals from Willowdale to Don Mills, Sam brings the fitting to the office — tape, cloth book and notebook — and turns an afternoon lost to traffic into an hour spent being measured properly. It's a short hop from North York Centre and the Yonge line up to the Vaughan studio when you'd rather come to him.",
-      "There's a real Jewish community through Bathurst Manor, Clanton Park and Ledbury Park, and Sam has dressed it for years — Shabbos suits, bar mitzvah suits, and the fine dark suit that reads as kavod in shul. Bayview Village and York Mills lean executive; Hoggs Hollow and the Cricket Club lean formal. Sam cuts for all of it.",
+      "There's a real Jewish community through Bathurst Manor, Clanton Park and Ledbury Park, and Sam has dressed it for years — Shabbos suits, bar mitzvah suits, and the fine dark suit that reads as kavod in shul. Bayview Village and York Mills lean executive; Hoggs Hollow and the Cricket Club lean formal. Sam dresses all of it.",
       "North York weddings keep him busy every season — the groom, the groomsmen, and both fathers measured together so the family photographs read as one tailored line. Custom suits and tuxedos, made to fit, never rented.",
     ],
     faqs: [
@@ -253,10 +253,10 @@ export const locations = [
     intro: [
       "Along Bathurst from Lawrence to Wilson is one of the oldest, closest Jewish communities in Toronto — and it's where most of Sam's traditional work begins. He has dressed Lawrence Manor and Lawrence Plaza families for years: the fine dark suit for Shabbos, the bekishe and kapota, the kittel, and the bar mitzvah suit a boy grows into. Sam knows what these garments are for, not only what they look like, and that is why fathers send their sons.",
       "It's a short run up Bathurst to the studio, or Sam brings the fitting to your home — whichever keeps the family together and the schedule easy. Everything is one-on-one, dignified and discreet, and never fitted on Shabbos or Yom Tov. Chosson wardrobes are drawn together and finished in the days before the wedding; a whole party can be measured in a single visit.",
-      "Beyond the traditional garments, the same hand cuts custom suits, wedding suits and tuxedos for the community — drafted to your body, kept on a pattern, and made to fit rather than sold off a rack.",
+      "Beyond the traditional garments, the same care goes into custom suits, wedding suits and tuxedos for the community — drafted to your body, kept on a pattern, and made to fit rather than sold off a rack.",
     ],
     faqs: [
-      { q: 'Is there a Jewish tailor at Bathurst & Lawrence?', a: "Yes — Sam makes traditional Jewish menswear for the Bathurst–Lawrence and Lawrence Manor community: Shabbos suits, bekishe, kapota, kittel, bar mitzvah and chosson tailoring, all cut by hand and to the tradition. A short drive up Bathurst to the studio, or he comes to you." },
+      { q: 'Is there a Jewish tailor at Bathurst & Lawrence?', a: "Yes — Sam makes traditional Jewish menswear for the Bathurst–Lawrence and Lawrence Manor community: Shabbos suits, bekishe, kapota, kittel, bar mitzvah and chosson tailoring, all made to measure and to the tradition. A short drive up Bathurst to the studio, or he comes to you." },
       { q: 'How much is a custom Shabbos suit, bekishe or kapota?', a: "It depends on the cloth and the garment — Sam gives an honest quote at the consultation, with no showroom markup and no pressure. The first conversation costs nothing." },
       { q: 'Does Sam make bar mitzvah suits for the community?', a: "Yes — bar mitzvah suits cut with room to let out over the next two years, with the pattern kept for the next suit. Fathers are often measured at the same visit." },
       { q: 'Are you closed on Shabbos and Yom Tov?', a: "Always. Fittings are by appointment, one family at a time, and never on Shabbos or Yom Tov." },
@@ -295,7 +295,7 @@ export const locations = [
     headline: 'Pay for the tailor, not the showroom.',
     metaTitle: "Bespoke Suits in Yorkville — the Tailor, Not the Showroom | Sam's Menswear",
     h1: "Bespoke suits, <em>Yorkville.</em>",
-    metaDesc: "Bespoke and made-to-measure suits for Yorkville and Bloor West — the craft of a proper tailor without the Mink Mile markup. Sam drafts, cuts and fits every garment by hand, or comes to your condo. Custom, wedding and black-tie tailoring.",
+    metaDesc: "Bespoke and made-to-measure suits for Yorkville and Bloor West — the craft of a proper tailor without the Mink Mile markup. Sam measures and fits every garment personally, or comes to your condo. Custom, wedding and black-tie tailoring.",
     blurb:
       "In Yorkville you can pay for a showroom or pay for a tailor. With Sam, every dollar goes into the cloth and the hand that cuts it — not the address.",
     services: ['Bespoke Suits', 'Made-to-Measure', 'Custom Tuxedos', 'Have Sam Over', 'Custom Shirts'],
@@ -307,11 +307,11 @@ export const locations = [
     intro: [
       "Yorkville is where a suit gets expensive for reasons that have nothing to do with the suit — the address, the fit-out, the sales floor. Sam's proposition is the opposite: the whole cost goes into the cloth and the hand that cuts it. Every garment is drawn, canvassed and fitted personally, one client at a time, on the plain principle that a suit should be built around the man, not the showroom.",
       "This is real bespoke and made-to-measure depth — a full-canvas jacket that moulds to you over years, twenty-six measurements kept on a personal pattern, a wall of cloth from the good English and Italian mills. For a Bloor-Yorkville or Rosedale client that means a wardrobe with genuine craft behind it, and a tailor who answers the phone himself.",
-      "For galas and black-tie seasons, Sam cuts tuxedos to your measurements — midnight or black, satin peak or shawl — that photograph clean where a rental never will. He'll come to the condo for the fitting, or you come to the studio; either way the room is yours.",
+      "For galas and black-tie seasons, Sam makes tuxedos to your measurements — midnight or black, satin peak or shawl — that photograph clean where a rental never will. He'll come to the condo for the fitting, or you come to the studio; either way the room is yours.",
     ],
     faqs: [
-      { q: 'How is Sam different from the Yorkville tailors?', a: "Same craft, without the showroom in the price. Sam draws, cuts and fits every garment by hand himself — no sales floor, no upsell — so what you pay goes into the cloth and the making, not the address." },
-      { q: 'Do you offer true bespoke, or made-to-measure?', a: "Both — made-to-measure adjusted from a base pattern, and full bespoke drafted from nothing to your body, posture and stance. Sam will tell you honestly which your wardrobe actually needs." },
+      { q: 'How is Sam different from the Yorkville tailors?', a: "Same craft, without the showroom in the price. Sam measures and fits every garment himself — no sales floor, no upsell — so what you pay goes into the cloth and the making, not the address." },
+      { q: 'Do you offer true bespoke, or made-to-measure?', a: "Both routes — made-to-measure adjusted from a base pattern, and a full-custom treatment when your fit or occasion calls for it. Sam will tell you honestly which your wardrobe actually needs." },
       { q: 'Will Sam come to my Yorkville condo?', a: "Yes — by appointment, with cloth and tape, for the fitting and later try-ons. Or come to the studio; either way it's one client in the room at a time." },
       { q: 'Do you make black-tie tuxedos?', a: "Yes — custom tuxedos in midnight or black with satin lapels, cut to your measurements for galas and weddings. A made tuxedo reads clean in photographs where a rental shows every borrowed line." },
     ],

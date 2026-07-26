@@ -11,7 +11,7 @@ faqCats: ["Bespoke, made-to-measure & off-the-rack"]
 related: ["what-a-custom-suit-costs", "is-a-custom-suit-worth-it", "how-a-suit-should-fit"]
 ---
 
-Off-the-rack is cut to an average and altered toward you. Made-to-measure adjusts a factory's existing pattern to your numbers. Bespoke starts with no pattern at all — I draft one from your body and cut the cloth by hand. Same word to a salesman; three different suits to a tailor.
+Off-the-rack is cut to an average and altered toward you. Made-to-measure adjusts a factory's existing pattern to your numbers. Bespoke starts with no pattern at all — a fresh one is drafted for your body alone. Same word to a salesman; three different suits to a tailor.
 
 ## Off-the-rack
 
@@ -23,7 +23,7 @@ The factory takes its closest pattern block and adjusts it to your measurements 
 
 ## Bespoke
 
-No block. I draft a paper pattern from twenty-six of your measurements plus your posture and stance, cut the cloth by hand, and correct it across **two or three fittings**. It takes **8–12 weeks** and costs the most — and it's the only method that can truly answer an unusual body: a big drop from shoulder to waist, a long rise, a fuller chest.
+No block. A paper pattern is drafted from twenty-six of your measurements plus your posture and stance, the cloth cut fresh to it, and the fit corrected across **two or three fittings**. It takes **8–12 weeks** and costs the most — and it's the only method that can truly answer an unusual body: a big drop from shoulder to waist, a long rise, a fuller chest.
 
 ## Which one do you actually need?
 

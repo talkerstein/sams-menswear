@@ -26,7 +26,7 @@ He comes to you with everything. First visit is measurements and fabric — 45 m
 Here's the honest rhythm of it:
 
 - **Visit one** — measurements, posture read, fabric and lining selection from the [cloth library](/fabrics). This is where the suit is really decided.
-- **The build** — Sam cuts and sews at his bench in Vaughan. No rush job.
+- **The build** — made to your measurements to Sam's spec, then fitted and finished on you in Vaughan. No rush job.
 - **Fitting(s)** — he brings the basted or finished garment back to you to check drape, shoulder, sleeve, break.
 - **Delivery** — pressed and ready, dropped at your office or door.
 
