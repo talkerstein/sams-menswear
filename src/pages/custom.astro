@@ -1,5 +1,29 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Testimonials from '../components/Testimonials.astro';
+import FaqBlock from '../components/FaqBlock.astro';
+import { reviews } from '../data/reviews.js';
+
+// Page-specific FAQs. Every answer is a fact Sam confirmed himself:
+// turnaround, the 50/50 split, alterations, canvas, the kept pattern.
+const customFaqs = [
+  { q: 'What is the difference between bespoke and made-to-measure, and which do I need?',
+    a: "Made-to-measure adjusts an existing pattern to your numbers; bespoke drafts a pattern from nothing but your body. Sam does both, and he'll tell you which one your build actually needs. Most men are well served by made-to-measure, and he says so rather than selling up." },
+  { q: 'How long does a custom shirt or suit take?',
+    a: "Two to three weeks for a shirt, three to four for a suit. If something is urgent, twelve days is the fastest Sam will go, and only when the cloth is on hand." },
+  { q: 'Do I have to be measured again every time I order?',
+    a: "No. Your pattern is drawn once and kept. After the first visit a reorder is a phone call: name the cloth and the collar, and it's on your back in two to three weeks." },
+  { q: 'Are your jackets fused or canvassed?',
+    a: "Sam does not fuse suits. Half canvas is the default, and full canvas goes into the dearer cloths. A fused jacket is the one that bubbles across the chest after a couple of seasons." },
+  { q: 'What do I pay, and when?',
+    a: "Half when the cloth is chosen, half on delivery. You get one firm price for the exact garment before anything is cut, and the first half covers cloth that has been cut to you and can't be resold." },
+  { q: 'Are alterations included?',
+    a: "Alterations that are part of getting the garment right are included in the price, not billed at the end. If your body changes a year or two later, that's separate work and Sam will quote it before he starts." },
+  { q: 'Can Sam alter a suit I already own?',
+    a: "Often, yes. Sleeves, hems, waist and trouser work are straightforward. Some suits are worth altering and some are cheaper to replace than to rescue; bring it in and you'll be told which one you have." },
+  { q: 'Where does the fitting happen?',
+    a: "At the studio, 318 Charlton Avenue in Vaughan, on the Thornhill line, by appointment so the room and the hour are yours. Parking is at the door." },
+];
 
 const site = 'https://customsuitandshirt.com';
 const gta = ['Vaughan', 'Thornhill', 'Toronto', 'North York', 'Richmond Hill', 'Markham', 'Woodbridge'];
@@ -236,6 +260,46 @@ const serviceSchema = {
         <a href="/guides/how-a-suit-should-fit" style="color: var(--ink); border-bottom: 1px solid var(--rule-strong);">how a suit should actually fit</a>,
         or explore the <a href="/fabrics" style="color: var(--ink); border-bottom: 1px solid var(--rule-strong);">cloth library</a> before you book.
       </p>
+    </div>
+  </section>
+
+  <!-- PROOF -->
+  <section class="section tight">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <div class="chapter-no">No. 04</div>
+        <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">Their first <em>custom suit.</em></h2>
+        <div class="right">Unedited &middot; Google reviews</div>
+      </div>
+      <Testimonials items={[reviews[2], reviews[6], reviews[11]]} />
+    </div>
+  </section>
+
+  <!-- READING ROOM + FAQ (emits FAQPage schema) -->
+  <section class="section tight">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <div class="chapter-no">No. 05</div>
+        <h2 class="h-1" style="text-transform: uppercase; max-width: 20ch;">Before you <em>commission.</em></h2>
+        <div class="right">From the notebook</div>
+      </div>
+      <ul class="prose-list" data-reveal style="margin-top: 28px; max-width: 62rem; columns: 2; column-gap: 56px;">
+        <li><a href="/guides/bespoke-vs-made-to-measure-vs-off-the-rack" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">Bespoke, made-to-measure and off-the-rack</a></li>
+        <li><a href="/guides/how-a-suit-should-fit" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">How a suit should actually fit</a></li>
+        <li><a href="/guides/fully-canvassed-vs-fused" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">Fully canvassed vs fused, and why it matters</a></li>
+        <li><a href="/guides/how-to-tell-a-good-suit" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">How to tell a good suit from a dear one</a></li>
+        <li><a href="/guides/choosing-your-cloth" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">Choosing your cloth</a></li>
+        <li><a href="/guides/suits-for-hard-to-fit-bodies" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">If you have always been hard to fit</a></li>
+        <li><a href="/guides/what-to-bring-to-your-first-fitting" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">What to bring to your first fitting</a></li>
+        <li><a href="/guides/how-to-make-a-suit-last-ten-years" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">Making a suit last ten years</a></li>
+      </ul>
+
+      <div class="section-head" data-reveal style="margin-top: clamp(48px, 7vw, 96px);">
+        <div class="chapter-no">No. 06</div>
+        <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">Good to <em>know.</em></h2>
+        <div class="right">Straight answers</div>
+      </div>
+      <div style="max-width: 62rem; margin-top: 28px;" data-reveal><FaqBlock items={customFaqs} /></div>
     </div>
   </section>
 

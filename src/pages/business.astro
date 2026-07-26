@@ -1,7 +1,26 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Testimonials from '../components/Testimonials.astro';
+import FaqBlock from '../components/FaqBlock.astro';
 import { reviews } from '../data/reviews.js';
+
+// Facts only: Sam's confirmed turnaround, terms, canvas and studio policy.
+const businessFaqs = [
+  { q: 'How many suits do I actually need for a five-day week?',
+    a: "Two will carry a week if the shirts and shoes do their share; three stops anyone noticing a rotation at all. Start with one navy, add charcoal, then the third is whatever your week is short of. Sam will map it with you rather than sell you all three at once." },
+  { q: 'How long before I have the first suit?',
+    a: "Three to four weeks on the bench, and two to three for shirts. If a date is tight, twelve days is the fastest Sam will go, and only when the cloth is already on hand." },
+  { q: 'Is the jacket fused?',
+    a: "No. Sam does not fuse suits. Half canvas is the default and full canvas goes into the dearer cloths, which is exactly what keeps a jacket you wear three days a week from bubbling across the chest by its second winter." },
+  { q: 'What do I pay, and when?',
+    a: "Half when the cloth is chosen, half on delivery, with one firm price agreed before anything is cut. Alterations to get the garment right are part of that price rather than a bill at the end." },
+  { q: 'Can I reorder without coming in again?',
+    a: "Yes, and that's the point of the pattern. Once it's on file, the second suit and the shirts are a phone call: name the cloth, and you're not measured again." },
+  { q: 'Do you come to my office downtown?',
+    a: "The studio in Vaughan is where the fitting is properly done: the full range of cloth, the mirrors and the light are all in one room. It's a short drive up from the core, everything is by appointment, and you make the trip roughly once, because the pattern handles everything after." },
+  { q: 'What is the difference between this and a Bay Street showroom?',
+    a: "Overhead. A showroom in the core bakes the lease, the lounge and the receptionist into every ticket, and none of it changes how the shoulder sits. Same wools, same canvassed construction, without the postcode premium." },
+];
 
 const site = 'https://customsuitandshirt.com';
 const gta = ['Vaughan', 'Thornhill', 'Toronto', 'North York', 'Richmond Hill', 'Markham', 'Woodbridge'];
@@ -250,6 +269,34 @@ const serviceSchema = {
         <div class="right">Unedited &middot; Google reviews</div>
       </div>
       <Testimonials items={[reviews[2], reviews[6], reviews[11]]} />
+    </div>
+  </section>
+
+  <!-- READING ROOM + FAQ (emits FAQPage schema) -->
+  <section class="section tight">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <div class="chapter-no">No. 06</div>
+        <h2 class="h-1" style="text-transform: uppercase; max-width: 20ch;">Dress for the <em>room you're in.</em></h2>
+        <div class="right">From the notebook</div>
+      </div>
+      <ul class="prose-list" data-reveal style="margin-top: 28px; max-width: 62rem; columns: 2; column-gap: 56px;">
+        <li><a href="/guides/the-navy-suit" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">The navy suit, and why it is first</a></li>
+        <li><a href="/guides/the-interview-suit" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">The interview suit</a></li>
+        <li><a href="/guides/how-many-suits-should-a-man-own" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">How many suits a man actually needs</a></li>
+        <li><a href="/guides/fully-canvassed-vs-fused" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">Canvassed vs fused</a></li>
+        <li><a href="/guides/how-to-pack-and-travel-with-a-suit" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">Packing and travelling with a suit</a></li>
+        <li><a href="/guides/cloth-for-toronto-seasons" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">Cloth for a Toronto year</a></li>
+        <li><a href="/guides/how-often-to-dry-clean-a-suit" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">How often to dry-clean a suit</a></li>
+        <li><a href="/guides/custom-suits-toronto-without-downtown" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">Skipping the Bay Street markup</a></li>
+      </ul>
+
+      <div class="section-head" data-reveal style="margin-top: clamp(48px, 7vw, 96px);">
+        <div class="chapter-no">No. 07</div>
+        <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">Good to <em>know.</em></h2>
+        <div class="right">Straight answers</div>
+      </div>
+      <div style="max-width: 62rem; margin-top: 28px;" data-reveal><FaqBlock items={businessFaqs} /></div>
     </div>
   </section>
 
