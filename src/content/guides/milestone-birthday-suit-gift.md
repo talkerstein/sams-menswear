@@ -22,7 +22,7 @@ There's something fitting about it, too. Turning 40 or 50 is a moment a man quie
 
 This is the worry that stops most people, and it's the one you can put down first. You don't measure him. You don't guess a size. When you reserve the gift, nothing is cut yet. The recipient books his own fitting, and Sam takes every measurement himself.
 
-He can come to the Vaughan studio to [book his fitting](/book), or Sam travels to him anywhere across Thornhill, Toronto, North York, Richmond Hill, Markham or Woodbridge. Either way, the suit is drafted to his real measurements and kept on a pattern, so the second suit years from now is just a phone call. You bring the intention; Sam handles the precision.
+He can come to the Vaughan studio to [book his fitting](/book). Either way, the suit is drafted to his real measurements and kept on a pattern, so the second suit years from now is just a phone call. You bring the intention; Sam handles the precision.
 
 ## Is a milestone suit too expensive or too impersonal?
 

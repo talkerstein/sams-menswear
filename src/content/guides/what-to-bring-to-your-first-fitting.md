@@ -58,9 +58,9 @@ Perfect. That's the normal starting point, and it's exactly why you're sitting w
 
 Sam will ask things like: what's the occasion, do you run hot or cold, do you like a jacket you can move in or a sharper close fit, is this a one-time thing or something you'll wear to work after. From your answers he'll steer the cloth weight, the cut, the details. Thirty-plus years on the bench means the expertise is his to carry, not yours. [Nervous about the whole idea? Start with the groom's suit basics →](/guides/the-grooms-suit)
 
-## Where is Sam's and does he come to you?
+## Where is Sam's, and how far is it?
 
-Sam's is in Vaughan, on the Thornhill line, serving the GTA: Toronto, Thornhill, North York, Richmond Hill, Markham. And yes, for weddings Sam will come to you.
+Sam's is in Vaughan, on the Thornhill line, serving the GTA: Toronto, Thornhill, North York, Richmond Hill, Markham. It's a short drive from most of the GTA, and worth it: one hour in the room saves three rounds of guessing.
 
 That's genuinely useful for a groom juggling a hundred things, or for measuring the whole wedding party in one sitting at your place. If it's more your speed, come to the studio instead. Either way, the fitting takes the time it takes; nobody's watching the clock.
 

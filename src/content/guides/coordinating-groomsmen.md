@@ -33,4 +33,4 @@ Start **nine to twelve months out**. The suits themselves need about eight to tw
 
 If the men will wear the suit again, custom is better value than it looks. A rental costs real money and leaves them with nothing. [Custom vs rental, the real math →](/guides/custom-vs-rental-wedding-suit)
 
-Planning a wedding? [Book a party fitting](/book) and I'll come to you.
+Planning a wedding? [Book a party fitting](/book) and bring the men in together.

@@ -65,4 +65,4 @@ That's the whole philosophy of dressing for a community where clothes carry mean
 
 ---
 
-Getting married in the GTA (Thornhill, Vaughan, Toronto and out)? Sam has dressed chassanim from the community for over thirty years, and he'll come to you or measure at the studio on the Vaughan–Thornhill line. [Book a fitting](/book) while the date is still months away, or [start designing your suit](/design) whenever you're ready.
+Getting married in the GTA (Thornhill, Vaughan, Toronto and out)? Sam has dressed chassanim from the community for over thirty years, and he'll measure the whole party at the studio together. [Book a fitting](/book) while the date is still months away, or [start designing your suit](/design) whenever you're ready.

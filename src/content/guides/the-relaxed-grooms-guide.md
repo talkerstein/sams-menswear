@@ -63,6 +63,6 @@ You're the groom, not a theme. The three-piece is having a real moment in 2026, 
 
 Pick a colour you love, start early, get one suit that genuinely fits you, add one detail that's yours. That's it. Everything else (the cloth, the lapels, the buttons) we'll walk you through at the bench, at your pace.
 
-We've been doing this in Vaughan for over thirty years, for grooms all across the GTA. Sam will come to you or fit the whole party at the studio. [Explore the cloth →](/fabrics) · [Design your suit →](/design)
+We've been doing this in Vaughan for over thirty years, for grooms all across the GTA. Sam fits the whole party at the studio, in one block. [Explore the cloth →](/fabrics) · [Design your suit →](/design)
 
 Getting married in the GTA? Pick your date, count back nine months, and [book your first fitting](/book) somewhere inside that window. That's the whole plan.

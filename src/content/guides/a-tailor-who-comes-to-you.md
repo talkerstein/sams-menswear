@@ -1,67 +1,42 @@
 ---
-title: "A tailor who comes to you across the GTA"
-description: "Sam brings the tape and cloth book to your home or office anywhere in the GTA. How the traveling-tailor service works, who it's for, and the reach."
-tldr: "A traveling tailor brings the whole fitting to you: home or office, anywhere across the GTA. Sam arrives with the tape and cloth book, measures by hand, and returns for fittings. Same suit, same price, you just skip the commute."
+title: "Which areas does Sam serve across the GTA?"
+description: "Where Sam's clients come from, how far the studio really is from Toronto, Thornhill, North York, Richmond Hill and Markham, and the honest answer on travel."
+tldr: "Sam serves the whole GTA from one studio in Vaughan, on the Thornhill line. Clients drive up from Toronto, North York, Richmond Hill, Markham and Woodbridge, most of them inside half an hour. Travel to you is the exception, not a service on offer, so plan on coming in: it's one visit, and your pattern is kept afterwards."
 pillar: "The Service"
 pillarHref: "/book"
 eyebrow: "The Service"
-updated: 2026-07-05
+updated: 2026-07-26
 order: 141
 faqCats: ["Visiting & the traveling tailor"]
 related: ["best-tailor-in-vaughan", "custom-suits-in-thornhill", "custom-suits-toronto-without-downtown", "the-traveling-tailor"]
 ---
 
-A proper tailor doesn't need you to find parking downtown. Sam has cut suits for over 30 years and brings the whole fitting to your door, home or office, anywhere across the GTA. Same tape, same cloth book, same hands. You just skip the commute.
+Sam serves the whole Greater Toronto Area from a single studio at 318 Charlton Avenue in Vaughan, right on the Thornhill line. The short version: the clients travel, not the tailor, and for most of the region that's a twenty to thirty minute drive with parking at the door.
 
-## What does a traveling tailor actually do?
+## Where do Sam's clients actually come from?
 
-A traveling tailor brings the fitting to you instead of you coming to a showroom. Sam arrives with the tape, the cloth book and his notebook, and does the real work in your living room or boardroom.
+All over, and they have for thirty years.
 
-Nothing is stripped down for the road. You get the same proper conversation about how you'll actually wear the suit, measurements taken by hand, and cloth laid out in your own light so you see the colour the way you'll wear it. Later fittings can happen the same way. The bench comes to you. You lose only the drive.
+- **Vaughan, Maple, Concord, Woodbridge, Kleinburg.** Effectively local. Ten minutes, most of them.
+- **Thornhill.** About five minutes from Centre Street or the Bathurst & Clark corridor.
+- **Richmond Hill and Markham.** A straight run down or across; families often book the whole party into one afternoon.
+- **North York.** Up Bathurst or the Yonge line, comfortably inside a lunch hour from Willowdale, Bayview Village or Don Mills.
+- **Toronto proper, including downtown.** Longer, but see below on why people still do it.
 
-## How does the visit work, step by step?
+## Does Sam travel to me?
 
-One visit to measure and choose cloth, then a fitting or two to dial it in, most of it on your schedule, at your address.
+Not as a service. The studio is where the work is properly done, and it's where he'd rather measure you. He has gone out to a client before and may again, but he decides case by case whether he can do it justice, so treat it as the exception rather than something to plan around. If getting here is genuinely impossible, say so when you [book](/book) and you'll get a straight answer instead of a maybe.
 
-Here's the shape of it:
+## Is it worth the drive from downtown?
 
-- **The consult.** We talk through the occasion, your work, how you sit and move, what's already in your closet.
-- **The cloth.** You handle the fabrics yourself and see them in your own daylight; [choosing your cloth](/guides/choosing-your-cloth) is easier when you're not under showroom lighting.
-- **The measure.** Taken by hand, on you, not read off a rack size.
-- **The fittings.** As the suit comes together, Sam comes back to check the fit in person.
+That's the real question, and the honest answer is that you make the trip roughly once. Everything after the first visit runs on the pattern Sam keeps for you: the second suit, the shirts, the trousers, your son's first jacket. Those are a phone call and a cloth choice, not another appointment.
 
-If you'd rather picture the whole timeline first, the [first fitting guide](/guides/your-first-fitting) walks through it.
+Set against that, a Bay Street showroom charges you for the postcode every time you walk in. More on that in [custom suits without going downtown](/guides/custom-suits-toronto-without-downtown).
 
-## Who is this service for?
+## Getting here
 
-Busy professionals, wedding parties, and anyone who'd simply rather host. If half a day lost to traffic and a showroom is the reason you keep putting off a proper suit, this removes the reason.
+318 Charlton Avenue, Vaughan. A few minutes off Highway 7, a short run from Rutherford GO, and parking on site rather than a hunt for a meter. Everything is by appointment, so the room and the hour are yours alone: no showroom floor, no waiting, nobody browsing behind you.
 
-- **Professionals** who can't give up an afternoon. An hour in your office beats a round trip downtown. See [dressing for business](/business).
-- **Grooms and groomsmen.** Sam will measure a whole party in one visit, at a family home or the venue. It's the calmest way to handle a [wedding](/wedding), and it keeps the guys from having to coordinate separate trips. More on that in [coordinating your groomsmen](/guides/coordinating-groomsmen).
-- **Anyone who'd rather be on home turf.** Your own wardrobe on hand to reference, and a more relaxed hour than any fitting room.
+Wedding parties are worth a special mention. Rather than chasing seven men around the city, book the group into one block and Sam measures them back to back, against the same notebook, in the same light. It's the reason the photographs come back looking coordinated.
 
-## Where in the GTA does Sam travel?
-
-Vaughan, Thornhill, Toronto, North York, Richmond Hill, Markham, and across the wider Greater Toronto Area. The studio sits on the Thornhill–Vaughan line, so both the city and the northern suburbs are an easy reach.
-
-For downtown offices and condos, the house call is usually the easier path anyway: no coming north, no parking, no lost afternoon. If you're outside that ring, ask; Sam covers more of the region than most people expect.
-
-## Does it cost more to have the tailor come to me?
-
-No. The suit costs what the suit costs. The visit is part of the service, not a convenience fee dressed up in a nicer word.
-
-For groups and wedding parties there's usually a small minimum of a couple of garments, which most parties clear without thinking about it. Beyond that, a house call and a studio visit price out the same. You can [design your suit](/design) online first to get a feel for the build, or browse the [cloth library](/fabrics) before Sam arrives with the books to match.
-
-## Can Sam handle a whole wedding party or a group at once?
-
-Yes. That's one of the best reasons to book the traveling service. One visit, one afternoon, the whole group measured on the same day in the same light.
-
-It saves everyone the scheduling headache of separate appointments and keeps the party consistent. Fathers included; the [father of the bride and groom guide](/guides/father-of-the-bride-and-groom-suit) covers how to fold them in. For traditional occasions and community events, Sam's used to working around the calendar too; see [the traditional wardrobe](/traditional).
-
-## What should I have ready before the visit?
-
-Not much. A bit of space, decent daylight if you can, and a suit you already like the fit of, if you have one, so we've got a reference point.
-
-That's genuinely it. Sam brings everything else. If you've got questions about timing or how many fittings a group needs, just raise them on the visit; that's what the conversation is for.
-
-Pick an address and a time that suit your week. [Book a visit](/book) and Sam will bring the tape and the cloth to your door, or [design your suit](/design) first and he'll bring the fabrics to match.
+Ready? [Book a fitting](/book), or [design your suit](/design) first and bring the drawing in with you. If you'd like to know what to have ready, read [what to bring to your first fitting](/guides/what-to-bring-to-your-first-fitting).

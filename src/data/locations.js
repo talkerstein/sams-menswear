@@ -113,7 +113,7 @@ export const locations = [
       },
       {
         q: 'Can Sam dress a North York wedding party?',
-        a: 'Yes. Groom, groomsmen and both fathers, measured together and coordinated. Custom wedding suits and tuxedos, at the studio or on a house call across North York.',
+        a: 'Yes. Groom, groomsmen and both fathers, measured together and coordinated. Custom wedding suits and tuxedos, with the whole party booked into the studio together.',
       },
       {
         q: 'How far is the studio from North York?',
@@ -128,10 +128,10 @@ export const locations = [
   {
     slug: 'toronto',
     city: 'Toronto',
-    headline: 'The downtown house call.',
+    headline: 'Worth the drive north.',
     metaTitle: "Custom & Tailored Suits in Toronto · Sam's Menswear",
     blurb:
-      "Yes, Sam makes custom suits in Toronto without the downtown showroom. He comes to you by appointment (hotels, offices, condos) with bolts of cloth, the measuring tape and the notebook. The same hour you'd have spent in traffic, spent being measured properly.",
+      "Yes, and without paying for a downtown showroom to do it. The studio is twenty-five minutes north of the core, and you make the trip properly once: after the first visit your pattern is on file and the next order is a phone call.",
     services: ['Custom Suits', 'Wedding Suits & Tuxedos', 'Business Suits', 'Groomsmen & Fathers'],
     nearby: ['North York', 'Vaughan', 'Etobicoke'],
     neighbourhoods: [
@@ -140,7 +140,7 @@ export const locations = [
       'Cabbagetown', 'Summerhill', 'The Beaches', 'CityPlace', 'Harbourfront',
     ],
     intro: [
-      "Downtown, the traveling tailor makes more sense than the commute north. Sam comes to you by appointment: the office tower on Bay or King, the Yorkville condo, the hotel. He brings bolts of cloth, the tape and the notebook, and takes the full fitting where you already are. For the Financial District and King West crowd who can't give up half a day for a showroom, that's the whole point.",
+      "Downtown clients are paying a postcode premium every time they walk into a Bay Street showroom: the lounge, the receptionist, the rent. None of it makes the jacket fit better. Sam's overhead is a studio in Vaughan, so the money goes into cloth and labour instead of the lease. Twenty-five minutes north, by appointment, with parking at the door.",
       "Toronto is a wedding city, and Sam works it every season. Grooms and groomsmen getting married downtown, midtown or out along the lake are measured together with both fathers and matched on cloth and colour, so every frame of the album agrees. Custom suits and tuxedos, made to fit, never a rental cut for the last man who wore it.",
       "From a business suit for a Bay Street partner to a black-tie tuxedo for a Rosedale wedding, the work is the same: drafted to your body, fitted in person, and yours to keep for years of events after.",
     ],
@@ -158,8 +158,8 @@ export const locations = [
         a: 'A made tuxedo beats a rental where it counts: a rental is cut for the average of everyone who wore it, and satin and black show every bad line in the photos. Rent twice and you’ve paid for one you’d own. Sam makes tuxedos to your measurements.',
       },
       {
-        q: 'Is the downtown house call extra?',
-        a: 'No. The suit costs what the suit costs; the visit is part of the service. Wedding parties and groups usually have a small minimum of garments.',
+        q: 'Why come north instead of buying on Bay Street?',
+        a: 'Because the showroom rent is in the ticket, and it buys you a lounge rather than a better jacket. Same cloths, same canvassed construction, and you make the drive roughly once: the pattern is kept, so every order after is a phone call.',
       },
     ],
   },
@@ -183,7 +183,7 @@ export const locations = [
     faqs: [
       {
         q: 'Do Richmond Hill clients come to the studio?',
-        a: 'Usually, yes. It’s a short drive down Yonge or Bathurst to 318 Charlton Avenue and the fitting is yours alone. For group and wedding fittings, Sam will come up to you.',
+        a: 'Usually, yes. It’s a short drive down Yonge or Bathurst to 318 Charlton Avenue and the fitting is yours alone. Wedding parties are booked in as one block, back to back.',
       },
       {
         q: 'Can Sam dress a Richmond Hill wedding party?',
@@ -278,7 +278,7 @@ export const locations = [
       'The PATH', 'Wellington', 'Union', 'St. Lawrence', 'The Well',
     ],
     intro: [
-      "In the Financial District the traveling tailor beats the commute every time. By appointment, Sam comes to you: the office tower on Bay or King, a boardroom, a condo nearby. He arrives with bolts of cloth, the tape and the notebook, and takes the full fitting where you already are. The hour you'd have spent driving to a showroom is spent being measured properly instead.",
+      "In the Financial District you are surrounded by custom shops charging you for the address. Sam charges you for the suit. Same wools, same canvassed construction, never fused, from a studio twenty-five minutes north with parking at the door. One visit sets the pattern; everything after it is a phone call.",
       "The work is a partner's wardrobe: navy and charcoal that carry a room, glen check with a little more to say, and a travelling suit cut to survive a red-eye and a morning meeting. Soft enough to sit and work in, structured enough to command the table. Custom shirts to match (your collar, your cuff, your fit) so nothing gapes when the jacket comes off.",
       "Twenty-six measurements are taken by hand and kept on a personal pattern, so your next suit or shirt is already halfway made. Order the reorder by phone and it arrives cut to you. One tailor, one client, no sales floor.",
     ],
@@ -322,7 +322,7 @@ export const locations = [
     headline: 'West-end tailoring, on your schedule.',
     metaTitle: "Custom Suits in Etobicoke: House Calls Across the West End | Sam's Menswear",
     h1: "Custom Suits in <em>Etobicoke.</em>",
-    metaDesc: "Custom and wedding suits in Etobicoke without the cross-city drive. Sam brings the fitting to your home or office from The Kingsway to Mimico, or measures you at the Vaughan studio. Groom, groomsmen and fathers, made to fit and never rented.",
+    metaDesc: "Custom and wedding suits for Etobicoke, from The Kingsway to Mimico. Measured and fitted by Sam at the Vaughan studio, with the whole wedding party booked in together. Groom, groomsmen and fathers, made to fit and never rented.",
     blurb:
       "Etobicoke clients skip the drive north. Sam brings the fitting to you, from The Kingsway to Mimico, or measures you at the studio when you'd rather come up.",
     services: ['Custom Suits', 'Wedding Suits & Tuxedos', 'Groomsmen & Fathers', 'Alterations'],
@@ -339,7 +339,7 @@ export const locations = [
     faqs: [
       { q: 'Will Sam come to my home or office in Etobicoke?', a: "Yes. The traveling service brings the whole fitting to you anywhere in Etobicoke, from The Kingsway and Islington to Mimico and Humber Bay. There's no house-call surcharge." },
       { q: 'Can Sam dress an Etobicoke wedding party?', a: "Yes. Groom, groomsmen and both fathers, measured together and coordinated. Custom wedding suits and tuxedos for west-end weddings, measured and fitted at the studio in Vaughan." },
-      { q: 'How far is the studio from Etobicoke?', a: "A straight run up to the Vaughan studio at 318 Charlton Avenue. Or skip the drive and have Sam come to you." },
+      { q: 'How far is the studio from Etobicoke?', a: "A straight run up to the Vaughan studio at 318 Charlton Avenue, and easiest outside rush hour. Parking is at the door." },
       { q: 'Do you do alterations in the west end?', a: "Yes. Expert alterations on suits and jackets, whether Sam made them or not." },
     ],
   },

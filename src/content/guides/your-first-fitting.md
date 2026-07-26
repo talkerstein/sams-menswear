@@ -35,4 +35,4 @@ I lay cloth in front of you across three price shelves and tell you the truth ab
 
 Nothing. The first consultation is free and candid. If we work together, you get a firm price up front, and if made-to-measure is the smarter spend for you than bespoke, I'll say so.
 
-Prefer I come to you? The [Traveling Tailor](/book) brings all of this to your home or office, anywhere in the GTA.
+Can't get to Vaughan easily? Say so when you [book](/book). The studio is where the fitting is properly done, but ask and Sam will tell you straight what's possible.

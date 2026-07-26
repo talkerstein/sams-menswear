@@ -87,4 +87,4 @@ And the biggest one: buying off the rack and never touching a tailor. A $200 jac
 
 ## Book a fitting
 
-If you're a founder in Toronto or across the GTA, come see me. We'll build the one suit that separates, get the shoulders right, and set you up so you're dressed for the raise and the standup with the same closet. [Book a fitting](/book) or start to [design your suit](/design); I'll come to your office between meetings if that's easier.
+If you're a founder in Toronto or across the GTA, come see me. We'll build the one suit that separates, get the shoulders right, and set you up so you're dressed for the raise and the standup with the same closet. [Book a fitting](/book) or start to [design your suit](/design). Early mornings and evenings are the founder-friendly slots, and the whole thing takes one visit.

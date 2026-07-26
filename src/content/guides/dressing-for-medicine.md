@@ -74,6 +74,6 @@ For the surgeon who wants one thing done properly, or the specialist building a 
 
 Across the GTA, from the downtown teaching hospitals to clinics in Mississauga, North York, and Vaughan, the standard is professional but unfussy. Toronto patients aren't looking for a peacock; they want a doctor who looks calm, clean, and squared-away. That's an easy brief to hit and a hard one to fake, and it's exactly what good tailoring is for.
 
-If you're a physician, surgeon, or specialist and you want clothes that hold up to your actual working day, I'll come to you between rounds, measure properly, and tell you straight what you need and what you don't. [Book a fitting](/book) or [design a suit](/design) built around the life you actually live under that coat.
+If you're a physician, surgeon, or specialist and you want clothes that hold up to your actual working day, come by the studio between shifts, get measured properly, and I'll tell you straight what you need and what you don't. [Book a fitting](/book) or [design a suit](/design) built around the life you actually live under that coat.
 
 Related reading: [dressing for business](/business) · [the navy suit](/guides/the-navy-suit) · [the interview suit](/guides/the-interview-suit)

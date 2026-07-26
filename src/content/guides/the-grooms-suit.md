@@ -37,4 +37,4 @@ You're the groom, not a costume. Distinguish yourself with a small, deliberate d
 
 Start **nine to twelve months out**. The suit itself takes about eight to twelve weeks; the rest is breathing room to choose cloth, coordinate the party and fit without a clock running. Book late and you're pushed toward a rental. [The full wedding timeline →](/guides/wedding-suit-timeline)
 
-Getting married in the GTA? [Book a wedding fitting](/book). Sam will come to you, or measure the whole party at the studio.
+Getting married in the GTA? [Book a wedding fitting](/book). Sam measures the whole party at the studio, in one block, so nobody is chasing a second appointment.
