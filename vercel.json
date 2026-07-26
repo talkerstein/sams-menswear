@@ -47,6 +47,8 @@
     { "source": "/the-perfect-custom-dress-shirt-in-toronto-business-to-yeshiva-to-date-night/", "destination": "/dress-shirts", "permanent": true },
     { "source": "/toronto-professionals-are-trading-big-box-stores-for-sams-custom-suit", "destination": "/guides/custom-suits-toronto-without-downtown", "permanent": true },
     { "source": "/toronto-professionals-are-trading-big-box-stores-for-sams-custom-suit/", "destination": "/guides/custom-suits-toronto-without-downtown", "permanent": true },
-    { "source": "/wp-content/uploads/2024/09/Sams-Menswear-Lookbook-2024.pdf", "destination": "/fabrics", "permanent": true }
+    { "source": "/wp-content/uploads/2024/09/Sams-Menswear-Lookbook-2024.pdf", "destination": "/fabrics", "permanent": true },
+    { "source": "/guides/what-groomsmen-actually-want-to-wear", "destination": "/guides/what-your-groomsmen-actually-want-to-wear", "permanent": true },
+    { "source": "/guides/what-groomsmen-actually-want-to-wear/", "destination": "/guides/what-your-groomsmen-actually-want-to-wear", "permanent": true }
   ]
 }
