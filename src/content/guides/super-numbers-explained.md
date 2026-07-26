@@ -1,7 +1,7 @@
 ---
 title: "Super 100s to 150s: what the numbers actually mean"
 description: "What Super 100s to 150s actually mean on a suit tag, why higher isn't always better, and which number lasts longest for everyday wear."
-tldr: "The Super number rates how fine the wool fiber is, not how good the suit is — higher means finer and softer but more delicate. For a suit you wear hard, choose Super 110s to 130s; save Super 150s and up for a few special occasions a year."
+tldr: "The Super number rates how fine the wool fiber is, not how good the suit is. Higher means finer and softer but more delicate. For a suit you wear hard, choose Super 110s to 130s; save Super 150s and up for a few special occasions a year."
 pillar: "Cloth"
 pillarHref: "/fabrics"
 eyebrow: "Cloth"
@@ -19,10 +19,10 @@ It measures the fineness of the wool fiber. Higher number, thinner fiber, softer
 
 The number ties back to how many hanks of yarn a spinner can pull from a pound of that wool. Finer fiber spins into more, longer thread, so it earns a higher Super rating. In plain terms:
 
-- **Super 100s** — roughly 18.5 microns of fiber diameter
-- **Super 120s** — around 17.5 microns
-- **Super 150s** — around 16 microns
-- **Super 180s+** — 14 microns and down, into the very fine range
+- **Super 100s:** roughly 18.5 microns of fiber diameter
+- **Super 120s:** around 17.5 microns
+- **Super 150s:** around 16 microns
+- **Super 180s+:** 14 microns and down, into the very fine range
 
 A micron is a thousandth of a millimeter, so we're splitting hairs, literally. The finer the fiber, the smoother and more luxurious the cloth feels in your hand. See the range on our [Cloth Library](/fabrics).
 
@@ -45,7 +45,7 @@ Thicker fiber is simply tougher. It springs back after a long day at a desk, sur
 - Snags and pulls are harder to repair invisibly
 - It punishes frequent dry cleaning
 
-If you want a suit that takes a decade of real use, Super 120s or 130s is the honest sweet spot. Enough refinement to feel like something, enough backbone to last.
+If you want a suit that takes a decade of real use, Super 120s or 130s is the sweet spot. Enough refinement to feel like something, enough backbone to last.
 
 ## When is a Super 150s or higher actually worth it?
 
@@ -61,10 +61,10 @@ For a suit you wear hard, Super 110s to 130s. It's the range that feels good, ph
 
 Think about the life the suit will lead:
 
-- **Everyday business, courtroom, sales floor** — Super 110s to 130s
-- **Frequent travel** — lean toward 110s to 120s, they resist wrinkles and bounce back
-- **A few special occasions a year** — Super 150s and up is fair game
-- **First good suit you own** — 120s, no question, it does everything
+- **Everyday business, courtroom, sales floor:** Super 110s to 130s
+- **Frequent travel:** lean toward 110s to 120s, they resist wrinkles and bounce back
+- **A few special occasions a year:** Super 150s and up is fair game
+- **First good suit you own:** 120s, no question, it does everything
 
 If you're building a work wardrobe, our [choosing your cloth](/guides/choosing-your-cloth) guide walks through weight and weave too, which matter more than the Super number for how a suit performs. And a foundational [navy suit](/guides/the-navy-suit) in a solid 120s is the most useful thing most men can own.
 
@@ -84,4 +84,4 @@ Dry cleaning is the quiet killer of fine wool, the solvents and heat wear the fi
 
 The honest takeaway: the Super number is a fineness rating, not a quality score. Pick the number that matches how you'll actually live in the suit, and let the mill and the weave carry the rest.
 
-If you want to feel the difference between a 110 and a 150 in your own hands, come in. The [first fitting is free](/book), no pressure, and we'll help you [design a suit](/design) around the life it's going to lead, whether that's the [office](/business), a [wedding](/wedding), or a [traditional wardrobe](/traditional).
+If you want to feel the difference between a 110 and a 150 in your own hands, come in. Rubbing the two cloths between your fingers settles the question faster than any tag. [Book a fitting](/book) and we'll help you [design a suit](/design) around the life it's going to lead, whether that's the [office](/business), a [wedding](/wedding), or a [traditional wardrobe](/traditional).

@@ -8,15 +8,15 @@ const entries = (await getCollection('journal')).sort(
 const fmt = (d) => d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 ---
 <BaseLayout
-  title="The Journal — Sam's Menswear · Vaughan"
-  description="Notes from the bench — on cloth, fit, weddings and tradition, from Sam's studio in Vaughan."
+  title="The Journal · Sam's Menswear · Vaughan"
+  description="Notes from the bench, on cloth, fit, weddings and tradition, from Sam's studio in Vaughan."
 >
   <section class="page-hero">
     <div class="container">
       <div data-reveal>
         <div class="eyebrow-rule">The Studio &middot; Notes</div>
         <h1>From the <em>notebook.</em></h1>
-        <p class="lede">Short essays from the bench — on cloth, fit, the wedding season, and the traditional garments a community lives its life in.</p>
+        <p class="lede">Short essays from the bench: on cloth, fit, the wedding season, and the traditional garments a community lives its life in.</p>
       </div>
     </div>
   </section>
@@ -45,7 +45,7 @@ const fmt = (d) => d.toLocaleDateString('en-US', { month: 'long', day: 'numeric'
             <span style="background: var(--navy-deep);">Enough reading</span>
           </div>
           <h2 class="h-1">Begin with a <em>conversation.</em></h2>
-          <p class="lede" style="margin-top: 24px;">The first fitting costs nothing. Bring a jacket you love — or one you don't. We'll find out which.</p>
+          <p class="lede" style="margin-top: 24px;">The first fitting costs nothing. Bring a jacket you love, or one you don't. We'll find out which.</p>
         </div>
         <div class="actions">
           <a href="/book" class="btn is-primary" data-open-booking data-no-transition>Book a Fitting</a>

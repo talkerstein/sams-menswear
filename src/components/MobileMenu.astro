@@ -22,7 +22,7 @@ const houses = [
   <nav class="mobile-menu__houses" aria-label="Mobile primary">
     {houses.map((h) => (
       <a href={h.href} class="mm-house">
-        <span class="mm-house__img"><img src={h.img} alt={`${h.t} — ${h.d}`} width="112" height="134" loading="lazy"/></span>
+        <span class="mm-house__img"><img src={h.img} alt={`${h.t}: ${h.d}`} width="112" height="134" loading="lazy"/></span>
         <span class="mm-house__body">
           <span class="mm-house__t">{h.t}</span>
           <span class="mm-house__d">{h.d}</span>

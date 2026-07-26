@@ -4,8 +4,8 @@ import { reviews, reviewAggregate, reviewSchema } from '../data/reviews.js';
 const origin = Astro.site?.href?.replace(/\/$/, '') || 'https://customsuitandshirt.com';
 ---
 <BaseLayout
-  title="Reviews — Sam's Menswear · 4.7★ on Google · Vaughan"
-  description="Real Google reviews for Sam's Menswear — grooms, fathers and sons, and off-the-rack converts on the fit, honesty and ahead-of-schedule delivery."
+  title="Reviews · Sam's Menswear · 4.7★ on Google · Vaughan"
+  description="Real Google reviews for Sam's Menswear: grooms, fathers and sons, and off-the-rack converts on the fit, the straight talk and ahead-of-schedule delivery."
 >
   <section class="page-hero">
     <div class="container">
@@ -17,7 +17,7 @@ const origin = Astro.site?.href?.replace(/\/$/, '') || 'https://customsuitandshi
           <strong>{reviewAggregate.ratingValue}</strong> average · {reviewAggregate.reviewCount}+ Google reviews
           <a href={reviewAggregate.sourceUrl} target="_blank" rel="noopener" data-no-transition>Read them on Google →</a>
         </div>
-        <p class="lede" style="margin-top: 22px;">These are real, Google-verified reviews — grooms who found Sam weeks before the wedding, fathers ordering with their sons, and men who'd given up on off-the-rack. The words are theirs.</p>
+        <p class="lede" style="margin-top: 22px;">These are real, Google-verified reviews: grooms who found Sam weeks before the wedding, fathers ordering with their sons, and men who'd given up on off-the-rack. The words are theirs.</p>
       </div>
     </div>
   </section>
@@ -78,7 +78,7 @@ const origin = Astro.site?.href?.replace(/\/$/, '') || 'https://customsuitandshi
             <span style="background: var(--navy-deep);">Your turn</span>
           </div>
           <h2 class="h-1">Join them at the <em>bench.</em></h2>
-          <p class="lede" style="margin-top: 24px;">The first fitting is free and unhurried — at the Vaughan studio, or Sam comes to you. Design your suit first if you like.</p>
+          <p class="lede" style="margin-top: 24px;">The next review on this page could be yours. Book a fitting at the Vaughan studio, or have Sam come to you; design your suit first if you like.</p>
         </div>
         <div class="actions">
           <a href="/book" class="btn is-primary" data-open-booking data-no-transition>Book a Fitting</a>

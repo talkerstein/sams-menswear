@@ -12,23 +12,23 @@ const breadcrumb = {
 };
 const collection = {
   '@context': 'https://schema.org', '@type': 'CollectionPage',
-  name: 'The Almanac — Tales from the Fitting Room',
-  description: 'Composite fitting-room tales — names invented, details blurred — drawn from thirty years of patterns seen at a tailor\'s bench in Vaughan.',
+  name: 'The Almanac: Tales from the Fitting Room',
+  description: 'Composite fitting-room tales, names invented and details blurred, drawn from thirty years of patterns seen at a tailor\'s bench in Vaughan.',
   isPartOf: { '@id': site + '/#website' },
   // NO author field: these are disclosed composite tales. Never attach the
   // #sam Person (or any Review/Testimonial schema) to fiction — council ruling.
 };
 ---
 <BaseLayout
-  title="The Almanac — Tales from the Fitting Room | Sam's Menswear"
-  description="Composite tales from thirty years at a tailor's bench in Vaughan — rental disasters, last-minute panics, weddings saved and quiet triumphs. Names invented, lessons real."
+  title="The Almanac · Tales from the Fitting Room | Sam's Menswear"
+  description="Composite tales from thirty years at a tailor's bench in Vaughan: rental disasters, last-minute panics, weddings saved and quiet triumphs. Names invented, lessons real."
 >
   <section class="page-hero">
     <div class="container">
       <div data-reveal style="max-width: 52rem;">
         <div class="eyebrow-rule">The Studio · The Almanac</div>
         <h1>Tales from the <em>fitting room.</em></h1>
-        <p class="lede">Thirty years at the bench leaves you with stories — the grooms who left it too late, the rentals that fit nobody, the suit that finally fit a man who'd given up, the wedding saved with days to spare. Here are {count} of them, told as composites: names invented, details blurred, lessons real.</p>
+        <p class="lede">Thirty years at the bench leaves you with stories. The grooms who left it too late, the rentals that fit nobody, the suit that finally fit a man who'd given up, the wedding saved with days to spare. Here are {count} of them, told as composites: names invented, details blurred, lessons real.</p>
         <p class="almanac-note">{almanacDisclaimer}</p>
       </div>
     </div>
@@ -39,7 +39,7 @@ const collection = {
       <div class="almanac-grid" data-reveal-stagger>
         {themes.map((t, i) => (
           <a class="almanac-card" href={`/almanac/${t.slug}`}>
-            <div class="almanac-card__img"><img src={`/media/art/almanac-${t.slug}.webp`} alt={`Chapter illustration — ${t.title}`} loading="lazy"/></div>
+            <div class="almanac-card__img"><img src={`/media/art/almanac-${t.slug}.webp`} alt={`Chapter illustration: ${t.title}`} loading="lazy"/></div>
             <div class="almanac-card__body">
               <div class="almanac-card__num">Chapter {String(i + 1).padStart(2, '0')}</div>
               <div class="almanac-card__title">{t.title}</div>

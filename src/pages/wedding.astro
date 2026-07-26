@@ -9,7 +9,7 @@ const weddingFaqs = faqs.filter((f) => f.cat === 'Weddings');
 
 const site = 'https://customsuitandshirt.com';
 const gta = ['Vaughan', 'Thornhill', 'Toronto', 'North York', 'Richmond Hill', 'Markham', 'Woodbridge'];
-// Service node — provided by the #business, served across the GTA.
+// Service node, provided by the #business, served across the GTA.
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
@@ -19,13 +19,13 @@ const serviceSchema = {
   provider: { '@id': `${site}/#business` },
   areaServed: gta.map((c) => ({ '@type': 'City', name: c })),
   url: `${site}/wedding`,
-  description: 'Bespoke wedding suits and tuxedos for the groom, groomsmen and both fathers — measured personally by Sam and coordinated as one tailored party. Made to fit, never rented.',
+  description: 'Bespoke wedding suits and tuxedos for the groom, groomsmen and both fathers, measured personally by Sam and coordinated as one party. Made to fit, never rented.',
 };
 ---
 <BaseLayout
   nav="wedding"
-  title="Wedding Suits & Tuxedos — Vaughan, Thornhill & the GTA"
-  description="Custom wedding suits and tuxedos for the groom, groomsmen and fathers — measured personally by Sam in Vaughan, Thornhill and across the GTA. Made to fit, never rented."
+  title="Wedding Suits & Tuxedos · Vaughan, Thornhill & the GTA"
+  description="Custom wedding suits and tuxedos for the groom, groomsmen and fathers, measured personally by Sam in Vaughan, Thornhill and across the GTA. Made to fit, never rented."
 >
 
   <!-- PAGE HERO -->
@@ -34,7 +34,7 @@ const serviceSchema = {
       <div data-reveal>
         <div class="eyebrow-rule">House № 01 &middot; Wedding</div>
         <h1>The suit he <em>will be remembered in.</em></h1>
-        <p class="lede">A wedding suit is the single most photographed garment of a man's life. Sam draws each one personally — lapel, cuff, button-stance and lining — from the groom's first measure to the groomsmen's last fitting.</p>
+        <p class="lede">A wedding suit is the single most photographed garment of a man's life. Sam draws each one personally: lapel, cuff, button-stance and lining, from the groom's first measure to the groomsmen's last fitting.</p>
         <div class="hero-cta-row">
           <a href="/book" class="btn is-primary" data-open-booking data-no-transition>Book a Fitting</a>
           <a href="tel:+16474580711" class="hero-cta-call" data-no-transition>or call 647 · 458 · 0711</a>
@@ -52,7 +52,7 @@ const serviceSchema = {
         <div>
           <h2 class="h-2" style="text-transform: uppercase;">A wedding party, <em style="font-style: italic; font-weight: 400; text-transform: none; color: var(--oxblood);">cut from one&nbsp;hand.</em></h2>
           <p class="body-prose" style="margin-top: 24px;">
-            The groom is the lead, but never the only one drawn. Sam fits the father of the groom, the father of the bride, the brothers, the best man, and the ring-bearer — measuring all of them against the same notebook, so the wedding photographs read as one tailored line.
+            The groom is the lead, but never the only one drawn. Sam fits the father of the groom, the father of the bride, the brothers, the best man, and the ring-bearer, measuring all of them against the same notebook, so the group photograph holds together: one cloth run, matching lapels, every shoulder sitting where it should.
           </p>
           <p class="body-prose" style="margin-top: 18px;">
             Tuxedos in midnight wool with satin peak lapels. Three-piece suits in deep navy, charcoal, oxblood, or hunter green. Morning coats for the traditional. Cummerbunds, waistcoats, bow ties and braces, all from the house cloth.
@@ -89,7 +89,7 @@ const serviceSchema = {
         <div class="swatch swatch--cream"><div class="swatch__meta">Linen / silk</div><div class="swatch__name">Ivory Dinner</div></div>
         <div class="swatch swatch--check swatch--dark"><div class="swatch__meta">Glen check</div><div class="swatch__name">Country Estate</div></div>
       </div>
-      <p class="chapter-no" style="margin-top: 24px; text-align: center;">— Scroll for more —</p>
+      <p class="chapter-no" style="margin-top: 24px; text-align: center;">&middot; Scroll for more &middot;</p>
     </div>
   </section>
 
@@ -129,22 +129,22 @@ const serviceSchema = {
         <div>
           <div class="feature-num">№ I</div>
           <h3 class="h-3">Personal consultation</h3>
-          <p class="body-prose" style="margin-top: 12px;">A long, unhurried conversation about the wedding — the venue, the season, the colour story, the bride's gown, the photographs you want in twenty years.</p>
+          <p class="body-prose" style="margin-top: 12px;">A proper sit-down about the wedding: the venue, the season, the colour story, the bride's gown, the photographs you want in twenty years.</p>
         </div>
         <div>
           <div class="feature-num">№ II</div>
           <h3 class="h-3">Twenty-six measurements</h3>
-          <p class="body-prose" style="margin-top: 12px;">Taken in person by Sam. Re-checked at each fitting. Your suit is made to those numbers — not pulled from a rack, not sized to an average.</p>
+          <p class="body-prose" style="margin-top: 12px;">Taken in person by Sam. Re-checked at each fitting. Your suit is made to those numbers, not pulled from a rack or sized to an average.</p>
         </div>
         <div>
           <div class="feature-num">№ III</div>
           <h3 class="h-3">Three fittings</h3>
-          <p class="body-prose" style="margin-top: 12px;">Basted, intermediate, and final. The garment learns the shape of you across each one. Tiny corrections — drop of shoulder, sleeve pitch, trouser break — are made by hand.</p>
+          <p class="body-prose" style="margin-top: 12px;">Basted, intermediate, and final. The garment learns the shape of you across each one. Tiny corrections (drop of shoulder, sleeve pitch, trouser break) are made by hand.</p>
         </div>
         <div>
           <div class="feature-num">№ IV</div>
           <h3 class="h-3">Groomsmen co‑ordinated</h3>
-          <p class="body-prose" style="margin-top: 12px;">Up to ten groomsmen drawn from the same fabric run, with consistent lapel, button and pocket detail so the wedding line reads as one tailored party.</p>
+          <p class="body-prose" style="margin-top: 12px;">Up to ten groomsmen drawn from the same fabric run, with consistent lapel, button and pocket detail, so the whole row looks planned to the last button.</p>
         </div>
         <div>
           <div class="feature-num">№ V</div>
@@ -171,7 +171,7 @@ const serviceSchema = {
       </div>
 
       <p class="body-prose" data-reveal style="max-width: 58ch; margin-bottom: 40px; font-size: 20px;">
-        A rental feels cheaper on the day. Then the photos come back. A tuxedo or suit rental is cut for the average of every man who wore it before you — and on the most photographed day of your life, the camera sees every compromise. Here's the honest comparison.
+        A rental feels cheaper on the day. Then the photos come back. A tuxedo or suit rental is cut for the average of every man who wore it before you, and every compromise ends up in the album your family keeps forever. Here's the comparison, line by line.
       </p>
 
       <div class="feature-grid cols-2" data-reveal-stagger>
@@ -179,10 +179,10 @@ const serviceSchema = {
           <div class="feature-num" style="color: var(--ink-mute);">The rental</div>
           <h3 class="h-3" style="margin-bottom: 16px;">What you actually get</h3>
           <ul class="prose-list">
-            <li>Cut for a crowd, adjusted toward you — never truly your fit.</li>
+            <li>Cut for a crowd and adjusted toward you. Never truly your fit.</li>
             <li>The same handful of styles half the season's weddings wear.</li>
             <li>Day-of risk: wrong size shipped, last wearer's stain, no time to fix it.</li>
-            <li>A few hundred dollars for one night — and you keep nothing.</li>
+            <li>A few hundred dollars for one night, and you keep nothing.</li>
             <li>No tailor of your own when something goes wrong.</li>
           </ul>
         </div>
@@ -190,22 +190,22 @@ const serviceSchema = {
           <div class="feature-num" style="color: var(--oxblood);">Made by Sam</div>
           <h3 class="h-3" style="margin-bottom: 16px;">What you keep</h3>
           <ul class="prose-list">
-            <li>Built to your twenty-six measurements — the shoulders are yours.</li>
+            <li>Built to your twenty-six measurements. The shoulders are yours.</li>
             <li>Your cloth, your lapel, your details. One of one.</li>
             <li>Three fittings and a tailor on call right up to the morning of.</li>
-            <li>Yours forever — worn again at every event after the wedding.</li>
+            <li>Yours forever, worn again at every event after the wedding.</li>
             <li>Divided across those wears, it costs less than renting twice.</li>
           </ul>
         </div>
       </div>
 
       <p data-reveal style="margin-top: 36px;">
-        <a href="/guides/custom-vs-rental-wedding-suit" style="font-family: var(--serif); font-style: italic; letter-spacing: 0.18em; text-transform: uppercase; font-size: 14px; color: var(--ink); border-bottom: 1px solid var(--rule-strong); padding-bottom: 2px;">Read the honest custom-vs-rental math&nbsp;&nbsp;&rarr;</a>
+        <a href="/guides/custom-vs-rental-wedding-suit" style="font-family: var(--serif); font-style: italic; letter-spacing: 0.18em; text-transform: uppercase; font-size: 14px; color: var(--ink); border-bottom: 1px solid var(--rule-strong); padding-bottom: 2px;">Read the custom-vs-rental math&nbsp;&nbsp;&rarr;</a>
       </p>
     </div>
   </section>
 
-  <!-- THE HALLS (honest venue band — clients marry there; no venue relationship claimed) -->
+  <!-- THE HALLS (venue band: clients marry there; no venue relationship claimed) -->
   <section class="section tight">
     <div class="container">
       <div class="section-head" data-reveal>
@@ -214,7 +214,7 @@ const serviceSchema = {
         <div class="right">The halls our grooms walk into</div>
       </div>
       <p class="body-prose" data-reveal style="max-width: 58ch; font-size: 19px;">
-        We don't book the hall — your family does that. But season after season, the grooms measured in this studio walk into the same rooms:
+        We don't book the hall; your family does that. But season after season, the grooms measured in this studio walk into the same rooms:
       </p>
       <div class="wed-venues" data-reveal>
         <span class="wed-venue">Bellvue Manor<em>Vaughan</em></span>
@@ -224,7 +224,7 @@ const serviceSchema = {
         <span class="wed-venue">The Old Mill<em>Toronto</em></span>
       </div>
       <p class="wed-venues-note" data-reveal>
-        — and the hall you've booked. Wherever the wedding is, the fitting travels: the studio in Vaughan, or a house call anywhere in the GTA. We don't work with the venues; we make sure you outdress them.
+        And the hall you've booked. Wherever the wedding is, the fitting travels: the studio in Vaughan, or a house call anywhere in the GTA. We don't work with the venues; we make sure you outdress them.
       </p>
     </div>
   </section>
@@ -259,7 +259,7 @@ const serviceSchema = {
         <a class="wed-guide" href="/guides/the-custom-tuxedo">
           <span class="wed-guide__k">Tuxedos</span>
           <span class="wed-guide__t">The custom tuxedo</span>
-          <span class="wed-guide__d">Why a tuxedo is the last thing you should rent — and what a made one gets you.</span>
+          <span class="wed-guide__d">Why a tuxedo is the last thing you should rent, and what a made one gets you.</span>
         </a>
         <a class="wed-guide" href="/guides/coordinating-groomsmen">
           <span class="wed-guide__k">Groomsmen</span>
@@ -269,12 +269,12 @@ const serviceSchema = {
         <a class="wed-guide" href="/guides/father-of-the-bride-and-groom-suit">
           <span class="wed-guide__k">The Fathers</span>
           <span class="wed-guide__t">Father of the bride &amp; groom</span>
-          <span class="wed-guide__d">How to dress the dads and fathers-in-law so the family photos read as one line.</span>
+          <span class="wed-guide__d">How to dress the dads and fathers-in-law so they look like part of the party, not guests at it.</span>
         </a>
         <a class="wed-guide" href="/guides/black-tie-wedding-attire">
           <span class="wed-guide__k">Dress Codes</span>
           <span class="wed-guide__t">Black tie, decoded</span>
-          <span class="wed-guide__d">What black tie, black tie optional and formal actually mean — and how to nail each.</span>
+          <span class="wed-guide__d">What black tie, black tie optional and formal actually mean, and how to nail each.</span>
         </a>
         <a class="wed-guide" href="/guides/wedding-suit-timeline">
           <span class="wed-guide__k">Timeline</span>
@@ -285,7 +285,7 @@ const serviceSchema = {
 
       <div data-reveal style="max-width: 760px; margin-top: 64px;">
         <div class="eyebrow-rule">Wedding questions</div>
-        <h3 class="h-2" style="margin-bottom: 24px;">Grooms, groomsmen &amp; fathers — <em>answered.</em></h3>
+        <h3 class="h-2" style="margin-bottom: 24px;">Grooms, groomsmen &amp; fathers, <em>answered.</em></h3>
         <FaqBlock items={weddingFaqs} />
       </div>
     </div>
@@ -302,10 +302,10 @@ const serviceSchema = {
       <div class="feature-grid cols-2" data-reveal>
         <div>
           <p class="body-prose" style="font-size: 19px;">
-            Coordinating five men and two fathers is a project — unless one tailor measures all of them against the same notebook. Tell us the date and the size of the party, and Sam calls you back to plan it: one group fitting at the studio, or a house call where everyone already is. Out-of-town groomsmen get a measuring guide and a video walkthrough, then a fitting when they land.
+            Coordinating five men and two fathers is a project, unless one tailor measures all of them against the same notebook. Tell us the date and the size of the party, and Sam calls you back to plan it: one group fitting at the studio, or a house call where everyone already is. Out-of-town groomsmen get a measuring guide and a video walkthrough, then a fitting when they land.
           </p>
           <p class="body-prose" style="margin-top: 16px; font-size: 17px; color: var(--ink-mute);">
-            No obligation — the planning conversation is free, like every first consultation. Every man in the party gets a firm, per-man price before anything is cut.
+            The planning conversation is free, like every first consultation, and every man in the party gets a firm, per-man price before anything is cut.
           </p>
         </div>
         <div class="dz-lead" style="margin-top: 0;">
@@ -320,15 +320,15 @@ const serviceSchema = {
             <label class="dz-when" style="grid-column: 1 / -1;">How many are we dressing?
               <select name="partysize" aria-label="Party size">
                 <option value="groom">Just the groom (for now)</option>
-                <option value="2-4">2–4 — groom &amp; a few</option>
-                <option value="5-7" selected>5–7 — the party &amp; a father</option>
-                <option value="8+">8+ — the whole line, both fathers</option>
+                <option value="2-4">2–4 · groom &amp; a few</option>
+                <option value="5-7" selected>5–7 · the party &amp; a father</option>
+                <option value="8+">8+ · the whole line, both fathers</option>
               </select>
             </label>
             <label class="dz-when" style="grid-column: 1 / -1;">Any groomsmen out of town?
               <select name="outoftown" aria-label="Out of town groomsmen">
-                <option value="no">No — everyone's local</option>
-                <option value="yes">Yes — some fly in</option>
+                <option value="no">No, everyone's local</option>
+                <option value="yes">Yes, some fly in</option>
               </select>
             </label>
             <input type="text" name="company" class="dz-hp" tabindex="-1" autocomplete="off" aria-hidden="true"/>
@@ -336,7 +336,7 @@ const serviceSchema = {
           </form>
           <div class="dz-ack" data-party-ack hidden>
             <div class="dz-ack-seal">✓</div>
-            <p data-party-lead><strong>Got it.</strong> Sam will call to plan the party fitting — <span data-party-summary></span>.</p>
+            <p data-party-lead><strong>Got it.</strong> Sam will call to plan the party fitting: <span data-party-summary></span>.</p>
             <p class="dz-fallback" data-party-fallback hidden style="font-size:14px;"></p>
           </div>
         </div>
@@ -354,7 +354,7 @@ const serviceSchema = {
           </div>
           <h2 class="h-1">Begin a <em>wedding fitting.</em></h2>
           <p class="lede" style="margin-top: 24px;">
-            First consultations are usually 9–12 months before the wedding. Bring a photograph of the bride's gown, the venue, and any suit you've loved — or none of those things, and we'll start from a blank page.
+            First consultations are usually 9–12 months before the wedding. Bring a photograph of the bride's gown, the venue, and any suit you've loved. Or bring none of those things, and we'll start from a blank page.
           </p>
         </div>
         <div class="actions">
@@ -385,7 +385,7 @@ const serviceSchema = {
       let urgency = 'nurture';
       if (weddingdate) {
         const days = Math.round((new Date(weddingdate) - new Date()) / 86400000);
-        urgency = days <= 90 ? 'HOT — call now' : days <= 270 ? 'warm' : 'nurture';
+        urgency = days <= 90 ? 'HOT: call now' : days <= 270 ? 'warm' : 'nurture';
       }
       const size = { 'groom': 'groom only', '2-4': 'party of 2-4', '5-7': 'party of 5-7', '8+': 'party of 8+' }[partysize] || partysize;
       const summary = size + (weddingdate ? ', wedding ' + weddingdate : '') + (outoftown === 'yes' ? ', out-of-town groomsmen' : '');
@@ -401,11 +401,11 @@ const serviceSchema = {
       const sum = document.querySelector('[data-party-summary]');
       if (sum) sum.textContent = summary;
       if (!result.ok && window.SamsLead) {
-        // Honest fallback: we did NOT reach Sam automatically — offer the direct paths.
+        // Fallback: we did NOT reach Sam automatically, so offer the direct paths.
         const lead = document.querySelector('[data-party-lead]');
-        if (lead) lead.innerHTML = '<strong>Almost there.</strong> One tap reaches Sam directly — <span>' + summary + '</span>';
-        const wa = window.SamsLead.whatsapp('Hi Sam — wedding party booking: ' + summary + '. — ' + name + ', ' + phone);
-        const mail = window.SamsLead.mailto('Wedding party booking — ' + name, { Name: name, Phone: phone, Email: email, 'Wedding date': weddingdate, Party: size, 'Out-of-town': outoftown });
+        if (lead) lead.innerHTML = '<strong>Almost there.</strong> One tap reaches Sam directly: <span>' + summary + '</span>';
+        const wa = window.SamsLead.whatsapp('Hi Sam, wedding party booking: ' + summary + '. From ' + name + ', ' + phone);
+        const mail = window.SamsLead.mailto('Wedding party booking from ' + name, { Name: name, Phone: phone, Email: email, 'Wedding date': weddingdate, Party: size, 'Out-of-town': outoftown });
         const fb = document.querySelector('[data-party-fallback]');
         if (fb) { fb.innerHTML = 'Reach Sam right now: <a href="' + wa + '" target="_blank" rel="noopener">WhatsApp the details</a>, <a href="' + mail + '">email them</a>, or <a href="tel:' + window.SamsLead.PHONE + '">call ' + window.SamsLead.PHONE_DISP + '</a>.'; fb.hidden = false; }
       }

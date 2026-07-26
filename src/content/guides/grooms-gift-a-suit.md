@@ -1,7 +1,7 @@
 ---
 title: "A Groom's Gift: the Wedding Suit, Given"
 description: "Give the groom his wedding suit as a gift he keeps for life, a made-to-measure suit fitted by Sam across the GTA."
-tldr: "Yes, you can gift the groom his wedding suit — a made-to-measure suit fitted by Sam. You reserve it, he books his own fitting, and it is drafted to his exact measurements. Unlike a rental that goes back the next day, he wears it down the aisle and keeps it for years after."
+tldr: "Yes, you can gift the groom his wedding suit: a made-to-measure suit fitted by Sam. You reserve it, he books his own fitting, and it is drafted to his exact measurements. Unlike a rental that goes back the next day, he wears it down the aisle and keeps it for years after."
 pillar: "Gifting"
 pillarHref: "/gift"
 eyebrow: "Gifting"
@@ -36,7 +36,7 @@ The fitting itself is part of the gift. The groom comes to Sam's studio in Vaugh
 
 ## "Is it too expensive, or too impersonal?"
 
-Neither, when you set it up right. You never have to name a number to him. The value is settled privately with Sam, and the gift can be an open-value certificate, so the price stays between you and the shop. If you're weighing what a custom suit runs, [here's an honest look at the cost](/guides/what-a-custom-suit-costs).
+Neither, when you set it up right. You never have to name a number to him. The value is settled privately with Sam, and the gift can be an open-value certificate, so the price stays between you and the shop. If you're weighing what a custom suit runs, [here's a straight look at the cost](/guides/what-a-custom-suit-costs).
 
 As for impersonal, this is the opposite. You're not buying an object off a shelf, you're giving him an experience, hours with a master tailor choosing cloth and lining, and something made only for him. Be honest with yourself about the timeline, though: a bespoke suit takes weeks, not days. Give the gift with enough runway before the wedding, and the wait becomes part of the anticipation.
 

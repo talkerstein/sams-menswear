@@ -11,7 +11,7 @@ const { loc } = Astro.props;
 const site = 'https://customsuitandshirt.com';
 const intro = Array.isArray(loc.intro) ? loc.intro : (loc.intro ? [loc.intro] : []);
 
-// Breadcrumb schema — Home › Locations › City
+// Breadcrumb schema: Home › Locations › City
 const breadcrumb = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -22,7 +22,7 @@ const breadcrumb = {
   ],
 };
 
-// Per-city Service schema — local signal, provided by the business, served in this city.
+// Per-city Service schema: local signal, provided by the business, served in this city.
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
@@ -38,7 +38,7 @@ const serviceSchema = {
   description: loc.blurb,
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
-    name: `Sam's Menswear — ${loc.city}`,
+    name: `Sam's Menswear · ${loc.city}`,
     itemListElement: (loc.services || []).map((s) => ({
       '@type': 'Offer',
       itemOffered: { '@type': 'Service', name: s },
@@ -47,7 +47,7 @@ const serviceSchema = {
 };
 ---
 <BaseLayout
-  title={loc.metaTitle || `Custom Suits in ${loc.city} — Sam's Menswear`}
+  title={loc.metaTitle || `Custom Suits in ${loc.city} · Sam's Menswear`}
   description={loc.metaDesc || `${loc.headline} ${loc.blurb}`}
 >
   <section class="page-hero">
@@ -73,7 +73,7 @@ const serviceSchema = {
             <a href="/wedding" style="color: var(--ink); border-bottom: 1px solid var(--rule);">wedding suits &amp; tuxedos</a>,
             <a href="/business" style="color: var(--ink); border-bottom: 1px solid var(--rule);">business suits</a>,
             <a href="/custom" style="color: var(--ink); border-bottom: 1px solid var(--rule);">custom shirts</a> and
-            <a href="/traditional" style="color: var(--ink); border-bottom: 1px solid var(--rule);">traditional menswear</a> —
+            <a href="/traditional" style="color: var(--ink); border-bottom: 1px solid var(--rule);">traditional menswear</a>,
             all measured personally.
           </p>
 
@@ -108,7 +108,7 @@ const serviceSchema = {
           <a href="/book" class="btn is-dark" style="margin-top: 32px; color: var(--ink); border-color: var(--ink);" data-open-booking data-no-transition>Book a Fitting</a>
         </div>
 
-        <div class="visit-map" aria-label={`Map — serving ${loc.city}`}>
+        <div class="visit-map" aria-label={`Map: serving ${loc.city}`}>
           <svg viewBox="0 0 400 320" preserveAspectRatio="xMidYMid slice" style="width:100%; height:100%; display:block;">
             <defs>
               <pattern id="grid-loc" width="22" height="22" patternUnits="userSpaceOnUse">
@@ -144,7 +144,7 @@ const serviceSchema = {
     <section class="section tight">
       <div class="container">
         <div data-reveal style="max-width: 760px;">
-          <div class="eyebrow-rule">{loc.city} — good to know</div>
+          <div class="eyebrow-rule">{loc.city} · good to know</div>
           <h2 class="h-2" style="margin-bottom: 24px;">Questions from <em>{loc.city}</em> clients</h2>
           <FaqBlock items={loc.faqs} />
         </div>

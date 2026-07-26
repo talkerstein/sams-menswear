@@ -1,7 +1,7 @@
 ---
 title: "You have no idea what you’re doing? Start here"
 description: "Never bought a suit and getting married? A calm, step-by-step beginner's guide to choosing a wedding suit: colour, fit, fabric, timeline, and custom vs rental."
-tldr: "Never bought a suit? Pick navy, get the fit right, and start 4 to 6 months out — that is the whole game. A tailor handles the rest, so you never need to know what a notch lapel is. For your own wedding, most grooms want custom over rental."
+tldr: "Never bought a suit? Pick navy, get the fit right, and start 4 to 6 months out. That is the whole game. A tailor handles the rest, so you never need to know what a notch lapel is. For your own wedding, most grooms want custom over rental."
 pillar: "Weddings"
 pillarHref: "/wedding"
 eyebrow: "Weddings"
@@ -33,9 +33,9 @@ Navy works at every venue, in every season, in every photo, and you'll wear it a
 
 Want a little personality without gambling? These are all trending and still safe in 2026:
 
-- **Deep green (forest/emerald)** — great for autumn, winter, barn and countryside weddings
-- **Burgundy** — warm, distinctive, photographs beautifully
-- **Midnight blue** — reads like navy but richer under evening lights
+- **Deep green (forest/emerald)**: great for autumn, winter, barn and countryside weddings
+- **Burgundy**: warm, distinctive, photographs beautifully
+- **Midnight blue**: reads like navy but richer under evening lights
 
 Rule of thumb: darker and richer for autumn and winter, lighter and warmer for spring and summer. If you're overwhelmed, navy ends the debate.
 
@@ -57,11 +57,11 @@ Why so early? A custom suit isn't printed on demand. There's the consultation, t
 
 Quick reality check on timing:
 
-- **4–6 months out** — ideal. Room for choices, fittings, zero panic.
-- **2–3 months out** — still workable for most made-to-measure suits.
-- **Under 6 weeks** — possible, but your options narrow and cost climbs.
+- **4–6 months out**: ideal. Room for choices, fittings, zero panic.
+- **2–3 months out**: still workable for most made-to-measure suits.
+- **Under 6 weeks**: possible, but your options narrow and cost climbs.
 
-Even if your date is close, come talk to us. We've dressed a lot of grooms on a tight clock. [Book a fitting](/book) and we'll tell you honestly what's doable.
+Even if your date is close, come talk to us. We've dressed a lot of grooms on a tight clock. [Book a fitting](/book) and we'll tell you straight what's doable.
 
 ## What fabric should I choose?
 
@@ -81,8 +81,8 @@ If you've got groomsmen to coordinate too, [coordinating groomsmen](/guides/coor
 
 ## So what's my actual first step?
 
-Book a free first fitting. No commitment, no jargon quiz, no pressure. You sit down, we talk through your date and venue, you feel some cloth, and you leave knowing exactly what your suit will be.
+Book a fitting with your date and a photo of the venue. You sit down, we talk through what the day looks like, you feel some cloth, and you leave knowing exactly what your suit will be. No jargon quiz.
 
-Thirty-plus years on the bench here in Vaughan, on the Thornhill line, serving grooms across the GTA — Toronto, Thornhill, North York, Richmond Hill, Markham. We've made this easy for a lot of guys who walked in exactly as lost as you feel right now.
+Thirty-plus years on the bench here in Vaughan, on the Thornhill line, serving grooms across the GTA: Toronto, Thornhill, North York, Richmond Hill, Markham. We've made this easy for a lot of guys who walked in exactly as lost as you feel right now.
 
-You don't need to know anything. That's what we're for. [Book your free first fitting](/book) or start playing with ideas at [the drawing board](/design) whenever you're ready.
+You don't need to know anything. That's what we're for. [Book your fitting](/book) or start playing with ideas at [the drawing board](/design) whenever you're ready.

@@ -11,7 +11,7 @@ faqCats: ["Care & the long run"]
 related: ["is-a-custom-suit-worth-it", "choosing-your-cloth", "how-a-suit-should-fit"]
 ---
 
-A well-made suit is built to last a decade. Whether it does is mostly down to how you treat it between wears — and almost none of it is dry-cleaning. Here are the habits that matter.
+A well-made suit is built to last a decade. Whether it does is mostly down to how you treat it between wears, and almost none of it is dry-cleaning. Here are the habits that matter.
 
 ## Rest it between wears
 
@@ -19,11 +19,11 @@ The single most important rule: **never wear the same suit two days running.** W
 
 ## Hang it right
 
-A **wide, shaped wooden hanger** — not a thin wire one — keeps the shoulders true. Hang trousers by the cuff or folded over a proper bar. Give the jacket room to breathe; a suit crushed in a packed closet holds the creases of its neighbours.
+A **wide, shaped wooden hanger** (not a thin wire one) keeps the shoulders true. Hang trousers by the cuff or folded over a proper bar. Give the jacket room to breathe; a suit crushed in a packed closet holds the creases of its neighbours.
 
 ## Brush, don't clean
 
-A soft **clothes brush** after each wear lifts out dust and city grime before it settles into the fibres. This does more for the life of a suit than dry-cleaning ever will — and it's thirty seconds.
+A soft **clothes brush** after each wear lifts out dust and city grime before it settles into the fibres. This does more for the life of a suit than dry-cleaning ever will, and it takes thirty seconds.
 
 ## Steam, don't press
 
@@ -31,10 +31,10 @@ A **steamer** relaxes wrinkles and refreshes the cloth without the harsh heat of
 
 ## Dry-clean rarely
 
-Dry-cleaning is hard on wool — the solvents strip the natural oils that give cloth its life. **Twice a year is plenty** for a regularly worn suit; spot-clean marks and steam out odours in between. Over-cleaning ages a suit faster than wearing it does.
+Dry-cleaning is hard on wool; the solvents strip the natural oils that give cloth its life. **Twice a year is plenty** for a regularly worn suit; spot-clean marks and steam out odours in between. Over-cleaning ages a suit faster than wearing it does.
 
 ## Fix small things early
 
-A loose button, a fraying thread, a lining nick — deal with it while it's small. That's part of what buying local gets you: bring it back and it gets sorted before it becomes a real repair. [Why owning one good suit beats three cheap ones →](/guides/is-a-custom-suit-worth-it)
+A loose button, a fraying thread, a lining nick: deal with it while it's small. That's part of what buying local gets you: bring it back and it gets sorted before it becomes a real repair. [Why owning one good suit beats three cheap ones →](/guides/is-a-custom-suit-worth-it)
 
-Looking after a suit I made you? Bring it by — [get in touch](/book).
+Looking after a suit I made you? Bring it by; [get in touch](/book).

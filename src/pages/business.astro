@@ -5,7 +5,7 @@ import { reviews } from '../data/reviews.js';
 
 const site = 'https://customsuitandshirt.com';
 const gta = ['Vaughan', 'Thornhill', 'Toronto', 'North York', 'Richmond Hill', 'Markham', 'Woodbridge'];
-// Service node — provided by the #business, served across the GTA.
+// Service node, provided by the #business, served across the GTA.
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
@@ -15,13 +15,13 @@ const serviceSchema = {
   provider: { '@id': `${site}/#business` },
   areaServed: gta.map((c) => ({ '@type': 'City', name: c })),
   url: `${site}/business`,
-  description: 'Made-to-measure business suits for the boardroom, Bay Street and the working week — navy, charcoal and glen check, cut personally by Sam for a wardrobe worn for years.',
+  description: 'Made-to-measure business suits for the boardroom, Bay Street and the working week: navy, charcoal and glen check, cut personally by Sam for a wardrobe worn for years.',
 };
 ---
 <BaseLayout
   nav="business"
-  title="Business Suits in Vaughan & the GTA — Sam's Menswear"
-  description="Custom business suits for the boardroom and Bay Street — navy, charcoal and glen check, cut personally by Sam in Vaughan and across Thornhill & the GTA. Made to fit."
+  title="Business Suits in Vaughan & the GTA · Sam's Menswear"
+  description="Custom business suits for the boardroom and Bay Street: navy, charcoal and glen check, cut personally by Sam in Vaughan and across Thornhill & the GTA. Made to fit."
 >
 
   <section class="page-hero">
@@ -34,7 +34,7 @@ const serviceSchema = {
           <a href="/book" class="btn is-primary" data-open-booking data-no-transition>Book a Fitting</a>
           <a href="tel:+16474580711" class="hero-cta-call" data-no-transition>or call 647 · 458 · 0711</a>
         </div>
-        <p class="cta-trust">★ 4.7 · 150+ Google reviews · First fitting free &amp; no-obligation · A firm price before a thread is cut</p>
+        <p class="cta-trust">★ 4.7 · 150+ Google reviews · First fitting free &amp; no-obligation · A firm price up front</p>
       </div>
     </div>
   </section>
@@ -46,12 +46,12 @@ const serviceSchema = {
           <h2 class="h-2" style="text-transform: uppercase;">The boardroom <em style="font-style: italic; font-weight: 400; text-transform: none; color: var(--oxblood);">cut for the body.</em></h2>
         </div>
         <div>
-          <p class="lede" style="margin-bottom: 24px;">Navy. Charcoal. Glen check. The grammar of a working wardrobe — and the grammar that, when correct, lets the wearer disappear into the work.</p>
+          <p class="lede" style="margin-bottom: 24px;">Navy. Charcoal. Glen check. The grammar of a working wardrobe, and the grammar that, when correct, lets the wearer disappear into the work.</p>
           <p class="body-prose">
-            A business suit is judged differently from a wedding suit. Nobody photographs it. Nobody compliments it directly. It earns its keep in the quiet weight it adds to a meeting, the way it sits on a man's shoulders when he stands up to speak, the way it travels in a carry-on without losing its shape.
+            A business suit is judged differently from a wedding suit. Nobody photographs it. Nobody compliments it directly. It earns its keep in the weight it lends a meeting, the way it sits on a man's shoulders when he stands up to speak, the way it travels in a carry-on without losing its shape.
           </p>
           <p class="body-prose" style="margin-top: 18px;">
-            Sam's house cuts a working suit closer to the English drape than the Italian sleek — a soft shoulder that won't fight a jacket-on-the-chair-back, room enough for a shirt cuff to show, trousers with a half break so the line of the body stays clean from heel to lapel.
+            Sam's house cuts a working suit closer to the English drape than the Italian sleek: a soft shoulder that won't fight a jacket-on-the-chair-back, room enough for a shirt cuff to show, trousers with a half break so the line of the body stays clean from heel to lapel.
           </p>
         </div>
       </div>
@@ -64,17 +64,17 @@ const serviceSchema = {
       <div class="section-head" data-reveal>
         <div class="chapter-no">The working world</div>
         <h2 class="h-1" style="text-transform: uppercase; max-width: 20ch;">Dressing for <em>your profession.</em></h2>
-        <div class="right">Seven fields · one honest tailor</div>
+        <div class="right">Seven fields · one tailor</div>
       </div>
-      <p class="body-prose" data-reveal style="max-width: 58ch; margin-bottom: 32px;">Every field reads a suit differently — what earns trust in a courtroom would overdo it on a sales call, and what works on Bay Street isn't what works showing houses all weekend. Here's how Sam dresses each.</p>
+      <p class="body-prose" data-reveal style="max-width: 58ch; margin-bottom: 32px;">Every field reads a suit differently. What earns trust in a courtroom would overdo it on a sales call, and what works on Bay Street isn't what works showing houses all weekend. Here's how Sam dresses each.</p>
       <div class="wed-guides" data-reveal-stagger>
-        <a class="wed-guide" href="/guides/dressing-for-senior-management"><span class="wed-guide__k">Senior Management</span><span class="wed-guide__t">Quiet authority</span><span class="wed-guide__d">Command the room without trying — better cloth, impeccable fit, nothing loud.</span></a>
+        <a class="wed-guide" href="/guides/dressing-for-senior-management"><span class="wed-guide__k">Senior Management</span><span class="wed-guide__t">Quiet authority</span><span class="wed-guide__d">Command the room without trying: better cloth, impeccable fit, nothing loud.</span></a>
         <a class="wed-guide" href="/guides/dressing-for-sales"><span class="wed-guide__k">Sales</span><span class="wed-guide__t">Sharp, never intimidating</span><span class="wed-guide__d">Credible and trusted without ever out-dressing the client.</span></a>
-        <a class="wed-guide" href="/guides/dressing-for-real-estate"><span class="wed-guide__k">Real Estate</span><span class="wed-guide__t">Polished &amp; mobile</span><span class="wed-guide__d">You are the brand — dressed to your market, built to move all day.</span></a>
-        <a class="wed-guide" href="/guides/dressing-for-finance"><span class="wed-guide__k">Finance</span><span class="wed-guide__t">Quietly expensive</span><span class="wed-guide__d">Understated, precise, hierarchy-aware — the Bay Street code.</span></a>
+        <a class="wed-guide" href="/guides/dressing-for-real-estate"><span class="wed-guide__k">Real Estate</span><span class="wed-guide__t">Polished &amp; mobile</span><span class="wed-guide__d">You are the brand: dressed to your market, built to move all day.</span></a>
+        <a class="wed-guide" href="/guides/dressing-for-finance"><span class="wed-guide__k">Finance</span><span class="wed-guide__t">Quietly expensive</span><span class="wed-guide__d">Understated, precise, hierarchy-aware. The Bay Street code.</span></a>
         <a class="wed-guide" href="/guides/dressing-for-law"><span class="wed-guide__k">Law</span><span class="wed-guide__t">Authority &amp; credibility</span><span class="wed-guide__d">Reading the courtroom, the boardroom and the client, in cloth.</span></a>
         <a class="wed-guide" href="/guides/dressing-for-entrepreneurs"><span class="wed-guide__k">Entrepreneurs</span><span class="wed-guide__t">The founder's uniform</span><span class="wed-guide__d">One great suit that dresses up to pitch and down to build.</span></a>
-        <a class="wed-guide" href="/guides/dressing-for-medicine"><span class="wed-guide__k">Medicine</span><span class="wed-guide__t">Trust under the coat</span><span class="wed-guide__d">Clean, comfortable, built for a long day — patients notice.</span></a>
+        <a class="wed-guide" href="/guides/dressing-for-medicine"><span class="wed-guide__k">Medicine</span><span class="wed-guide__t">Trust under the coat</span><span class="wed-guide__d">Clean, comfortable, built for a long day. Patients notice.</span></a>
       </div>
     </div>
   </section>
@@ -110,7 +110,7 @@ const serviceSchema = {
             <span style="position: absolute; bottom: 12px; left: 12px; font-family: var(--serif); font-style: italic; color: var(--paper-cream); font-size: 13px; letter-spacing: 0.32em; text-transform: uppercase;">Wed</span>
           </div>
           <h3 class="h-4" style="text-transform: uppercase; color: var(--navy);">Glen Check</h3>
-          <p class="body-prose" style="font-size: 14px; line-height: 1.5;">Earned. Worn after partnership. Reads as quiet wealth, not as fashion.</p>
+          <p class="body-prose" style="font-size: 14px; line-height: 1.5;">Earned. Worn after partnership. Says establishment, not fashion.</p>
         </div>
 
         <div style="display: flex; flex-direction: column; gap: 14px;">
@@ -151,7 +151,7 @@ const serviceSchema = {
         <div>
           <div class="feature-num">№ II</div>
           <h3 class="h-3">A working sleeve</h3>
-          <p class="body-prose" style="margin-top: 12px;">Functional buttonholes — kissing or stacked. The sleeve hem cut to show a quarter-inch of shirt cuff when the arm is at rest.</p>
+          <p class="body-prose" style="margin-top: 12px;">Functional buttonholes, kissing or stacked. The sleeve hem cut to show a quarter-inch of shirt cuff when the arm is at rest.</p>
         </div>
         <div>
           <div class="feature-num">№ III</div>
@@ -182,18 +182,18 @@ const serviceSchema = {
     <div class="container">
       <div class="section-head" data-reveal>
         <div class="chapter-no">No. 04</div>
-        <h2 class="h-1" style="text-transform: uppercase; max-width: 22ch;">The lining — where a working suit <em>gets personal.</em></h2>
+        <h2 class="h-1" style="text-transform: uppercase; max-width: 22ch;">The lining: where a working suit <em>gets personal.</em></h2>
         <div class="right">Bemberg · cupro · your mark</div>
       </div>
 
       <div class="split wide-left" data-reveal>
         <div>
-          <p class="lede" style="margin-bottom: 20px;">The outside of a business suit should be quiet — navy, charcoal, nothing shouting across the boardroom. The inside is where it's allowed to have a private opinion. The lining is the one place a working man gets to be bold, because only he knows it's there.</p>
-          <p class="body-prose">We line in breathable <em>cupro</em> (Bemberg™) — a regenerated-cellulose lining that lets a suit vent through a long day instead of trapping the heat a synthetic would. Choose the mood: a deep oxblood, a hunter green, a midnight paisley, a quiet stripe, or a flash of colour that catches only when you reach for your phone.</p>
+          <p class="lede" style="margin-bottom: 20px;">The outside of a business suit should keep its voice down: navy, charcoal, nothing shouting across the boardroom. The inside is where it's allowed to have a private opinion. The lining is the one place a working man gets to be bold, because only he knows it's there.</p>
+          <p class="body-prose">We line in breathable <em>cupro</em> (Bemberg™), a regenerated-cellulose lining that lets a suit vent through a long day instead of trapping the heat a synthetic would. Choose the mood: a deep oxblood, a hunter green, a midnight paisley, a fine stripe, or a flash of colour that catches only when you reach for your phone.</p>
 
           <h3 class="h-3" style="text-transform: uppercase; color: var(--navy); margin-top: 34px;">Your monogram, woven in</h3>
           <p class="body-prose" style="margin-top: 12px;">
-            Over the inside breast pocket, we'll add your mark: your initials, a wedding date, a child's name, a family crest — or your own company's logo, embroidered or printed into the lining silk. A small, private signature that turns a suit from <em>a</em> suit into <em>yours</em>. It's the detail a man quietly shows a friend when he hangs his jacket on the back of a chair.
+            Over the inside breast pocket, we'll add your mark: your initials, a wedding date, a child's name, a family crest, or your own company's logo, embroidered or printed into the lining silk. A small, private signature that turns a suit from <em>a</em> suit into <em>yours</em>. It's the detail a man shows a friend, almost in passing, when he hangs his jacket on the back of a chair.
           </p>
           <ul class="prose-list" style="margin-top: 18px;">
             <li>Initials or a monogram over the breast pocket</li>
@@ -210,7 +210,7 @@ const serviceSchema = {
           <div class="lining-card" data-reveal>
             <div class="crop-marks"></div>
             <img src="/media/art/business-lining.webp" alt="Sketch of a navy jacket folded open on a valet stand, revealing a deep oxblood lining with Sam's cap-and-bow-tie mark embroidered in gold" width="900" height="1350" style="width:100%; height:auto; display:block;" loading="lazy"/>
-            <div class="lining-card__cap">The inside breast — your mark, your lining</div>
+            <div class="lining-card__cap">The inside breast: your mark, your lining</div>
           </div>
         </div>
       </div>
@@ -238,7 +238,7 @@ const serviceSchema = {
             <span style="background: var(--navy-deep);">Business consultations · Evening hours available</span>
           </div>
           <h2 class="h-1">Build a <em>working wardrobe.</em></h2>
-          <p class="lede" style="margin-top: 24px;">Most working men start with one suit and end with three. We can plan the rotation, the seasonal cloths, and the shirts to match — in a single seventy-minute conversation.</p>
+          <p class="lede" style="margin-top: 24px;">Most working men start with one suit and end with three. We can plan the rotation, the seasonal cloths, and the shirts to match, all in a single seventy-minute conversation.</p>
         </div>
         <div class="actions">
           <a href="/book" class="btn is-primary" data-open-booking data-no-transition>Book a Business Fitting</a>

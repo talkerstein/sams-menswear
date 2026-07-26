@@ -5,15 +5,15 @@ import { fabrics, categories, colours, tiers } from '../data/fabrics.js';
 const total = fabrics.length;
 ---
 <BaseLayout
-  title="The Cloth Library — Sam's Menswear · Vaughan"
-  description="Browse Sam's cloth library — worsteds, flannels, tweeds, tuxedo cloth, coatings and shirtings. Filter by colour, pattern and weight, then design your suit."
+  title="The Cloth Library · Sam's Menswear · Vaughan"
+  description="Browse Sam's cloth library: worsteds, flannels, tweeds, tuxedo cloth, coatings and shirtings. Filter by colour, pattern and weight, then design your suit."
 >
   <section class="page-hero">
     <div class="container">
       <div data-reveal>
         <div class="eyebrow-rule">The Studio &middot; Cloth</div>
         <h1>The <em>cloth library.</em></h1>
-        <p class="lede">A working selection of the cloths I reach for most — {total} of them, from house worsteds to English tweeds and tuxedo barathea. Filter to what you're after, then take it to the drawing board.</p>
+        <p class="lede">A working selection of the cloths I reach for most. {total} of them, from house worsteds to English tweeds and tuxedo barathea. Filter to what you're after, then take it to the drawing board.</p>
       </div>
     </div>
   </section>
@@ -74,7 +74,7 @@ const total = fabrics.length;
         ))}
       </div>
 
-      <p class="fab-empty" data-fab-empty hidden>No cloths match that — try clearing a filter.</p>
+      <p class="fab-empty" data-fab-empty hidden>No cloths match that. Try clearing a filter.</p>
     </div>
   </section>
 
@@ -87,7 +87,7 @@ const total = fabrics.length;
             <span style="background: var(--navy-deep);">Cloth is only half of it</span>
           </div>
           <h2 class="h-1">See it as a <em>suit.</em></h2>
-          <p class="lede" style="margin-top: 24px;">Pick a cloth, then design the jacket, lapel and lining on the drawing board — or bring the name to your fitting and we'll pull the real bolt.</p>
+          <p class="lede" style="margin-top: 24px;">Pick a cloth, then design the jacket, lapel and lining on the drawing board, or bring the name to your fitting and we'll pull the real bolt.</p>
         </div>
         <div class="actions">
           <a href="/design" class="btn is-primary">Open the drawing board</a>

@@ -50,7 +50,7 @@ const studio = [
 ---
 <header class="site-header" data-site-header>
   <div class="site-header__inner">
-    <a href="/" class="brand" aria-label="Sam's Menswear — Home">
+    <a href="/" class="brand" aria-label="Sam's Menswear, home">
       <svg class="brand__cap" viewBox="208.5 -10.6 302.5 152" aria-hidden="true"><path fill="currentColor" d="M276.366 2.81313C259.979 6.25528 245.053 13.1967 238.521 20.3952C224.898 35.435 216.533 67.5141 216.533 104.749C216.533 131.444 218.639 133.158 251.198 132.986C282.812 132.815 292.338 131.501 342.588 120.346C375.664 113.005 391.822 112.034 411.088 116.247C432.718 120.975 466.581 117.661 484.1 109.12C495.101 103.75 503.037 95.5798 503.023 89.6096C503.023 79.4403 493.669 71.2562 476.551 66.4144C463.831 62.8151 451.555 56.8306 444.292 50.689C426.129 35.3208 389.501 14.3822 371.868 9.26895C339.738 -0.0577107 302.107 -2.60005 276.366 2.81313Z"/></svg>
       Sam<span class="brand__ampersand">'s</span> Menswear
     </a>
@@ -98,7 +98,7 @@ const studio = [
         <div class="mega-tiles">
           {houses.map((h) => (
             <a class="mega-tile" href={h.href}>
-              <span class="mega-tile__img"><img src={h.img} alt={`${h.t} — ${h.d}`} width="220" height="330" loading="lazy"/></span>
+              <span class="mega-tile__img"><img src={h.img} alt={`${h.t}: ${h.d}`} width="220" height="330" loading="lazy"/></span>
               <span class="mega-tile__t">{h.t}</span>
               <span class="mega-tile__d">{h.d}</span>
             </a>
@@ -126,7 +126,7 @@ const studio = [
       </div>
       <div class="mega-col mega-cta">
         <div class="mega-h">Begin</div>
-        <p class="mega-cta__lede">A first fitting is unhurried, honest, and costs nothing.</p>
+        <p class="mega-cta__lede">Ninety minutes at the bench. It costs nothing, and you leave with a plan.</p>
         <a href="/book" class="btn is-primary" data-open-booking data-no-transition>Book a Fitting</a>
         <div class="mega-cta__trust">★ {reviewAggregate.ratingValue} · 150+ Google reviews</div>
         <a href="tel:+16474580711" class="mega-cta__call" data-no-transition>647 · 458 · 0711</a>

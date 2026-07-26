@@ -99,12 +99,12 @@
 
       <div class="sb-divider"></div>
       <div class="sb-summary" data-summary></div>
-      <div class="sb-footnote">Grayscale cloth shown — the fabric colour is chosen with Sam at your fitting.</div>
+      <div class="sb-footnote">Grayscale cloth shown. The fabric colour is chosen with Sam at your fitting.</div>
 
       <!-- ── Send the look to Sam (shared lead pipe) ─────────────────── -->
       <div class="sb-lead" data-lead>
         <h2 class="sb-lead-head">Send your look to Sam</h2>
-        <p class="sb-lead-copy">Sam will have your drawing in hand before you arrive — so the fitting starts from a spec, not a blank page. No obligation.</p>
+        <p class="sb-lead-copy">Sam will have your drawing in hand before you arrive, so the fitting starts from a spec, not a blank page. No obligation.</p>
         <form class="sb-form" data-look-form novalidate>
           <input type="text"  name="name"  placeholder="Your name" autocomplete="name" required />
           <input type="tel"   name="phone" placeholder="Phone (so Sam can call)" autocomplete="tel" />
@@ -118,7 +118,7 @@
         </form>
         <div class="sb-ack" data-look-ack hidden>
           <div class="sb-ack-seal" aria-hidden="true">✓</div>
-          <p data-ack-lead><strong>Saved.</strong> Sam has your look — <span data-ack-spec></span>. Book a fitting and we'll pull the real bolt.</p>
+          <p data-ack-lead><strong>Saved.</strong> Sam has your look: <span data-ack-spec></span>. Book a fitting and we'll pull the real bolt.</p>
           <p class="sb-fallback" data-look-fallback hidden></p>
           <a href="/book" class="btn is-primary" data-open-booking data-no-transition data-uselook>Book a fitting with this look</a>
         </div>
@@ -527,7 +527,7 @@
         let urgency = 'nurture';
         if (eventdate) {
           const days = Math.round((new Date(eventdate) - new Date()) / 86400000);
-          urgency = days <= 42 ? 'HOT — call now' : days <= 120 ? 'warm' : 'nurture';
+          urgency = days <= 42 ? 'HOT: call now' : days <= 120 ? 'warm' : 'nurture';
         }
         const btn = form.querySelector('button[type="submit"]');
         if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
@@ -545,10 +545,10 @@
         if (ackSpec) ackSpec.textContent = spec;
         if (!result.ok) {
           // Honest ack — we did NOT reach Sam automatically; make the real path primary.
-          if (ackLead) ackLead.innerHTML = '<strong>Your look is ready.</strong> One tap sends it to Sam — <span data-ack-spec>' + spec + '</span>';
+          if (ackLead) ackLead.innerHTML = '<strong>Your look is ready.</strong> One tap sends it to Sam: <span data-ack-spec>' + spec + '</span>';
           if (window.SamsLead) {
-            const mail = window.SamsLead.mailto('My suit look — ' + (name || 'website'), { Name: name, Phone: phone, Email: email, 'Need by': eventdate, Look: spec });
-            const wa = window.SamsLead.whatsapp ? window.SamsLead.whatsapp('Hi Sam — my suit look: ' + spec + (name ? ' — ' + name : '')) : null;
+            const mail = window.SamsLead.mailto('My suit look: ' + (name || 'website'), { Name: name, Phone: phone, Email: email, 'Need by': eventdate, Look: spec });
+            const wa = window.SamsLead.whatsapp ? window.SamsLead.whatsapp('Hi Sam, my suit look: ' + spec + (name ? ' (' + name + ')' : '')) : null;
             const fb = root.querySelector('[data-look-fallback]');
             if (fb) { fb.innerHTML = 'To reach Sam right now: ' + (wa ? '<a href="' + wa + '" target="_blank" rel="noopener">WhatsApp your look</a>, ' : '') + '<a href="' + mail + '">email it</a>, or <a href="tel:' + window.SamsLead.PHONE + '">call ' + window.SamsLead.PHONE_DISP + '</a>.'; fb.hidden = false; }
           }

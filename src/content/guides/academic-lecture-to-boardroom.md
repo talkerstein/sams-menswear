@@ -1,7 +1,7 @@
 ---
 title: "Academics: lecture-to-boardroom wardrobe"
 description: "How professors and academics build a lecture-to-boardroom wardrobe around one versatile blazer. Conference, committee, and job-talk dressing from Sam's Menswear."
-tldr: "Build an academic wardrobe around one great blazer — a soft-shouldered sport coat over a collared shirt and good trousers. Two to three textured jackets plus a few trousers and shirts carry you from lecture to committee to conference all year."
+tldr: "Build an academic wardrobe around one great blazer: a soft-shouldered sport coat over a collared shirt and good trousers. Two to three textured jackets plus a few trousers and shirts carry you from lecture to committee to conference all year."
 pillar: "Dressing for your profession"
 pillarHref: "/business"
 eyebrow: "Business"
@@ -38,7 +38,7 @@ Colours that never let you down: navy hopsack (spring to fall), grey or brown tw
 
 Two to start, three to be comfortable. A navy all-rounder, a textured winter jacket, and a lighter summer one covers a full teaching year in the GTA without repeating yourself in a way anyone would notice.
 
-Here's the honest math. If you rotate two jackets across a five-day week, each one gets a rest, wears evenly, and lasts years longer. Add a third and you've quietly got a full seasonal wardrobe. That's a smaller investment than most people fear, and it's the backbone of dressing [for your profession](/business).
+Here's the math. If you rotate two jackets across a five-day week, each one gets a rest, wears evenly, and lasts years longer. Add a third and you've quietly got a full seasonal wardrobe. That's a smaller investment than most people fear, and it's the backbone of dressing [for your profession](/business).
 
 Pair those jackets with three or four pairs of trousers and a handful of good shirts, and you can go a full term without anyone clocking a repeat. That's the efficiency tailoring buys you.
 
@@ -71,4 +71,4 @@ And a jacket that lives on your back all week has to be built to last. A little 
 
 ## Where do I start?
 
-Start with one great blazer and let it prove itself. Come in for a free first fitting and we'll figure out the cloth and cut that fits your week, your body, and your budget, no pressure, no hard sell. When you're ready, [book a fitting](/book) or start to [design your jacket](/design). We're on the Thornhill line in Vaughan, serving Toronto, North York, Richmond Hill, and Markham, and we've been doing this for over thirty years.
+Start with one great blazer and let it prove itself. Bring your teaching calendar to the first fitting and we'll pick a cloth that can handle a five-day week of lecterns, seminar rooms, and overheated conference halls. When you're ready, [book a fitting](/book) or start to [design your jacket](/design). We're on the Thornhill line in Vaughan, serving Toronto, North York, Richmond Hill, and Markham.

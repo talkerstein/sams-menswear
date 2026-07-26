@@ -6,7 +6,7 @@ import { reviews } from '../data/reviews.js';
 
 const site = 'https://customsuitandshirt.com';
 const gta = ['Vaughan', 'Thornhill', 'Toronto', 'North York', 'Richmond Hill', 'Markham', 'Woodbridge'];
-// Service node — provided by the #business, served across the GTA.
+// Service node, provided by the #business, served across the GTA.
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
@@ -16,25 +16,25 @@ const serviceSchema = {
   provider: { '@id': `${site}/#business` },
   areaServed: gta.map((c) => ({ '@type': 'City', name: c })),
   url: `${site}/traditional`,
-  description: 'Traditional Jewish menswear made to measure in Vaughan and Thornhill — bekishe, kapota, kittel, Shabbos suits and chosson tailoring, handled with discretion and never on Shabbos.',
+  description: 'Traditional Jewish menswear made to measure in Vaughan and Thornhill: bekishe, kapota, kittel, Shabbos suits and chosson tailoring, handled with discretion and never on Shabbos.',
 };
 
-// Niche FAQ — long-tail intent (kapota/bekishe/kittel/chosson/Shabbos suit,
+// Niche FAQ: long-tail intent (kapota/bekishe/kittel/chosson/Shabbos suit,
 // Thornhill–Vaughan). FaqBlock renders these + emits FAQPage JSON-LD.
 const traditionalFaqs = [
-  { q: 'Do you make a custom kapota or bekishe in the Thornhill–Vaughan area?', a: "Yes. Sam measures and fits bekishe, kapota and rekel personally at the Vaughan studio on the Thornhill line — made to your measurements, with proper allowance for the gartel and tzitzis, in satin or fine wool. Families come from across Thornhill, Vaughan, Bathurst and the wider GTA." },
-  { q: 'How much does a custom bekishe, kapota or Shabbos suit cost?', a: "It depends on the cloth and the garment — a fine-wool kapota and a satin bekishe sit at different prices — so Sam gives you an honest quote at the consultation, with no showroom markup and no pressure. The first conversation costs nothing." },
-  { q: 'When should I order before Yom Tov or a wedding?', a: "Kittels for the Yamim Noraim should be ordered by the end of Elul; a chosson's wardrobe nine to twelve months before the wedding; a bar mitzvah suit about six months out. If a date is tight, call — Sam will tell you honestly what's still possible." },
-  { q: 'Do you tailor the full chosson wardrobe?', a: "Yes — the Shabbos and kallah suits, the chuppah kittel, and the bekishe for sheva brachos, drawn together, coordinated with the kallah's side and the mechutanim, and finished in the days before the wedding." },
+  { q: 'Do you make a custom kapota or bekishe in the Thornhill–Vaughan area?', a: "Yes. Sam measures and fits bekishe, kapota and rekel personally at the Vaughan studio on the Thornhill line, made to your measurements, with proper allowance for the gartel and tzitzis, in satin or fine wool. Families come from across Thornhill, Vaughan, Bathurst and the wider GTA." },
+  { q: 'How much does a custom bekishe, kapota or Shabbos suit cost?', a: "It depends on the cloth and the garment (a fine-wool kapota and a satin bekishe sit at different prices), so Sam gives you an honest quote at the consultation, with no showroom markup. The first conversation costs nothing." },
+  { q: 'When should I order before Yom Tov or a wedding?', a: "Kittels for the Yamim Noraim should be ordered by the end of Elul; a chosson's wardrobe nine to twelve months before the wedding; a bar mitzvah suit about six months out. If a date is tight, call. Sam will tell you straight what's still possible." },
+  { q: 'Do you tailor the full chosson wardrobe?', a: "Yes: the Shabbos and kallah suits, the chuppah kittel, and the bekishe for sheva brachos, drawn together, coordinated with the kallah's side and the mechutanim, and finished in the days before the wedding." },
   { q: 'Can Sam fit a bar mitzvah boy with growing room?', a: "Yes. The bar mitzvah suit is cut with room to let out in the sleeve and trouser over the next two years, and the pattern is kept in the notebook for the next suit." },
-  { q: 'Are you open on Shabbos and Yom Tov?', a: "Never. Fittings are by appointment, one family at a time, and are never held on Shabbos or Yom Tov — the studio is closed for both." },
-  { q: 'Where is the studio?', a: "318 Charlton Avenue, Vaughan — on the Vaughan–Thornhill line, an easy drive from Bathurst & Clark, the Promenade and across the GTA. By appointment only." },
+  { q: 'Are you open on Shabbos and Yom Tov?', a: "Never. Fittings are by appointment, one family at a time, and are never held on Shabbos or Yom Tov. The studio is closed for both." },
+  { q: 'Where is the studio?', a: "318 Charlton Avenue, Vaughan, on the Vaughan–Thornhill line: an easy drive from Bathurst & Clark, the Promenade and across the GTA. By appointment only." },
 ];
 ---
 <BaseLayout
   nav="traditional"
-  title="Traditional Jewish Menswear — Vaughan & Thornhill | Sam's"
-  description="Traditional Jewish menswear in Vaughan & Thornhill — Shabbos suits, kapota, bekishe, kittel and chosson tailoring, handled with discretion and respect by Sam."
+  title="Traditional Jewish Menswear · Vaughan & Thornhill | Sam's"
+  description="Traditional Jewish menswear in Vaughan & Thornhill: Shabbos suits, kapota, bekishe, kittel and chosson tailoring, handled with discretion and respect by Sam."
 >
 
   <section class="page-hero">
@@ -42,7 +42,7 @@ const traditionalFaqs = [
       <div data-reveal>
         <div class="eyebrow-rule">House № 04 &middot; Traditional</div>
         <h1>For <em>Shabbos, Yom Tov,</em> and every simcha in between.</h1>
-        <p class="lede">Traditional menswear made with the discretion and craft a community expects. Bekishe, kapota, kittel, Shabbos suits, bar mitzvah and chosson tailoring &mdash; measured personally, fitted to the man who'll wear it.</p>
+        <p class="lede">Traditional menswear made with the discretion and craft a community expects. Bekishe, kapota, kittel, Shabbos suits, bar mitzvah and chosson tailoring: measured personally, fitted to the man who'll wear it.</p>
         <div class="hero-cta-row">
           <a href="/book" class="btn is-primary" data-open-booking data-no-transition>Book a Fitting</a>
           <a href="tel:+16474580711" class="hero-cta-call" data-no-transition>or call 647 · 458 · 0711</a>
@@ -59,12 +59,12 @@ const traditionalFaqs = [
           <h2 class="h-2">A garment that <em style="font-style: italic; font-weight: 400; text-transform: none; color: var(--oxblood);">welcomes Shabbos.</em></h2>
         </div>
         <div>
-          <p class="lede" style="margin-bottom: 24px;">A bekishe is not a costume. A kapota is not a uniform. They are the cloth of a community's most personal moments — and they deserve the same patience as a wedding suit.</p>
+          <p class="lede" style="margin-bottom: 24px;">A bekishe is not a costume. A kapota is not a uniform. They are the cloth of a community's most personal moments, and they deserve the same patience as a wedding suit.</p>
           <p class="body-prose">
             Sam has been tailoring traditional Jewish menswear in Vaughan and Thornhill for over twenty years, for families in every minyan from Bathurst to Rutherford. Father to son, generation to generation, with a long memory for the family's pattern book.
           </p>
           <p class="body-prose" style="margin-top: 18px;">
-            Every garment is fitted in the studio, in a quiet room, on the customer's own schedule &mdash; without rush, without distraction, and never on Shabbos or Yom Tov.
+            Every garment is fitted in the studio, in a quiet room, on the customer's own schedule: without rush, without distraction, and never on Shabbos or Yom Tov.
           </p>
           <p style="margin-top: 28px;">
             <a href="/guides/the-traditional-jewish-wardrobe" style="font-family: var(--serif); font-style: italic; letter-spacing: 0.18em; text-transform: uppercase; font-size: 14px; color: var(--ink); border-bottom: 1px solid var(--rule-strong); padding-bottom: 2px;">Read the guide to the traditional Jewish wardrobe&nbsp;&nbsp;&rarr;</a>
@@ -201,7 +201,7 @@ const traditionalFaqs = [
           <div class="chapter-no heb-num" style="color: var(--gold);">ד</div>
           <h3 class="h-3" style="margin-top: 6px; color: var(--navy);">Kittel</h3>
           <p class="body-prose" style="margin-top: 12px; font-size: 16px;">
-            White linen or cotton, simple closure ties, modest belt. Cut to last decades — for the Yamim Noraim, the Seder table, and the chuppah.
+            White linen or cotton, simple closure ties, modest belt. Cut to last decades: for the Yamim Noraim, the Seder table, and the chuppah.
           </p>
           <div class="small-tag" style="margin-top: 18px; color: var(--ink-mute);">Yom Kippur · Pesach · Chuppah</div>
         </article>
@@ -311,7 +311,7 @@ const traditionalFaqs = [
     </div>
   </section>
 
-  <!-- READING ROOM + FAQ — niche depth + FAQPage schema -->
+  <!-- READING ROOM + FAQ: niche depth + FAQPage schema -->
   <section class="section tight">
     <div class="container">
       <div class="section-head" data-reveal>
@@ -321,7 +321,7 @@ const traditionalFaqs = [
       </div>
       <ul class="prose-list" data-reveal style="margin-top: 28px; max-width: 62rem; columns: 2; column-gap: 56px;">
         <li><a href="/guides/the-traditional-jewish-wardrobe" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">The traditional Jewish wardrobe, explained</a></li>
-        <li><a href="/guides/the-bekishe-explained" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">What a bekishe is — and how it's cut</a></li>
+        <li><a href="/guides/the-bekishe-explained" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">What a bekishe is, and how it's cut</a></li>
         <li><a href="/guides/kapota-vs-rekel" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">Kapota vs. rekel: the difference</a></li>
         <li><a href="/guides/the-kittel-guide" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">The kittel, and when it's worn</a></li>
         <li><a href="/guides/the-bar-mitzvah-suit" style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">The bar mitzvah suit</a></li>
@@ -347,7 +347,7 @@ const traditionalFaqs = [
             <span style="background: var(--navy-deep);">Closed Shabbos &amp; Yom Tov &middot; By appointment</span>
           </div>
           <h2 class="h-1">Begin a <em>traditional fitting.</em></h2>
-          <p class="lede" style="margin-top: 24px;">Consultations are held in a private room, on your own schedule, and never on Shabbos or Yom Tov. Sam &mdash; or a member of the family &mdash; will sit with you for the conversation.</p>
+          <p class="lede" style="margin-top: 24px;">Consultations are held in a private room, on your own schedule, and never on Shabbos or Yom Tov. Sam (or a member of the family) will sit with you for the conversation.</p>
         </div>
         <div class="actions">
           <a href="/book" class="btn is-primary" data-open-booking data-no-transition>Book a Private Fitting</a>

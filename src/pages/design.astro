@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { fabrics, popularSuiting } from '../data/fabrics.js';
 
-// Fabric chips for the picker — the popular set, Navy first.
+// Fabric chips for the picker: the popular set, Navy first.
 const picker = [...popularSuiting].sort((a, b) => (a.name === 'Navy' ? -1 : b.name === 'Navy' ? 1 : 0));
 // Minimal fabric lookup for JS (deep-link + fills)
 const fabData = fabrics.map((f) => ({ id: f.id, name: f.name, hex: f.hex, css: f.css }));
@@ -37,7 +37,7 @@ const designSchema = {
     {
       '@type': 'WebApplication',
       '@id': `${designSite}/design#app`,
-      name: 'The Drawing Board — Suit Designer',
+      name: 'The Drawing Board: Suit Designer',
       url: `${designSite}/design`,
       applicationCategory: 'DesignApplication',
       operatingSystem: 'Web',
@@ -45,7 +45,7 @@ const designSchema = {
       isAccessibleForFree: true,
       offers: { '@type': 'Offer', price: '0', priceCurrency: 'CAD' },
       provider: { '@id': `${designSite}/#business` },
-      description: 'Design a custom suit online — pick the cloth, lapel, buttons, lining, shirt and tie and see it drawn live, then send the spec to Sam.',
+      description: 'Design a custom suit online: pick the cloth, lapel, buttons, lining, shirt and tie and see it drawn live, then send the spec to Sam.',
     },
     {
       '@type': 'HowTo',
@@ -53,7 +53,7 @@ const designSchema = {
       name: 'How to design your custom suit on The Drawing Board',
       description: 'Design your suit before you book a fitting with Sam in Vaughan.',
       step: [
-        { '@type': 'HowToStep', position: 1, name: 'Pick your cloth', text: 'Choose the fabric — navy, charcoal, glen check and more from the cloth library.' },
+        { '@type': 'HowToStep', position: 1, name: 'Pick your cloth', text: 'Choose the fabric: navy, charcoal, glen check and more from the cloth library.' },
         { '@type': 'HowToStep', position: 2, name: 'Choose the cut', text: 'Set the lapel, the buttons and single- or double-breasted, and watch the suit drawn live.' },
         { '@type': 'HowToStep', position: 3, name: 'Finish the details', text: 'Pick the lining, shirt, tie and pocket square to complete the look.' },
         { '@type': 'HowToStep', position: 4, name: 'Send it to Sam', text: 'Send your look with your event date and phone number; Sam builds the real suit at a personal fitting.' },
@@ -63,7 +63,7 @@ const designSchema = {
 };
 ---
 <BaseLayout
-  title="The Drawing Board — Design Your Suit · Sam's Menswear"
+  title="The Drawing Board · Design Your Suit · Sam's Menswear"
   description="Design your bespoke suit before you book: pick the cloth, lapel, buttons, lining, shirt and tie, and see it drawn live. Then bring the spec to Sam."
 >
   <section class="page-hero" style="padding-bottom: 0;">
@@ -71,7 +71,7 @@ const designSchema = {
       <div data-reveal>
         <div class="eyebrow-rule">The Studio &middot; The Drawing Board</div>
         <h1>Draw your suit <em>before you book.</em></h1>
-        <p class="lede">No AI guesswork — just the real choices you'd make sitting across from Sam. Pick a cloth and the details; watch it sketch in. Then send the spec ahead so your first fitting starts from a drawing, not a blank page.</p>
+        <p class="lede">No AI guesswork, just the real choices you'd make sitting across from Sam. Pick a cloth and the details; watch it sketch in. Then send the spec ahead so your first fitting starts from a drawing, not a blank page.</p>
       </div>
     </div>
   </section>
@@ -118,17 +118,17 @@ const designSchema = {
               <!-- LINING slivers (revealed at the front edges) -->
               <path class="lining" d="M200 306 L200 154 L190 152 L197 306 Z"/>
               <path class="lining" d="M200 306 L200 154 L210 152 L203 306 Z"/>
-              <!-- LAPELS — notch -->
+              <!-- LAPELS: notch -->
               <g class="lap lap--notch ink">
                 <path d="M200 306 L180 168 L152 150 L176 158 L188 150"/>
                 <path d="M200 306 L220 168 L248 150 L224 158 L212 150"/>
               </g>
-              <!-- LAPELS — peak -->
+              <!-- LAPELS: peak -->
               <g class="lap lap--peak ink">
                 <path d="M200 306 L178 170 L150 138 L186 162 L190 150"/>
                 <path d="M200 306 L222 170 L250 138 L214 162 L210 150"/>
               </g>
-              <!-- LAPELS — shawl -->
+              <!-- LAPELS: shawl -->
               <g class="lap lap--shawl ink">
                 <path d="M200 306 C 176 220, 166 170, 150 150 C 168 152, 182 152, 190 150" fill="none"/>
                 <path d="M200 306 C 224 220, 234 170, 250 150 C 232 152, 218 152, 210 150" fill="none"/>
@@ -255,7 +255,7 @@ const designSchema = {
           <!-- Lead capture -->
           <div class="dz-lead" data-lead>
             <h2 class="h-4" style="text-transform: uppercase; color: var(--navy);">Send your look to Sam</h2>
-            <p class="body-prose" style="font-size: 15px; margin-top: 8px;">I'll have your drawing in hand before you arrive — so the fitting starts from a spec, not a blank page. No obligation.</p>
+            <p class="body-prose" style="font-size: 15px; margin-top: 8px;">I'll have your drawing in hand before you arrive, so we spend the fitting on cloth and fit instead of starting from scratch. Sending it books nothing.</p>
             <form class="dz-form" data-look-form>
               <input type="text" name="name" placeholder="Your name" autocomplete="name" required/>
               <input type="tel" name="phone" placeholder="Phone (so Sam can call)" autocomplete="tel"/>
@@ -269,7 +269,7 @@ const designSchema = {
             </form>
             <div class="dz-ack" data-look-ack hidden>
               <div class="dz-ack-seal">✓</div>
-              <p data-ack-lead><strong>Saved.</strong> Sam has your look — <span data-ack-spec></span>. Book a fitting and we'll pull the real bolt.</p>
+              <p data-ack-lead><strong>Saved.</strong> Sam has your look: <span data-ack-spec></span>. Book a fitting and we'll pull the real bolt.</p>
               <p class="dz-fallback" data-look-fallback hidden style="font-size:14px;margin-top:4px;"></p>
               <a href="/book" class="btn is-primary" data-open-booking data-no-transition data-uselook>Book a fitting with this look</a>
             </div>
@@ -391,7 +391,7 @@ const designSchema = {
         let urgency = 'nurture';
         if (eventdate) {
           const days = Math.round((new Date(eventdate) - new Date()) / 86400000);
-          urgency = days <= 42 ? 'HOT — call now' : days <= 120 ? 'warm' : 'nurture';
+          urgency = days <= 42 ? 'HOT: call now' : days <= 120 ? 'warm' : 'nurture';
         }
         const btn = form.querySelector('button[type="submit"]');
         if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
@@ -408,11 +408,11 @@ const designSchema = {
         const ackLead = document.querySelector('[data-ack-lead]');
         if (ackSpec) ackSpec.textContent = spec;
         if (!result.ok) {
-          // Honest ack — we did NOT reach Sam automatically; make the real path primary.
-          if (ackLead) ackLead.innerHTML = '<strong>Your look is ready.</strong> One tap sends it to Sam — <span data-ack-spec>' + spec + '</span>';
+          // Honest ack: we did NOT reach Sam automatically; make the real path primary.
+          if (ackLead) ackLead.innerHTML = '<strong>Your look is ready.</strong> One tap sends it to Sam: <span data-ack-spec>' + spec + '</span>';
           if (window.SamsLead) {
-            const mail = window.SamsLead.mailto('My suit look — ' + (name || 'website'), { Name: name, Phone: phone, Email: email, 'Need by': eventdate, Look: spec });
-            const wa = window.SamsLead.whatsapp('Hi Sam — my suit look: ' + spec + (name ? ' — ' + name : ''));
+            const mail = window.SamsLead.mailto('My suit look, from ' + (name || 'the website'), { Name: name, Phone: phone, Email: email, 'Need by': eventdate, Look: spec });
+            const wa = window.SamsLead.whatsapp('Hi Sam, my suit look: ' + spec + (name ? ' (' + name + ')' : ''));
             const fb = document.querySelector('[data-look-fallback]');
             if (fb) { fb.innerHTML = 'To reach Sam right now: <a href="' + wa + '" target="_blank" rel="noopener">WhatsApp your look</a>, <a href="' + mail + '">email it</a>, or <a href="tel:' + window.SamsLead.PHONE + '">call ' + window.SamsLead.PHONE_DISP + '</a>.'; fb.hidden = false; }
           }

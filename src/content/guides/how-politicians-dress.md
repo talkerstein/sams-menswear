@@ -1,7 +1,7 @@
 ---
 title: "Politics & public life: dressing to be trusted on camera"
 description: "How to dress to be trusted on camera: navy suits, fit for photos and podiums, and the patterns and shine to avoid on screen."
-tldr: "To be trusted on camera, wear a well-fitted navy suit in a solid, matte cloth with a crisp white or pale blue shirt and a quiet tie. Fit matters most — clean shoulders and a defined waist earn credibility. Avoid tight patterns and shine."
+tldr: "To be trusted on camera, wear a well-fitted navy suit in a solid, matte cloth with a crisp white or pale blue shirt and a quiet tie. Fit matters most: clean shoulders and a defined waist earn credibility. Avoid tight patterns and shine."
 pillar: "Dressing for your profession"
 pillarHref: "/business"
 eyebrow: "Business"
@@ -47,7 +47,7 @@ Also skip anything with a hard sheen. High-shine "shark-skin" and slick syntheti
 
 A crisp white or pale blue shirt with a solid or subtly textured tie. Clean, high, and simple beats loud every time.
 
-White reads honest and formal; pale blue is softer and photographs beautifully against navy. Both give your face contrast so you don't wash out under lights. Keep the tie a solid or a very quiet texture, in a tone that sits calmly against the suit. A burgundy or deep blue tie reads steady and sincere. Save the bold red "power tie" for when you genuinely want to dominate a moment, not for building trust.
+White reads clean and formal; pale blue is softer and photographs beautifully against navy. Both give your face contrast so you don't wash out under lights. Keep the tie a solid or a very quiet texture, in a tone that sits calmly against the suit. A burgundy or deep blue tie reads steady and sincere. Save the bold red "power tie" for when you genuinely want to dominate a moment, not for building trust.
 
 Make sure the shirt collar frames your neck properly and the tie knot fills the collar gap. On camera, a floppy knot or a gapping collar reads as sloppy before you've said a word.
 
@@ -71,4 +71,4 @@ You don't need ten suits, you need three or four that photograph flawlessly and 
 
 Because you'll wear these under lights and pressure, cloth and fit matter more than for the average wardrobe. Built for you, in the right weight and the right colors, they simply work every time you step in front of a lens. That's the case for [investing in custom](/guides/is-a-custom-suit-worth-it), and it's the same discipline we bring to every [professional wardrobe](/business) we build.
 
-For 30-plus years in Vaughan, on the Thornhill line, Sam has fit people who live and work under scrutiny across the GTA. If your job puts you on camera or at a podium, come in for a free first fitting and we'll build a suit that earns trust before you open your mouth. [Book a fitting](/book) or [start your design](/design) whenever you're ready.
+For 30-plus years in Vaughan, on the Thornhill line, Sam has fit people who live and work under scrutiny across the GTA. If your job puts you on camera or at a podium, bring your next appearance date and we'll build a suit that earns trust before you open your mouth. [Book a fitting](/book) or [start your design](/design) whenever you're ready.

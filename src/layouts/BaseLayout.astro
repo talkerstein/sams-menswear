@@ -6,8 +6,8 @@ import SiteFooter from '../components/SiteFooter.astro';
 import { reviewAggregate } from '../data/reviews.js';
 
 const {
-  title = "Sam's Menswear — Custom Tailoring · Vaughan, Thornhill, Toronto",
-  description = "Sam's Menswear — a personal master tailor in Vaughan. Wedding suits, business suits, custom shirts and traditional menswear, measured personally.",
+  title = "Sam's Menswear · Custom Tailoring in Vaughan, Thornhill & Toronto",
+  description = "Sam's Menswear: a personal master tailor in Vaughan. Wedding suits, business suits, custom shirts and traditional menswear, measured personally.",
   nav = null,
   ogType = 'website',
   noindex = false,
@@ -23,7 +23,7 @@ const business = {
   '@type': 'ClothingStore',
   '@id': origin + '/#business',
   name: "Sam's Menswear",
-  description: 'Custom and bespoke tailoring — suits, shirts, wedding and traditional menswear — from a personal master tailor in Vaughan.',
+  description: 'Custom and bespoke tailoring from a personal master tailor in Vaughan: suits, shirts, wedding and traditional menswear.',
   url: origin,
   telephone: '+1-647-458-0711',
   email: 'samskosher@gmail.com',
@@ -136,7 +136,7 @@ const CLARITY_PROJECT_ID = '';
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={ogImage} />
-    <meta property="og:image:alt" content="Sam's Menswear — bespoke tailoring in Vaughan" />
+    <meta property="og:image:alt" content="Sam's Menswear · bespoke tailoring in Vaughan" />
     <meta property="og:locale" content="en_CA" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content={ogImage} />

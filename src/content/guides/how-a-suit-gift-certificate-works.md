@@ -23,9 +23,9 @@ Here is the whole flow, so there are no surprises:
 
 ## What "made to measure" really means here
 
-This is the part that makes the gift special, and it is worth being honest about. A made-to-measure suit is not an item sitting in a box ready to ship. It is drafted from scratch to your recipient's own measurements, and a good one takes a few weeks to make properly. That wait is the point, not a drawback. He gets a garment cut to his shoulders, his posture, his reach, rather than a mall-chain suit that almost fits or a rental-counter jacket he hands back the next morning.
+This is the part that makes the gift special, and it is worth spelling out. A made-to-measure suit is not an item sitting in a box ready to ship. It is drafted from scratch to your recipient's own measurements, and a good one takes a few weeks to make properly. That wait is the point, not a drawback. He gets a garment cut to his shoulders, his posture, his reach, rather than a mall-chain suit that almost fits or a rental-counter jacket he hands back the next morning.
 
-Sam keeps every client's measurements on a personal pattern after that first fitting. So the gift you give once quietly becomes the start of something ongoing. Any future suit, blazer, or pair of trousers can be ordered from that same pattern without starting over. If you are still weighing whether this is the right present, [is a custom suit a good gift](/guides/is-a-custom-suit-a-good-gift) walks through it honestly.
+Sam keeps every client's measurements on a personal pattern after that first fitting. So the gift you give once quietly becomes the start of something ongoing. Any future suit, blazer, or pair of trousers can be ordered from that same pattern without starting over. If you are still weighing whether this is the right present, [is a custom suit a good gift](/guides/is-a-custom-suit-a-good-gift) walks through both sides of the question.
 
 ## What if you do not know his size?
 

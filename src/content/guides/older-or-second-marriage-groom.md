@@ -1,6 +1,6 @@
 ---
 title: "The older or second-time groom: dressing right"
-description: "Older or second-time groom? Skip the young-groom template. How to dress confident and age-appropriate — suit vs tux, colour, fit, and buying over renting."
+description: "Older or second-time groom? Skip the young-groom template. How to dress confident and age-appropriate: suit vs tux, colour, fit, and buying over renting."
 tldr: "For an older or second-time groom, skip the young-groom playbook and choose one beautifully cut dark suit or dinner jacket in navy, charcoal, or midnight blue. Confidence comes from precise fit, not flash, and it is worth owning rather than renting."
 pillar: "Weddings"
 pillarHref: "/wedding"
@@ -35,7 +35,7 @@ A second wedding is often smaller, warmer, and more personal, and your outfit sh
 
 Navy, charcoal, and midnight blue are the strongest choices, they're formal, flattering on nearly every complexion, and they photograph beautifully. Save true black for strict black-tie.
 
-Here's the honest bench take: a rich [navy](/guides/the-navy-suit) does more work than any other colour. It's dignified without being funereal, it warms an older face better than black, and you'll genuinely wear it again to anniversaries, your kids' weddings, and every good dinner in between. If you want a touch of quiet character, we'll steer you toward the [cloth](/fabrics), a soft flannel, a subtle birdseye, a bit of texture that a young groom would walk right past but a grown man appreciates.
+Here's the bench take: a rich [navy](/guides/the-navy-suit) does more work than any other colour. It's dignified without being funereal, it warms an older face better than black, and you'll genuinely wear it again to anniversaries, your kids' weddings, and every good dinner in between. If you want a touch of quiet character, we'll steer you toward the [cloth](/fabrics), a soft flannel, a subtle birdseye, a bit of texture that a young groom would walk right past but a grown man appreciates.
 
 ## How do I look confident and age-appropriate, not "trying too hard"?
 
@@ -47,7 +47,7 @@ That's where most men your age get let down by off-the-rack. Shoulders that pull
 
 Only lightly, and you set the tone. As the groom you should be the sharpest, best-fitted man there, the rest of the party echoes you rather than matching you tie-for-tie.
 
-For a smaller second wedding you often have no formal party at all, which frees you up entirely. If you do have people standing with you, a simple rule works: they go a half-step more relaxed than you. If you want to get it right without micromanaging anyone, [coordinating groomsmen](/guides/coordinating-groomsmen) walks through it, but honestly, at this stage most grooms keep it easy and let their own suit do the talking.
+For a smaller second wedding you often have no formal party at all, which frees you up entirely. If you do have people standing with you, a simple rule works: they go a half-step more relaxed than you. If you want to get it right without micromanaging anyone, [coordinating groomsmen](/guides/coordinating-groomsmen) walks through it, but at this stage most grooms keep it easy and let their own suit do the talking.
 
 ## Should I buy or rent, and will I actually wear it again?
 
@@ -63,4 +63,4 @@ There's no reason to be stressed about this. You've done a wedding before, or yo
 
 ---
 
-Come sit with Sam. The [first fitting is free](/book), no pressure and no sales pitch, just an honest conversation about the suit that fits the man you are now. When you're ready, we'll [design it together](/design). See more on [the groom's suit](/wedding) whenever you like.
+Come sit with Sam. [Book the first fitting](/book) and tell him about the day: the room, the season, who's standing beside you. He'll cut the suit that fits the man you are now, not the one from the last set of photos. When you're ready, we'll [design it together](/design). See more on [the groom's suit](/wedding) whenever you like.

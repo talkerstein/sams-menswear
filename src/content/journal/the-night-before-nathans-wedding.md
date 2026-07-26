@@ -1,12 +1,12 @@
 ---
 title: "The night before Nathan's wedding, everything fell apart."
 eyebrow: "Weddings"
-excerpt: "Five groomsmen, zero measurements, and a mother with opinions. A wedding story — and how one tape pulled it all together."
+excerpt: "Five groomsmen, zero measurements, and a mother with opinions. A wedding story, and how one tape pulled it all together."
 date: 2025-10-02
 location: "Niagara-on-the-Lake"
 ---
 
-If you're shopping for a wedding suit in Toronto, you already know the pressure. The fit has to be perfect. The groomsmen have to match. And someone's mother will have opinions. This is the story of Nathan Berger — and how Sam pulled it all together.
+If you're shopping for a wedding suit in Toronto, you already know the pressure. The fit has to be perfect. The groomsmen have to match. And someone's mother will have opinions. This is the story of Nathan Berger, and how Sam pulled it all together.
 
 Nathan proposed to Leah on a Tuesday afternoon in a Sobeys parking lot. No ring. No plan. Just a man holding two bags of groceries, looking at the woman who laughed at every one of his bad jokes for four years, and saying, "I think we should get married."
 
@@ -16,7 +16,7 @@ That was the easy part.
 
 ## Finding the right wedding suit
 
-Nathan's a project manager. Spreadsheets. Timelines. The man colour-codes his sock drawer. So when the planning started, he assumed he'd handle his side — the suit, the groomsmen, the fit — like any other deliverable.
+Nathan's a project manager. Spreadsheets. Timelines. The man colour-codes his sock drawer. So when the planning started, he assumed he'd handle his side (the suit, the groomsmen, the fit) like any other deliverable.
 
 He gave himself six months. Plenty of time. His mother, Gloria, gave herself six months too. Unfortunately, Gloria's project plan looked very different.
 
@@ -52,9 +52,9 @@ Nathan blinked. "How did you—"
 
 ## The fit
 
-They talked about the wedding — an outdoor ceremony at a vineyard in Niagara-on-the-Lake, late September, golden hour. Leah's dress had a vintage lace detail, warm ivory. Her bridesmaids were in dusty sage.
+They talked about the wedding: an outdoor ceremony at a vineyard in Niagara-on-the-Lake, late September, golden hour. Leah's dress had a vintage lace detail, warm ivory. Her bridesmaids were in dusty sage.
 
-Sam drew a slim-fit navy suit — two-button, notch lapel. Not trendy. Not boring. The kind of suit that looks effortless in photos but takes real craftsmanship to get right. Ivory shirt with a subtle texture, a dusty-sage pocket square to tie into the bridesmaids, a burgundy knit tie that brought warmth without screaming "themed wedding."
+Sam drew a slim-fit navy suit: two-button, notch lapel. Not trendy. Not boring. The kind of suit that looks effortless in photos but takes real craftsmanship to get right. Ivory shirt with a subtle texture, a dusty-sage pocket square to tie into the bridesmaids, a burgundy knit tie that brought warmth without screaming "themed wedding."
 
 Nathan looked in the mirror and didn't recognize himself. In a good way.
 
@@ -62,7 +62,7 @@ Nathan looked in the mirror and didn't recognize himself. In a good way.
 
 "That's the whole point," Sam said.
 
-For the groomsmen, Sam set up a remote fitting. Josh in Vancouver got a measurement guide and a video walkthrough. Dev got talked off the joggers ledge. Marc, with his new frame, nearly got emotional when Sam told him his real size. And Avi's lapel opinions? Sam listened to every one, then gently steered him toward a notch lapel that complemented the group. All five suits — coordinated, fitted — done in under three weeks.
+For the groomsmen, Sam set up a remote fitting. Josh in Vancouver got a measurement guide and a video walkthrough. Dev got talked off the joggers ledge. Marc, with his new frame, nearly got emotional when Sam told him his real size. And Avi's lapel opinions? Sam listened to every one, then gently steered him toward a notch lapel that complemented the group. All five suits, coordinated and fitted, done in under three weeks.
 
 ## The night before
 
@@ -84,7 +84,7 @@ A pause. Then: "Bring it to me first thing in the morning."
 
 At 5:47pm on a Saturday in September, Nathan Berger walked down the aisle. His navy suit caught the golden-hour light. His groomsmen stood in a clean, coordinated line. Even Dev stood up straighter than he ever had.
 
-And inside Nathan's jacket, stitched into the left side of the lining, right over his heart, was a square of charcoal wool from a suit that belonged to a five-foot-six man shaped like a refrigerator — who would have been very, very proud.
+And inside Nathan's jacket, stitched into the left side of the lining, right over his heart, was a square of charcoal wool from a suit that belonged to a five-foot-six man shaped like a refrigerator, a man who would have been very, very proud.
 
 Gloria, in the front row, pressed her hand to her chest when she saw Nathan touch his jacket before his vows.
 
@@ -94,4 +94,4 @@ She knew.
 
 *Every groom has a story. We just make sure he looks the part.* [Begin a wedding conversation with Sam.](/book)
 
-*This is a fictional story written to show how Sam works. The characters and the wedding are invented — the tailoring is exactly real.*
+*This is a fictional story written to show how Sam works. The characters and the wedding are invented; the tailoring is exactly real.*

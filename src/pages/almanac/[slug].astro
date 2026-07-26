@@ -23,7 +23,7 @@ const breadcrumb = {
 };
 ---
 <BaseLayout
-  title={`${theme.title} — The Almanac | Sam's Menswear`}
+  title={`${theme.title} · The Almanac | Sam's Menswear`}
   description={theme.description}
   ogType="article"
 >
@@ -45,7 +45,7 @@ const breadcrumb = {
     <section class="section" style="padding-top: clamp(20px,3vw,32px); padding-bottom: 0;">
       <div class="container">
         <figure class="almanac-banner" data-reveal>
-          <img src={`/media/art/almanac-${theme.slug}.webp`} alt={`Chapter illustration — ${theme.title}`}/>
+          <img src={`/media/art/almanac-${theme.slug}.webp`} alt={`Chapter illustration: ${theme.title}`}/>
         </figure>
       </div>
     </section>
@@ -67,7 +67,7 @@ const breadcrumb = {
         <div style="max-width: 46rem; margin-top: clamp(36px,5vw,60px);">
           <!-- No AuthorBio here on purpose: real credentials (portrait, star
                rating, reviews link) never sit beside disclosed fiction. -->
-          <p class="almanac-note">Tales told in Sam's voice, drawn from thirty years of composite experience — not case files, and never customer reviews. For the real thing: <a href="/about">about Sam</a> · <a href="/reviews">his Google reviews</a> · <a href="/guides">the practical guides</a>.</p>
+          <p class="almanac-note">Tales told in Sam's voice, drawn from thirty years of composite experience: not case files, and never customer reviews. For the real thing: <a href="/about">about Sam</a> · <a href="/reviews">his Google reviews</a> · <a href="/guides">the practical guides</a>.</p>
         </div>
       </div>
     </section>
@@ -81,7 +81,7 @@ const breadcrumb = {
             <span style="background: var(--navy-deep);">Your story</span>
           </div>
           <h2 class="h-1">Start yours <em>the right way.</em></h2>
-          <p class="lede" style="margin-top: 24px;">The first fitting is free, unhurried and honest. Or keep reading — <a href={`/almanac/${next.slug}`} style="color: var(--gold-soft); border-bottom: 1px solid var(--gold-soft);">{next.title}</a>.</p>
+          <p class="lede" style="margin-top: 24px;">The first fitting is free, and so is the advice. Or keep reading: <a href={`/almanac/${next.slug}`} style="color: var(--gold-soft); border-bottom: 1px solid var(--gold-soft);">{next.title}</a>.</p>
         </div>
         <div class="actions">
           <a href="/book" class="btn is-primary" data-open-booking data-no-transition>Book a Fitting</a>

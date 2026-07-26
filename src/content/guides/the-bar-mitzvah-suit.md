@@ -1,7 +1,7 @@
 ---
 title: "The bar mitzvah suit that still fits in two years"
 description: "How to buy a bar mitzvah suit that still fits two years later: growing room, the first fitting, timing, and doing it father-and-son. From Sam's Menswear."
-tldr: "Yes, a bar mitzvah suit can still fit in two years, but only if a tailor leaves growing room where boys lengthen first — deep hems, sleeves reserved inside the cuff, and give in the trouser waist and seat. No suit outruns a full growth spurt, though."
+tldr: "Yes, a bar mitzvah suit can still fit in two years, but only if a tailor leaves growing room where boys lengthen first: deep hems, sleeves reserved inside the cuff, and give in the trouser waist and seat. No suit outruns a full growth spurt, though."
 pillar: "Traditional / Jewish menswear"
 pillarHref: "/traditional"
 eyebrow: "Traditional"
@@ -34,7 +34,7 @@ You can't invent this fabric after the fact. A cheap suit is often cut with almo
 
 For a first suit that has to last, made-to-measure usually wins, because we control the inlays from the start. Off the rack can work, but the alterations add up fast.
 
-A department-store suit almost always needs the sleeves shortened, the hem set, and the waist taken in. By the time you've paid for all that, you've often spent more than the ticket price and you still have a suit cut with no room to grow. When we make it here, growing room is planned, not patched. If budget is the concern, tell us honestly at the [first fitting](/book) and we'll build the version that makes sense for your family.
+A department-store suit almost always needs the sleeves shortened, the hem set, and the waist taken in. By the time you've paid for all that, you've often spent more than the ticket price and you still have a suit cut with no room to grow. When we make it here, growing room is planned, not patched. If budget is the concern, say so plainly at the [first fitting](/book) and we'll build the version that makes sense for your family.
 
 ## When should we start the suit before the bar mitzvah?
 
@@ -62,4 +62,4 @@ Sam has fitted a lot of first suits over thirty-plus years on the Thornhill line
 
 ---
 
-Come in for a free first fitting, no pressure and no obligation. Bring your son, bring your questions, and we'll build a first suit that fits the day and grows with him. [Book a fitting](/book) or [design his suit](/design) whenever you're ready.
+Bring your son, bring your questions, and we'll build a first suit that fits the day on the bimah and grows with him after it. Six to eight weeks before the simcha is the right moment to start. [Book a fitting](/book) or [design his suit](/design) whenever you're ready.
