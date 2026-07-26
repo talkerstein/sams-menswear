@@ -37,7 +37,7 @@ That baste fitting is the heart of bespoke. The jacket arrives half-built and he
 
 ## What does each one cost, and where's the smart spend?
 
-Made-to-measure generally runs a few hundred up to around $2,500. Bespoke from an established tailor typically starts around $3,500 and climbs from there with cloth and hand-work. The price gap is mostly labour and fittings, not magic.
+Made-to-measure occupies the broad middle of the market; bespoke from an established tailor sits well above it and climbs from there with cloth and hand-work. The gap is mostly labour and fittings, not magic, and any tailor worth the name will quote your garment rather than wave at a range.
 
 Here's the math. If you need one sharp suit for interviews, work, or a wedding you're attending, made-to-measure is the smart spend: you're paying for fit and cloth, not for hours you don't need. Bespoke is the smart spend when the suit is a centrepiece (your own [wedding](/wedding)), when you'll wear it constantly for years, or when off-the-rack and made-to-measure have simply never fit you right. Spend where it changes the outcome. For a full breakdown, see [what a custom suit costs](/guides/what-a-custom-suit-costs) and [is a custom suit worth it](/guides/is-a-custom-suit-worth-it).
 

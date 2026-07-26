@@ -35,13 +35,13 @@ export const garments = [
     relatedHouses: [
       { href: '/business', label: 'Business suits' },
       { href: '/wedding', label: 'Wedding suits' },
-      { href: '/locations/toronto', label: 'Custom suits in Toronto: how the house call works' },
+      { href: '/locations/toronto', label: 'Custom suits in Toronto: how it works' },
     ],
     serviceType: 'Custom suit tailoring',
     serviceName: 'Custom & Tailored Suits',
     serviceDesc: "Men's custom and tailored suits made to measure in Vaughan and across Toronto: bespoke and made-to-measure, two-piece, three-piece and separates, drafted to a personal pattern.",
     faqs: [
-      { q: 'How much does a custom suit cost in Toronto?', a: "It depends entirely on the cloth and construction. As a market guide: off-the-rack runs $150–500, made-to-measure $500–2,500, and full bespoke $3,000 and up. I show you options across every one of those shelves on your first visit and give you one firm price before we go further." },
+      { q: 'How much does a custom suit cost in Toronto?', a: "It depends on the cloth and the construction, and I would rather quote your garment than a stranger's. I keep cloth across three price shelves and I show you all three on the first visit, then give you one firm number for the exact garment you have chosen before anything is cut. Alterations are part of that price, not an extra. The first consultation costs nothing, so you can get the real figure without committing to a thing." },
       { q: "What's the difference between bespoke, made-to-measure and off-the-rack?", a: "Off-the-rack is cut to an average and altered toward you. Made-to-measure adjusts a factory's existing pattern to your numbers. Bespoke starts with no pattern at all: a fresh one is drafted for your body alone. Different price, different fit, different life." },
       { q: 'Is a bespoke suit actually worth it?', a: "For a hard-to-fit body, a wedding, or a man who wears a suit weekly, yes. For a suit you'll wear twice a year, made-to-measure is the smarter spend, and I'll tell you so. I'd rather you buy the right tier once than overspend to impress me." },
       { q: 'What makes the best custom-tailored suit?', a: "The best custom-tailored suits share four things: a pattern drafted to your own body rather than an adjusted factory size, full or half floating canvas instead of fused glue, cloth chosen for how you live, and hand-finished detail. Just as important is a tailor who keeps your measurements on file and re-fits the suit as your body changes. That's how I work in Vaughan." },
@@ -81,7 +81,7 @@ export const garments = [
       { q: 'Should I buy or rent a tuxedo?', a: "If you'll wear black tie more than twice, buy. A rental never fits your shoulders and you've nothing to show for the money. I make tuxedos to your measurements so the satin sits flat and the black line stays clean, and it's yours for every formal night after." },
       { q: 'What makes a real tuxedo different from a black suit?', a: "A proper tuxedo has satin (on the lapel facing, the buttons and the trouser side-stripe) and is cut to true black-tie codes. A black suit worn with a bow tie is not a tuxedo. I build the real thing, in black or midnight blue." },
       { q: 'Black or midnight blue for a tuxedo?', a: "Midnight blue reads richer than black under evening light and photographs beautifully. Most men are surprised. Both are correct black tie; I'll show you each against your skin before you choose." },
-      { q: 'How long does a custom tuxedo take?', a: "Plan on roughly 8–12 weeks for a first bespoke tuxedo across two or three fittings, less for made-to-measure. For a wedding or gala, start early so nothing is rushed near the date." },
+      { q: 'How long does a custom tuxedo take?', a: "About three to four weeks on the bench. For a wedding or a gala, still come in early: the weeks you want are for choosing cloth and getting the fittings right, not for the making." },
     ],
   },
   {

@@ -23,7 +23,7 @@ export const locations = [
     ],
     intro: [
       "Vaughan is home. For a custom suit in Vaughan, this is where it begins. The studio on Charlton Avenue is a room where one person is measured at a time and nobody is rushed toward a rack. No traffic, no downtown parking, no showroom pressure.",
-      "It's a short drive from Maple, Concord, Woodbridge and Kleinburg, and Vaughan is a wedding town. Sam dresses grooms, groomsmen and both fathers for receptions at the Woodbridge and Vaughan banquet halls (Bellvue Manor, Chateau Le Jardin, The Universal and Paramount EventSpace, Eagles Nest). The whole party measured together, coordinated, and made to fit, never rented.",
+      "It's a short drive from Maple, Concord, Woodbridge and Kleinburg, and Vaughan is a wedding town. Sam dresses grooms, groomsmen and both fathers for receptions right across Vaughan and Woodbridge. The whole party measured together, coordinated, and made to fit, never rented.",
       "There's a strong traditional community here too, through Thornhill Woods and Patterson, and Sam makes the fine dark suit, the kapota and the simcha garments to match. Where a store sells men's suits off a rack in Vaughan, Sam measures and fits each one personally on his oldest principle: the suit is built around you.",
     ],
     faqs: [
@@ -33,7 +33,7 @@ export const locations = [
       },
       {
         q: 'Can Sam dress a Vaughan wedding party?',
-        a: 'Yes. Groom, groomsmen and both fathers, measured together and coordinated. Custom wedding suits and tuxedos for receptions at Bellvue Manor, Chateau Le Jardin, The Universal EventSpace and the other Vaughan and Woodbridge halls.',
+        a: 'Yes. Groom, groomsmen and both fathers, measured together and coordinated. Custom wedding suits and tuxedos for receptions anywhere across Vaughan and Woodbridge.',
       },
       {
         q: 'Do I need an appointment?',
@@ -77,7 +77,7 @@ export const locations = [
       },
       {
         q: 'Can Sam dress a whole Thornhill wedding party?',
-        a: 'Yes. Groom, groomsmen and both fathers, at the studio or at your home. Same cloth, coordinated details, the groom set gently apart. Custom wedding suits and tuxedos, never rented.',
+        a: 'Yes. Groom, groomsmen and both fathers, booked into the studio together. Same cloth, coordinated details, the groom set gently apart. Custom wedding suits and tuxedos, never rented.',
       },
     ],
   },
@@ -87,10 +87,10 @@ export const locations = [
     headline: 'Tailoring without the traffic.',
     metaTitle: "Custom Suits in North York · Sam's Menswear",
     h1: "Custom Suits in <em>North York.</em>",
-    metaDesc: "A custom suit in North York without the traffic. Sam brings the fitting to your Willowdale, Bayview Village or Don Mills office, or measures you at the Vaughan studio. Wedding, business and traditional suits, made to fit.",
+    metaDesc: "A custom suit for North York, measured and fitted by Sam at the Vaughan studio, a short drive up Bathurst from Willowdale, Bayview Village or Don Mills. Wedding, business and traditional suits, made to fit.",
     blurb:
-      'For North York executives, Sam will come to your office. For everyone else, the studio is a short drive up Bathurst. Worth it for the first suit that ever truly fit.',
-    services: ['Custom Suits', 'Wedding Suits', 'Groomsmen & Fathers', 'Custom Tuxedos', 'Have Sam Over', 'Custom Shirts'],
+      'The studio is a short drive up Bathurst, and North York clients make it most lunch hours. Worth the trip for the first suit that ever truly fit.',
+    services: ['Custom Suits', 'Wedding Suits', 'Groomsmen & Fathers', 'Custom Tuxedos', 'Custom Shirts'],
     nearby: ['Thornhill', 'Vaughan', 'Toronto'],
     neighbourhoods: [
       'Willowdale', 'Bayview Village', 'York Mills', 'Don Mills', 'Lansing',
@@ -98,7 +98,7 @@ export const locations = [
       'North York Centre', 'Armour Heights', 'Cricket Club', 'Uptown Yonge',
     ],
     intro: [
-      "North York runs on time nobody has to spare. So for professionals from Willowdale to Don Mills, Sam brings the fitting to the office (tape, cloth book and notebook) and turns an afternoon lost to traffic into an hour spent being measured properly. It's a short hop from North York Centre and the Yonge line up to the Vaughan studio when you'd rather come to him.",
+      "North York runs on time nobody has to spare, which is exactly the argument for doing this once and properly. It's a short hop from North York Centre and the Yonge line up to the studio, and professionals from Willowdale to Don Mills fit it into a lunch hour. One hour being measured properly beats three Saturdays hunting a rack suit that nearly works.",
       "There's a real Jewish community through Bathurst Manor, Clanton Park and Ledbury Park, and Sam has dressed it for years: Shabbos suits, bar mitzvah suits, and the fine dark suit that reads as kavod in shul. Bayview Village and York Mills lean executive; Hoggs Hollow and the Cricket Club lean formal. Sam dresses all of it.",
       "North York weddings bring whole families through the door. The groom, the groomsmen and both fathers are measured together and matched on cloth and colour, so the wedding album holds together frame after frame. Custom suits and tuxedos, made to fit, never rented.",
     ],
@@ -132,7 +132,7 @@ export const locations = [
     metaTitle: "Custom & Tailored Suits in Toronto · Sam's Menswear",
     blurb:
       "Yes, Sam makes custom suits in Toronto without the downtown showroom. He comes to you by appointment (hotels, offices, condos) with bolts of cloth, the measuring tape and the notebook. The same hour you'd have spent in traffic, spent being measured properly.",
-    services: ['Have Sam Over', 'Custom Suits', 'Wedding Suits & Tuxedos', 'Business Suits', 'Groomsmen & Fathers'],
+    services: ['Custom Suits', 'Wedding Suits & Tuxedos', 'Business Suits', 'Groomsmen & Fathers'],
     nearby: ['North York', 'Vaughan', 'Etobicoke'],
     neighbourhoods: [
       'Financial District', 'Yorkville', 'King West', 'Liberty Village', 'The Annex',
@@ -141,7 +141,7 @@ export const locations = [
     ],
     intro: [
       "Downtown, the traveling tailor makes more sense than the commute north. Sam comes to you by appointment: the office tower on Bay or King, the Yorkville condo, the hotel. He brings bolts of cloth, the tape and the notebook, and takes the full fitting where you already are. For the Financial District and King West crowd who can't give up half a day for a showroom, that's the whole point.",
-      "Toronto is a wedding city, and Sam works it every season. Grooms and groomsmen getting married at the King Edward, the Fairmont Royal York, Casa Loma, the Distillery District or Liberty Grand are measured together with both fathers and matched on cloth and colour, so every frame of the album agrees. Custom suits and tuxedos, made to fit, never a rental cut for the last man who wore it.",
+      "Toronto is a wedding city, and Sam works it every season. Grooms and groomsmen getting married downtown, midtown or out along the lake are measured together with both fathers and matched on cloth and colour, so every frame of the album agrees. Custom suits and tuxedos, made to fit, never a rental cut for the last man who wore it.",
       "From a business suit for a Bay Street partner to a black-tie tuxedo for a Rosedale wedding, the work is the same: drafted to your body, fitted in person, and yours to keep for years of events after.",
     ],
     faqs: [
@@ -151,7 +151,7 @@ export const locations = [
       },
       {
         q: 'Can Sam dress a downtown Toronto wedding party?',
-        a: 'Yes. Groom, groomsmen and both fathers, measured in one visit at a venue, office or home and fully coordinated. Custom wedding suits and tuxedos for weddings at the King Edward, Fairmont Royal York, Casa Loma, the Distillery District and beyond.',
+        a: 'Yes. Groom, groomsmen and both fathers, measured together in a single visit and fully coordinated. Custom wedding suits and tuxedos for weddings right across the city.',
       },
       {
         q: 'Should I rent a tuxedo for a Toronto wedding?',
@@ -177,7 +177,7 @@ export const locations = [
     ],
     intro: [
       "Richmond Hill is a short run down Yonge or Bathurst to the studio, and most clients make the trip. It's worth it for a room to yourself and a fitting that takes the time a fitting takes. Custom suits, wedding suits and tuxedos, and precise alterations, one client at a time.",
-      "Richmond Hill weddings often gather the whole family at once, and that's Sam's favourite way to work: groom, groomsmen and both fathers measured together, so the party is coordinated and the photographs look like one family rather than five different stores. He'll drive up for group fittings (receptions at The Manor, Eagles Nest, Bayview Golf or the Sunset Villa) or measure everyone at the studio, whichever keeps the party together.",
+      "Richmond Hill weddings often gather the whole family at once, and that's Sam's favourite way to work: groom, groomsmen and both fathers measured together, so the party is coordinated and the photographs look like one family rather than five different stores. The whole party can be booked into the studio in one block, so nobody is chasing a second appointment in the last month before the wedding.",
       "There's a real traditional community through Bayview Hill and Doncrest too, and Sam makes the fine dark suit, bar mitzvah suits and simcha garments to match, all made to fit, never rented.",
     ],
     faqs: [
@@ -187,7 +187,7 @@ export const locations = [
       },
       {
         q: 'Can Sam dress a Richmond Hill wedding party?',
-        a: 'Yes. Groom, groomsmen and both fathers, measured together and coordinated. Custom wedding suits and tuxedos for receptions at The Manor, Eagles Nest, Bayview Golf and beyond.',
+        a: 'Yes. Groom, groomsmen and both fathers, measured together and coordinated. Custom wedding suits and tuxedos for receptions anywhere in Richmond Hill and beyond.',
       },
       {
         q: 'Can Sam measure a whole family at once?',
@@ -212,7 +212,7 @@ export const locations = [
       'Angus Glen', 'Wismer', 'Greensborough', 'Milliken Mills', 'Thornlea',
     ],
     intro: [
-      "Markham keeps Sam busy every wedding season. The groom, the groomsmen and both fathers get dressed together, coordinated on colour with the groom set gently apart, so the whole party looks like it belongs in the same photographs. Custom wedding suits and tuxedos for receptions at Le Parc, Angus Glen Golf Club and the Markham-area venues, made to fit and never rented.",
+      "Markham keeps Sam busy every wedding season. The groom, the groomsmen and both fathers get dressed together, coordinated on colour with the groom set gently apart, so the whole party looks like it belongs in the same photographs. Custom wedding suits and tuxedos for receptions right across Markham, made to fit and never rented.",
       "Group fittings run wherever keeps everyone together: the Vaughan studio, or a home or venue in Unionville, Cathedraltown or Markham Village. Sam will measure a whole party in one visit, the easiest way to keep out-of-town groomsmen and busy fathers coordinated.",
       "Beyond weddings, the same care goes into custom suits and tuxedos for anyone in Markham who wants one that actually fits: drafted to your body, fitted in person, and yours to keep for every event after.",
     ],
@@ -223,11 +223,11 @@ export const locations = [
       },
       {
         q: 'Does Sam make custom tuxedos for Markham weddings?',
-        a: 'Yes. Midnight and black tuxedos with satin lapels, made to your measurements. For a Markham reception at Le Parc or Angus Glen, a made tuxedo beats a rental where it counts: the fit, and the photos you keep.',
+        a: 'Yes. Midnight and black tuxedos with satin lapels, made to your measurements. For a Markham reception, a made tuxedo beats a rental where it counts: the fit, and the photos you keep.',
       },
       {
         q: 'How early should a Markham wedding party start?',
-        a: 'Four to six months out. A custom suit or tuxedo needs about six to eight weeks; the rest is buffer for a busy, scattered party.',
+        a: 'Four to six months out. A custom suit or tuxedo needs about three to four weeks on the bench; the rest is buffer for a busy, scattered party.',
       },
       {
         q: 'Custom or rental for the groom?',
@@ -256,7 +256,7 @@ export const locations = [
       "Beyond the traditional garments, the same care goes into custom suits, wedding suits and tuxedos for the community: drafted to your body, kept on a pattern, and made to fit rather than sold off a rack.",
     ],
     faqs: [
-      { q: 'Is there a Jewish tailor at Bathurst & Lawrence?', a: "Yes. Sam makes traditional Jewish menswear for the Bathurst–Lawrence and Lawrence Manor community: Shabbos suits, bekishe, kapota, kittel, bar mitzvah and chosson tailoring, all made to measure and to the tradition. A short drive up Bathurst to the studio, or he comes to you." },
+      { q: 'Is there a Jewish tailor at Bathurst & Lawrence?', a: "Yes. Sam makes traditional Jewish menswear for the Bathurst–Lawrence and Lawrence Manor community: Shabbos suits, bekishe, kapota, kittel, bar mitzvah and chosson tailoring, all made to measure and to the tradition. A short drive up Bathurst to the studio." },
       { q: 'How much is a custom Shabbos suit, bekishe or kapota?', a: "It depends on the cloth and the garment. Sam gives an honest quote at the consultation, with no showroom markup, and the first conversation costs nothing." },
       { q: 'Does Sam make bar mitzvah suits for the community?', a: "Yes. Bar mitzvah suits are cut with room to let out over the next two years, and the pattern is kept for the next suit. Fathers are often measured at the same visit." },
       { q: 'Are you closed on Shabbos and Yom Tov?', a: "Always. Fittings are by appointment, one family at a time, and never on Shabbos or Yom Tov." },
@@ -271,7 +271,7 @@ export const locations = [
     metaDesc: "Custom business suits for Bay Street and Toronto's Financial District. Sam brings the fitting to your tower or the boardroom. Navy, charcoal and glen check, drafted to your body and kept on a pattern. No showroom, no rack, no half-day lost.",
     blurb:
       "For the Bay Street crowd who can't lose half a day to a showroom, Sam brings the cloth and the tape to your tower: the full fitting, taken where you already are.",
-    services: ['Business Suits', 'Have Sam Over', 'Custom Suits', 'Custom Shirts', 'Travel Suits'],
+    services: ['Business Suits', 'Custom Suits', 'Custom Shirts', 'Travel Suits'],
     nearby: ['Yorkville', 'King West', 'North York'],
     neighbourhoods: [
       'Bay Street', 'King & Bay', 'First Canadian Place', 'Commerce Court', 'Brookfield Place',
@@ -284,7 +284,7 @@ export const locations = [
     ],
     faqs: [
       { q: 'Will Sam come to my Bay Street office?', a: "Yes. The traveling service brings the whole fitting to your tower, boardroom or nearby condo across the Financial District, by appointment. There's no house-call surcharge; the suit costs what the suit costs." },
-      { q: 'How long does a custom business suit take?', a: "About six to eight weeks from the first fitting, across two or three visits. Once your pattern is on file, reorders are faster." },
+      { q: 'How long does a custom business suit take?', a: "About three to four weeks from the first fitting. Once your pattern is on file, reordering is a phone call rather than another appointment." },
       { q: 'Do you make custom shirts for the office too?', a: "Yes. Custom dress shirts cut from the pattern of your own shoulders, in two-ply cotton, with your collar, cuff and monogram. They stop the gape and bunching an off-the-rack shirt gives under a jacket." },
       { q: 'Can I reorder without coming in again?', a: "Yes. Your measurements and pattern are kept in the notebook, so a second navy suit or a run of shirts can be ordered by phone and cut to you." },
     ],
@@ -298,7 +298,7 @@ export const locations = [
     metaDesc: "Bespoke and made-to-measure suits for Yorkville and Bloor West: the craft of a proper tailor without the Mink Mile markup. Sam measures and fits every garment personally, or comes to your condo. Custom, wedding and black-tie tailoring.",
     blurb:
       "In Yorkville you can pay for a showroom or pay for a tailor. With Sam, every dollar goes into the cloth and the hand that cuts it, not the address.",
-    services: ['Bespoke Suits', 'Made-to-Measure', 'Custom Tuxedos', 'Have Sam Over', 'Custom Shirts'],
+    services: ['Bespoke Suits', 'Made-to-Measure', 'Custom Tuxedos', 'Custom Shirts'],
     nearby: ['Financial District', 'Rosedale', 'Forest Hill'],
     neighbourhoods: [
       'Bloor-Yorkville', 'The Mink Mile', 'Rosedale', 'The Annex', 'Summerhill',
@@ -325,7 +325,7 @@ export const locations = [
     metaDesc: "Custom and wedding suits in Etobicoke without the cross-city drive. Sam brings the fitting to your home or office from The Kingsway to Mimico, or measures you at the Vaughan studio. Groom, groomsmen and fathers, made to fit and never rented.",
     blurb:
       "Etobicoke clients skip the drive north. Sam brings the fitting to you, from The Kingsway to Mimico, or measures you at the studio when you'd rather come up.",
-    services: ['Custom Suits', 'Wedding Suits & Tuxedos', 'Groomsmen & Fathers', 'Have Sam Over', 'Alterations'],
+    services: ['Custom Suits', 'Wedding Suits & Tuxedos', 'Groomsmen & Fathers', 'Alterations'],
     nearby: ['Toronto', 'Vaughan', 'Mississauga'],
     neighbourhoods: [
       'The Kingsway', 'Mimico', 'Islington', 'Humber Bay', 'Sunnylea',
@@ -333,12 +333,12 @@ export const locations = [
     ],
     intro: [
       "The west end is far enough from most tailoring that the drive alone talks people out of a proper suit. So for Etobicoke, from The Kingsway to Mimico and Humber Bay, Sam brings the fitting to you: the tape, the cloth book and the notebook, at your home or office, on an afternoon you'd otherwise lose to the Gardiner. When you'd rather come up, the Vaughan studio is a straight run and the room is yours.",
-      "Etobicoke weddings run all season: grooms and groomsmen getting married at the Old Mill, the west-end golf clubs and the waterfront halls, measured together with both fathers so the party stands in the photographs like it was planned, because it was. Custom suits and tuxedos, made to fit and yours to keep.",
+      "Etobicoke weddings run all season: grooms and groomsmen getting married at the west-end golf clubs and the waterfront halls, measured together with both fathers so the party stands in the photographs like it was planned, because it was. Custom suits and tuxedos, made to fit and yours to keep.",
       "The same hand does the working wardrobe too: the first serious navy suit, the daily charcoal, the sport coat and trousers for the weekend. Drafted to your body, fitted in person, and yours for years of events after.",
     ],
     faqs: [
       { q: 'Will Sam come to my home or office in Etobicoke?', a: "Yes. The traveling service brings the whole fitting to you anywhere in Etobicoke, from The Kingsway and Islington to Mimico and Humber Bay. There's no house-call surcharge." },
-      { q: 'Can Sam dress an Etobicoke wedding party?', a: "Yes. Groom, groomsmen and both fathers, measured together and coordinated. Custom wedding suits and tuxedos for weddings at the Old Mill and the west-end venues, at your home or the studio." },
+      { q: 'Can Sam dress an Etobicoke wedding party?', a: "Yes. Groom, groomsmen and both fathers, measured together and coordinated. Custom wedding suits and tuxedos for west-end weddings, measured and fitted at the studio in Vaughan." },
       { q: 'How far is the studio from Etobicoke?', a: "A straight run up to the Vaughan studio at 318 Charlton Avenue. Or skip the drive and have Sam come to you." },
       { q: 'Do you do alterations in the west end?', a: "Yes. Expert alterations on suits and jackets, whether Sam made them or not." },
     ],

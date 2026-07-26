@@ -1,6 +1,6 @@
 ---
 title: "What a custom suit actually costs in Toronto"
-description: "How affordable is a custom suit in Toronto? Real price ranges for off-the-rack, made-to-measure and bespoke (from about $500) and exactly what moves the number, from a Vaughan tailor of 30 years."
+description: "How affordable is a custom suit in Toronto? What separates off-the-rack, made-to-measure and bespoke, and exactly what moves the number, from a Vaughan tailor of 30 years."
 tldr: "A custom suit in Toronto runs about 500 to 6,000 dollars, and cloth is what moves the number most. Roughly, altered off-the-rack is 150 to 500, made-to-measure 500 to 2,500, and bespoke 3,000 and up."
 pillar: "Bespoke Suits"
 pillarHref: "/suits"
@@ -11,17 +11,17 @@ faqCats: ["Cost & value"]
 related: ["bespoke-vs-made-to-measure-vs-off-the-rack", "is-a-custom-suit-worth-it", "how-long-does-a-custom-suit-take"]
 ---
 
-A [custom suit](/suits) in Toronto runs anywhere from about $500 to $6,000, and the straight answer to "how much?" is *it depends on the cloth*. Here's the real breakdown, and exactly what pushes the number up or down, so you can decide where your money is worth spending.
+The straight answer to "how much?" is *it depends on the cloth*, and any tailor who gives you a number before he has seen you is guessing. Here's the real breakdown, and exactly what pushes the number up or down, so you can decide where your money is worth spending.
 
 ## What you'll actually pay
 
 Three tiers, roughly:
 
 - **Off-the-rack, altered**: about **$150–$500**. A factory suit tailored toward you. Fine for an occasional wear if your body is close to the average.
-- **Made-to-measure**: about **$500–$2,500**. A factory pattern adjusted to your measurements. The sweet spot for most men who wear a suit regularly.
-- **Bespoke**: **$3,000 and up**. A pattern drafted from scratch and cut by hand, across two or three fittings. The best fit money buys, and the right call for a hard-to-fit body or a wedding.
+- **Made-to-measure**: the broad middle of the market. A factory pattern adjusted to your measurements, and the sweet spot for most men who wear a suit regularly.
+- **Bespoke**: the top of the market. A pattern drafted from scratch across two or three fittings. The best fit money buys, and the right call for a hard-to-fit body or a wedding.
 
-I keep cloth and construction across all three, so the first thing we do is find the tier that fits your life, not the one that impresses me. The most affordable route to a suit that genuinely fits is made-to-measure, from about $500, not the cheapest rack suit you'll resent by the second wear.
+I keep cloth and construction across all three, so the first thing we do is find the tier that fits your life, not the one that impresses me. The most affordable route to a suit that genuinely fits is made-to-measure, not the cheapest rack suit you'll resent by the second wear.
 
 ## Why the number moves
 
@@ -35,7 +35,7 @@ We decide together where each of those is worth it *for you*. Sometimes the smar
 
 ## The no-upsell part
 
-My reviews say it more bluntly than I would: **I don't upsell.** I'll put cloth in front of you from three price shelves and tell you the truth about each. If a $700 made-to-measure suit is the right answer for how often you'll wear it, I'll tell you that before I'll sell you a $4,000 one.
+My reviews say it more bluntly than I would: **I don't upsell.** I'll put cloth in front of you from three price shelves and tell you the truth about each. If made-to-measure is the right answer for how often you'll actually wear it, I'll say so before I'll sell you the bespoke.
 
 ## The part nobody quotes: cost per wear
 
