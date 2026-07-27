@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Testimonials from '../components/Testimonials.astro';
 import FaqBlock from '../components/FaqBlock.astro';
 import { reviews } from '../data/reviews.js';
+import { clientPhotos as cp } from '../data/clientPhotos.js';
 
 const site = 'https://customsuitandshirt.com';
 const gta = ['Vaughan', 'Thornhill', 'Toronto', 'North York', 'Richmond Hill', 'Markham', 'Woodbridge'];
@@ -71,6 +72,16 @@ const traditionalFaqs = [
           </p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- A real chosson, photographed by the family and shared with permission. -->
+  <section class="section tight">
+    <div class="container">
+      <figure class="cli-shot cli-shot--wide" data-reveal>
+        <img src={cp.chossonChuppah.src} alt={cp.chossonChuppah.alt} width={cp.chossonChuppah.w} height={cp.chossonChuppah.h} loading="lazy"/>
+        <figcaption>To the chuppah &middot; photographed by {cp.chossonChuppah.credit}</figcaption>
+      </figure>
     </div>
   </section>
 

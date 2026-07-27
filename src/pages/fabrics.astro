@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { fabrics, categories, colours, tiers } from '../data/fabrics.js';
+import { clientPhotos as cp } from '../data/clientPhotos.js';
 
 const total = fabrics.length;
 ---
@@ -14,6 +15,32 @@ const total = fabrics.length;
         <div class="eyebrow-rule">The Studio &middot; Cloth</div>
         <h1>The <em>cloth library.</em></h1>
         <p class="lede">A reference for choosing, not a stock list. {total} colours and weaves across the families Sam works in, from worsteds and flannels to tweeds and tuxedo barathea. Find the direction you like here, then see the real cloth at your fitting.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- The real thing. Photographs taken by a client at the studio and used
+       with permission: the swatches below are a reference, these are the books. -->
+  <section class="section tight">
+    <div class="container">
+      <div data-reveal style="max-width: 58ch;">
+        <p class="body-prose">The swatches on this page are drawn, so your screen can show you a direction. The books are what you actually turn on the table, and there are a great many more pages in them than there are colours here.</p>
+      </div>
+      <div class="cli-band" data-reveal>
+        <figure class="cli-shot cli-shot--tall">
+          <img src={cp.clothLibrary.src} alt={cp.clothLibrary.alt} width={cp.clothLibrary.w} height={cp.clothLibrary.h} loading="lazy"/>
+          <figcaption>The shelves at the studio &middot; photographed by {cp.clothLibrary.credit}</figcaption>
+        </figure>
+        <div class="cli-band__stack">
+          <figure class="cli-shot">
+            <img src={cp.clothBooks.src} alt={cp.clothBooks.alt} width={cp.clothBooks.w} height={cp.clothBooks.h} loading="lazy"/>
+            <figcaption>Choosing, in progress &middot; {cp.clothBooks.credit}</figcaption>
+          </figure>
+          <figure class="cli-shot">
+            <img src={cp.clothChoosing.src} alt={cp.clothChoosing.alt} width={cp.clothChoosing.w} height={cp.clothChoosing.h} loading="lazy"/>
+            <figcaption>An hour at the table &middot; {cp.clothChoosing.credit}</figcaption>
+          </figure>
+        </div>
       </div>
     </div>
   </section>

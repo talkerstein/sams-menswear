@@ -4,6 +4,7 @@ import Testimonials from '../components/Testimonials.astro';
 import FaqBlock from '../components/FaqBlock.astro';
 import { reviews } from '../data/reviews.js';
 import { faqs } from '../data/faqs.js';
+import { clientPhotos as cp } from '../data/clientPhotos.js';
 
 const weddingFaqs = faqs.filter((f) => f.cat === 'Weddings');
 
@@ -67,6 +68,35 @@ const serviceSchema = {
             <figcaption>№ 01 · The Groom</figcaption>
           </figure>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REAL WEDDINGS. Photographs taken by Sam's own clients and shared with
+       permission. Not styled, not staged, not ours: theirs. -->
+  <section class="section tight">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <div class="chapter-no">Their day</div>
+        <h2 class="h-1" style="text-transform: uppercase; max-width: 20ch;">Suits that <em>went to weddings.</em></h2>
+        <div class="right">Photographed by the grooms</div>
+      </div>
+      <p class="body-prose" data-reveal style="max-width: 56ch; margin-top: 8px;">
+        Not a styled shoot. These were taken by the men who wore the suits and posted them themselves, which is the only kind of photograph worth showing you.
+      </p>
+      <div class="cli-grid" data-reveal-stagger>
+        <figure class="cli-shot cli-shot--tall">
+          <img src={cp.weddingMorning.src} alt={cp.weddingMorning.alt} width={cp.weddingMorning.w} height={cp.weddingMorning.h} loading="lazy"/>
+          <figcaption>The morning of &middot; {cp.weddingMorning.credit}</figcaption>
+        </figure>
+        <figure class="cli-shot cli-shot--tall">
+          <img src={cp.weddingCouple.src} alt={cp.weddingCouple.alt} width={cp.weddingCouple.w} height={cp.weddingCouple.h} loading="lazy"/>
+          <figcaption>Grey three-piece, and the dogs &middot; {cp.weddingCouple.credit}</figcaption>
+        </figure>
+        <figure class="cli-shot cli-shot--tall">
+          <img src={cp.weddingFirstDance.src} alt={cp.weddingFirstDance.alt} width={cp.weddingFirstDance.w} height={cp.weddingFirstDance.h} loading="lazy"/>
+          <figcaption>The first dance &middot; {cp.weddingFirstDance.credit}</figcaption>
+        </figure>
       </div>
     </div>
   </section>
