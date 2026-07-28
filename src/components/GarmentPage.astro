@@ -22,7 +22,9 @@ const serviceSchema = {
     <div class="container">
       <div data-reveal style="max-width: 46rem;">
         <div class="eyebrow-rule">{g.eyebrow}</div>
-        <h1>{g.title}</h1>
+        {/* g.h1 lets a page carry a search-explicit heading while g.title
+            stays the short prose name used in sentences further down. */}
+        <h1>{g.h1 || g.title}</h1>
         <p class="lede">{g.lede}</p>
         <div class="hero-cta-row">
           <a href="/book" class="btn is-primary" data-open-booking data-no-transition>Book a Fitting</a>

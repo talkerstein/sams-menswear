@@ -236,6 +236,16 @@
       "source": "/almanac/the-traveling-tailor-save/",
       "destination": "/almanac",
       "permanent": true
+    },
+    {
+      "source": "/book-appointment",
+      "destination": "/book",
+      "permanent": true
+    },
+    {
+      "source": "/book-appointment/",
+      "destination": "/book",
+      "permanent": true
     }
   ]
 }

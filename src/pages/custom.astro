@@ -32,7 +32,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   '@id': `${site}/custom#service`,
-  name: 'Custom Suits & Shirts',
+  name: 'Custom Menswear & Wardrobe Tailoring',
   serviceType: 'Bespoke and made-to-measure tailoring',
   provider: { '@id': `${site}/#business` },
   areaServed: gta.map((c) => ({ '@type': 'City', name: c })),
@@ -42,15 +42,15 @@ const serviceSchema = {
 ---
 <BaseLayout
   nav="custom"
-  title="Custom Suits & Shirts in Vaughan & the GTA · Sam's Menswear"
-  description="Custom suits, jackets, trousers and shirts drafted from one personal pattern, measured and fitted at Sam's studio in Vaughan, serving Thornhill, Toronto & the GTA."
+  title="Custom Menswear & Wardrobe Tailoring in Vaughan · Sam's Menswear"
+  description="Build a whole wardrobe from one kept pattern: suits, shirts, jackets, trousers and traditional garments, measured and fitted by Sam at the Vaughan studio."
 >
 
   <section class="page-hero">
     <div class="container">
       <div data-reveal>
         <div class="eyebrow-rule">House № 03 &middot; Custom</div>
-        <h1>One pattern. <em>One body.</em></h1>
+        <h1 class="h1-split"><span class="h1-display">One pattern. <em>One body.</em></span><span class="h1-sem">Custom menswear and wardrobe tailoring in Vaughan</span></h1>
         <p class="lede">A wardrobe of suits, jackets, trousers and shirts, all drafted from a single pattern of your shoulders, your stance, the way you actually move through a day.</p>
         <div class="hero-cta-row">
           <a href="/book" class="btn is-primary" data-open-booking data-no-transition>Book a Fitting</a>
@@ -83,11 +83,36 @@ const serviceSchema = {
     </div>
   </section>
 
+  <!-- WARDROBE HUB. This page's job is the whole wardrobe and the routing;
+       /suits owns the custom-suit query and gets the traffic for it. -->
+  <section class="section tight">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <div class="chapter-no">No. 02</div>
+        <h2 class="h-1" style="text-transform: uppercase; max-width: 20ch;">The wardrobe, <em>garment by garment.</em></h2>
+        <div class="right">One pattern behind all of it</div>
+      </div>
+      <p class="body-prose" data-reveal style="max-width: 58ch; margin-bottom: 32px;">
+        Most men arrive for one thing and leave having worked out the next three. Because the pattern is drawn once and kept, everything below starts from the same set of numbers, which is what makes a wardrobe hang together instead of looking assembled from four different shops.
+      </p>
+      <div class="wed-guides" data-reveal-stagger>
+        <a class="wed-guide" href="/suits"><span class="wed-guide__k">Suits</span><span class="wed-guide__t">Where most men start</span><span class="wed-guide__d">Business, occasion and everyday two- and three-piece, cut to your body. The full account lives on the suits page.</span></a>
+        <a class="wed-guide" href="/dress-shirts"><span class="wed-guide__k">Dress shirts</span><span class="wed-guide__t">The collar and cuff, yours</span><span class="wed-guide__d">Two-ply cottons, your collar shape, your cuff, reordered by phone once the pattern is on file.</span></a>
+        <a class="wed-guide" href="/wedding"><span class="wed-guide__k">Wedding</span><span class="wed-guide__t">The groom and his men</span><span class="wed-guide__d">Groom, groomsmen and both fathers measured together and coordinated as one party.</span></a>
+        <a class="wed-guide" href="/business"><span class="wed-guide__k">Business</span><span class="wed-guide__t">A working rotation</span><span class="wed-guide__d">Two suits carry a week, three make it invisible. We plan the rotation and the shirts to match.</span></a>
+        <a class="wed-guide" href="/traditional"><span class="wed-guide__k">Traditional</span><span class="wed-guide__t">Shabbos and simcha</span><span class="wed-guide__d">Bekishe, kapota, kittel and the fine dark suit, made to your community's custom.</span></a>
+        <a class="wed-guide" href="/trousers"><span class="wed-guide__k">Trousers</span><span class="wed-guide__t">Sold on their own</span><span class="wed-guide__d">Flat front or pleated, cut to your rise and your break, and reorderable without a fitting.</span></a>
+        <a class="wed-guide" href="/outerwear"><span class="wed-guide__k">Outerwear</span><span class="wed-guide__t">Over the top of it all</span><span class="wed-guide__d">Overcoats and topcoats cut to sit over a jacket rather than fight it.</span></a>
+        <a class="wed-guide" href="/womens"><span class="wed-guide__k">Women's</span><span class="wed-guide__t">Cut for her frame</span><span class="wed-guide__d">Drafted from the first line for a woman's proportions, never adapted from a man's block.</span></a>
+      </div>
+    </div>
+  </section>
+
   <!-- Options: Collar / Cuff / Body -->
   <section class="section">
     <div class="container">
       <div class="section-head" data-reveal>
-        <div class="chapter-no">No. 02</div>
+        <div class="chapter-no">No. 03</div>
         <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">Drawn to <em>your specification.</em></h2>
         <div class="right">A short menu, infinite combinations</div>
       </div>
@@ -225,7 +250,7 @@ const serviceSchema = {
            style="background: linear-gradient(180deg, transparent 0%, var(--paper-cream) 50%, transparent 100%);">
     <div class="container">
       <div class="section-head" data-reveal>
-        <div class="chapter-no">No. 03</div>
+        <div class="chapter-no">No. 04</div>
         <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">The <em>pattern</em>, kept on paper.</h2>
         <div class="right">Yours, indefinitely</div>
       </div>
@@ -267,7 +292,7 @@ const serviceSchema = {
   <section class="section tight">
     <div class="container">
       <div class="section-head" data-reveal>
-        <div class="chapter-no">No. 04</div>
+        <div class="chapter-no">No. 05</div>
         <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">Their first <em>custom suit.</em></h2>
         <div class="right">Unedited &middot; Google reviews</div>
       </div>
@@ -279,7 +304,7 @@ const serviceSchema = {
   <section class="section tight">
     <div class="container">
       <div class="section-head" data-reveal>
-        <div class="chapter-no">No. 05</div>
+        <div class="chapter-no">No. 06</div>
         <h2 class="h-1" style="text-transform: uppercase; max-width: 20ch;">Before you <em>commission.</em></h2>
         <div class="right">From the notebook</div>
       </div>
@@ -295,7 +320,7 @@ const serviceSchema = {
       </ul>
 
       <div class="section-head" data-reveal style="margin-top: clamp(48px, 7vw, 96px);">
-        <div class="chapter-no">No. 06</div>
+        <div class="chapter-no">No. 07</div>
         <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">Good to <em>know.</em></h2>
         <div class="right">Straight answers</div>
       </div>
