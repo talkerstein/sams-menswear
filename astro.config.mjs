@@ -12,7 +12,15 @@ export default defineConfig({
     react(),
     // Exclude the staging suit-builder from the sitemap — it's noindex until it
     // replaces the SVG configurator on /design (after Ingrid's colour pass).
-    sitemap({ filter: (page) => !page.includes('/suit-builder') }),
+    sitemap({
+      // Keep noindex pages out of the sitemap: /suit-builder is staging,
+      // and the review ask + its print sheet are handed out in person,
+      // not search surfaces. A noindex URL in a sitemap is a mixed signal.
+      filter: (page) =>
+        !page.includes('/suit-builder') &&
+        !/\/review\/?$/.test(page) &&
+        !page.includes('/review-card'),
+    }),
   ],
   server: { port: 4321 },
 });

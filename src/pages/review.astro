@@ -1,0 +1,117 @@
+---
+/**
+ * /review — the destination for the QR card Sam hands over at delivery.
+ *
+ * Review velocity is the single biggest lever on the local pack, and until now
+ * the site displayed 157 reviews without ever asking for one. This page exists
+ * to be opened on a phone, in a doorway, thirty seconds after a man has put on
+ * a suit that fits. So: one button, no navigation to get lost in, no form.
+ *
+ * placeid verified 2026-07-27 by resolving the writereview URL and confirming
+ * it lands on Sam's Menswear, 318 Charlton Ave (CID 4403776371631966768).
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { reviewAggregate } from '../data/reviews.js';
+
+const GOOGLE_REVIEW_URL =
+  'https://search.google.com/local/writereview?placeid=ChIJS3VlqCUsK4gRMMphHUdbHT0';
+---
+<BaseLayout
+  title="Leave a review · Sam's Menswear"
+  description="Wore something Sam made? A minute of your time is how the next man finds him."
+  noindex={true}
+>
+  <section class="rev-ask">
+    <div class="container">
+      <div class="rev-ask__inner" data-reveal>
+        <svg class="rev-ask__mark" viewBox="0 0 720 384" aria-hidden="true" fill="currentColor">
+          <path d="M104 164c0-46 58-92 256-92s256 46 256 92c0 8-8 12-24 12H128c-16 0-24-4-24-12z" opacity="0.92"/>
+        </svg>
+
+        <p class="rev-ask__eyebrow">Thank you</p>
+        <h1 class="rev-ask__h1">Was it <em>right?</em></h1>
+
+        <p class="rev-ask__lede">
+          If the suit sat the way it should, a minute of your time is worth more to
+          Sam than any advertising he could buy. It is how the next groom, the next
+          father, the next man who has never had anything fit finds his way here.
+        </p>
+
+        <a class="rev-ask__btn" href={GOOGLE_REVIEW_URL} target="_blank" rel="noopener">
+          Write a Google review
+        </a>
+
+        <p class="rev-ask__note">Opens Google. Takes about a minute.</p>
+
+        <div class="rev-ask__hint">
+          <p class="rev-ask__hint-k">Stuck on what to say?</p>
+          <p>Anything true is plenty. What you had made, whether it fitted, and how
+          you were treated while it was being made. That is the whole review.</p>
+        </div>
+
+        <p class="rev-ask__foot">
+          Something not right instead? Say so directly and it gets fixed:
+          <a href="tel:+16474580711">647 · 458 · 0711</a>.
+          Sam would rather hear it from you than read it later.
+        </p>
+
+        <p class="rev-ask__stat">
+          Currently {reviewAggregate.ratingValue}&#9733; from {reviewAggregate.reviewCount}+ on Google &middot;
+          <a href="/reviews">read what people wrote</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* Deliberately self-contained and oversized: this page is read one-handed,
+     on a phone, standing up, by someone who is about to leave. */
+  .rev-ask { padding: clamp(40px, 9vh, 96px) 0 clamp(48px, 10vh, 110px); }
+  .rev-ask__inner { max-width: 34rem; margin: 0 auto; text-align: center; }
+  .rev-ask__mark { width: 74px; height: auto; color: var(--gold); margin-bottom: 22px; }
+  .rev-ask__eyebrow {
+    font-family: var(--serif); font-style: italic; letter-spacing: 0.34em;
+    text-transform: uppercase; font-size: 12px; color: var(--gold);
+  }
+  .rev-ask__h1 {
+    font-family: var(--serif); font-weight: 400; margin: 10px 0 0;
+    font-size: clamp(44px, 12vw, 76px); line-height: 1; text-transform: none;
+  }
+  .rev-ask__h1 em { font-style: italic; color: var(--oxblood); }
+  .rev-ask__lede {
+    margin: 22px auto 0; max-width: 30rem;
+    font-size: clamp(16.5px, 4.2vw, 18.5px); line-height: 1.6;
+  }
+  .rev-ask__btn {
+    display: block; margin: clamp(28px, 6vw, 40px) auto 0; max-width: 26rem;
+    padding: 20px 26px; background: var(--navy-deep); color: var(--paper-cream);
+    font-family: var(--serif); font-style: italic; font-size: 19px;
+    letter-spacing: 0.06em; text-decoration: none; text-align: center;
+    border: 1px solid var(--navy-deep); transition: background 0.2s ease, transform 0.2s ease;
+  }
+  .rev-ask__btn:hover, .rev-ask__btn:focus-visible { background: var(--oxblood); border-color: var(--oxblood); }
+  .rev-ask__note { margin-top: 12px; font-size: 13.5px; color: var(--ink-soft, #6b6155); }
+  .rev-ask__hint {
+    margin: clamp(30px, 7vw, 46px) auto 0; max-width: 30rem; padding: 20px 22px;
+    background: var(--paper-cream); border: 1px solid var(--rule);
+    text-align: left; font-size: 15.5px; line-height: 1.6;
+  }
+  .rev-ask__hint-k {
+    font-family: var(--serif); font-style: italic; color: var(--oxblood);
+    margin-bottom: 6px;
+  }
+  .rev-ask__foot {
+    margin: clamp(26px, 6vw, 38px) auto 0; max-width: 30rem;
+    font-size: 14.5px; line-height: 1.6; color: var(--ink-soft, #6b6155);
+  }
+  .rev-ask__foot a { color: var(--ink); border-bottom: 1px solid var(--rule-strong); }
+  .rev-ask__stat {
+    margin-top: 26px; font-family: var(--serif); font-style: italic; font-size: 14px;
+    color: var(--ink-soft, #6b6155);
+  }
+  .rev-ask__stat a { color: var(--ink); border-bottom: 1px solid var(--rule-strong); }
+  @media (prefers-reduced-motion: no-preference) {
+    .rev-ask__btn:active { transform: translateY(1px); }
+  }
+</style>

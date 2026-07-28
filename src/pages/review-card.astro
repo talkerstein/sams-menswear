@@ -1,0 +1,91 @@
+---
+/**
+ * /review-card — print sheet. Eight cards to a page on A4/Letter, cut and keep
+ * a stack by the door. Deliberately does NOT use BaseLayout: no nav, no footer,
+ * nothing that would waste ink or appear in the cut.
+ *
+ * Open the page, Ctrl/Cmd+P, print on cardstock, cut on the hairlines.
+ */
+import fs from 'node:fs';
+const qr = fs.readFileSync('public/media/brand/review-qr.svg', 'utf8')
+  .replace('<svg', '<svg class="qr"');
+const cards = Array.from({ length: 8 });
+---
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="robots" content="noindex, nofollow"/>
+  <title>Review cards to print · Sam's Menswear</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet"/>
+  <style>
+    :root { --ink: #211c15; --gold: #bd9d63; --oxblood: #6d232b; --rule: #d9d1c2; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 24px; background: #efeae0;
+      font-family: 'EB Garamond', Georgia, serif; color: var(--ink);
+    }
+    .instruct {
+      max-width: 52rem; margin: 0 auto 24px; padding: 16px 20px;
+      background: #fff; border: 1px solid var(--rule); font-size: 15px; line-height: 1.6;
+    }
+    .instruct b { font-family: 'Cormorant Garamond', serif; font-size: 18px; }
+    .sheet {
+      max-width: 52rem; margin: 0 auto; background: #fff;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+    }
+    .card {
+      border: 1px dashed var(--rule); padding: 20px 18px;
+      text-align: center; aspect-ratio: 85 / 55;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+    }
+    .card__k {
+      font-family: 'Cormorant Garamond', serif; font-style: italic;
+      letter-spacing: 0.3em; text-transform: uppercase; font-size: 8.5px; color: var(--gold);
+    }
+    .card__h {
+      font-family: 'Cormorant Garamond', serif; font-size: 21px; line-height: 1.1;
+      margin: 4px 0 2px;
+    }
+    .card__h em { font-style: italic; color: var(--oxblood); }
+    .card__qr { width: 88px; height: 88px; margin: 7px 0 5px; }
+    .card__qr .qr { width: 100%; height: 100%; display: block; }
+    .card__u { font-size: 10.5px; letter-spacing: 0.06em; color: var(--ink); }
+    .card__s { font-size: 8.5px; color: #6b6155; margin-top: 3px; }
+    @media print {
+      @page { margin: 10mm; }
+      body { background: #fff; padding: 0; }
+      .instruct { display: none; }
+      .sheet { max-width: none; }
+      .card { border-color: #ccc; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="instruct">
+    <b>How to use this sheet.</b><br/>
+    Print it on cardstock (Ctrl+P / Cmd+P, and turn on "background graphics" so the
+    QR prints solid). Cut along the dashed lines: eight business-card-sized slips.
+    Keep a stack by the door and put one in the bag with every finished garment.
+    <br/><br/>
+    The QR opens <b>customsuitandshirt.com/review</b>, which has one button on it
+    that goes straight to the Google review form. The words that work at the door
+    are the plain ones: <em>"If it fits the way it should, a review on Google is how
+    the next fellow finds me."</em>
+  </div>
+
+  <div class="sheet">
+    {cards.map(() => (
+      <div class="card">
+        <div class="card__k">Sam's Menswear &middot; Vaughan</div>
+        <div class="card__h">Did it <em>fit?</em></div>
+        <div class="card__qr" set:html={qr} />
+        <div class="card__u">customsuitandshirt.com/review</div>
+        <div class="card__s">A minute on Google is how the next man finds Sam.</div>
+      </div>
+    ))}
+  </div>
+</body>
+</html>
