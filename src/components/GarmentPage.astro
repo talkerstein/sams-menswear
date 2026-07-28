@@ -2,6 +2,8 @@
 // Renders a garment category page from a garments.js entry.
 import BaseLayout from '../layouts/BaseLayout.astro';
 import FaqBlock from './FaqBlock.astro';
+import Testimonials from './Testimonials.astro';
+import { reviews } from '../data/reviews.js';
 const { g } = Astro.props;
 const site = 'https://customsuitandshirt.com';
 const gta = ['Vaughan', 'Thornhill', 'Toronto', 'North York', 'Richmond Hill', 'Markham', 'Woodbridge'];
@@ -34,6 +36,19 @@ const serviceSchema = {
       </div>
     </div>
   </section>
+
+  {g.answer && (
+    <section class="section tight" style="padding-bottom: 0;">
+      <div class="container">
+        {/* Direct answer: self-contained and factual, so it stands on its own
+            if an answer engine quotes it away from the rest of the page. */}
+        <div class="answer-band" data-reveal>
+          <p class="answer-band__q">{g.answerQ}</p>
+          <p class="answer-band__a" set:html={g.answer}></p>
+        </div>
+      </div>
+    </section>
+  )}
 
   <section class="section tight">
     <div class="container">
@@ -111,10 +126,29 @@ const serviceSchema = {
         <ul class="prose-list" style="margin-top: 16px;">
           {g.relatedGuides.map((r) => <li><a href={r.href} style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">{r.label}</a></li>)}
           {g.relatedHouses.map((r) => <li><a href={r.href} style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">{r.label}</a></li>)}
+          {g.almanacRead && (
+            <li>
+              <a href={g.almanacRead.href} style="color: var(--oxblood); border-bottom: 1px solid var(--rule-strong);">{g.almanacRead.label}</a>
+              <span style="color: var(--ink-soft, #6b6155);"> &middot; composite tales, not case files</span>
+            </li>
+          )}
         </ul>
       </div>
     </div>
   </section>
+
+  {g.reviewPicks && g.reviewPicks.length > 0 && (
+    <section class="section tight">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div class="chapter-no">In their own words</div>
+          <h2 class="h-1" style="text-transform: uppercase; max-width: 18ch;">What people <em>actually said.</em></h2>
+          <div class="right">Unedited &middot; Google reviews</div>
+        </div>
+        <Testimonials items={g.reviewPicks.map((i) => reviews[i])} />
+      </div>
+    </section>
+  )}
 
   {g.faqs && g.faqs.length > 0 && (
     <section class="section tight" style="background: linear-gradient(180deg, transparent, var(--paper-cream) 50%, transparent);">

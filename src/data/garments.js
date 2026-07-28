@@ -6,6 +6,10 @@
 export const garments = [
   {
     slug: 'suits',
+    answerQ: "What does a custom suit from Sam's actually involve?",
+    answer: "Sam measures and fits you himself at the Vaughan studio, and the suit is made to those numbers: <strong>half canvas as standard, full canvas in the dearer cloths, never fused</strong>. Three to four weeks on the bench. Half is paid when the cloth is chosen, half on delivery, and the alterations that get it right are included.",
+    reviewPicks: [2, 6, 8],
+    almanacRead: { href: "/almanac/the-fit-that-changed-him", label: "Tales of men who never fit off the rack" },
     optionPhotos: [
       { src: '/media/sam/sam-fitting-shoulder.webp', alt: "Sam measuring sleeve length from the shoulder; the client's shirt cuff carries a stitched monogram", label: 'The shoulder' },
       { src: '/media/sam/sam-fitting-cuff.webp', alt: "Sam measuring a client's cuff, the working buttonholes on the navy sleeve visible under the tape", label: 'The sleeve' },
@@ -50,6 +54,15 @@ export const garments = [
     serviceName: 'Custom & Tailored Suits',
     serviceDesc: "Men's custom and tailored suits made to measure in Vaughan and across Toronto: bespoke and made-to-measure, two-piece, three-piece and separates, drafted to a personal pattern.",
     faqs: [
+      { q: "How long does a custom suit take?", a: "Three to four weeks on the bench. If a date is tight, twelve days is the fastest Sam will go, and only when the cloth is already on hand. Tell him the date at the consultation and he'll say straight away whether he can do it justice." },
+      { q: "Are your suits fused or canvassed?", a: "Sam does not fuse suits. Half canvas is the default and full canvas goes into the dearer cloths. Fusing is glue, and glue is what makes a chest bubble and a lapel go flat after a couple of seasons. Canvas floats, so the cloth moulds to you instead." },
+      { q: "What do I pay, and when?", a: "Half when the cloth is chosen, half on delivery, against one firm price agreed before anything is cut. The first half covers cloth that has been cut to you and cannot be resold. Alterations to get the suit right are part of that price, not a bill at the end." },
+      { q: "How many fittings will I need?", a: "Usually one. Sam fits the finished garment on you and corrects it there. For a build that is harder to fit he will make a sample suit to try on first, so the problems are found before the good cloth is cut." },
+      { q: "Do I get measured again for a second suit?", a: "No. Your pattern is drawn once and kept, so the second suit is a phone call: name the cloth, and it is on the bench. Come back in for a re-measure only when your body has genuinely changed." },
+      { q: "I have never fit off the rack. Can you help?", a: "That is most of the work here. Sloping or uneven shoulders, a long torso, an athletic drop, a prominent seat: a pattern drafted to your body handles all of it, where a factory block spends its life fighting you. Bring the suit that never worked and Sam will show you why." },
+      { q: "Where does the fitting happen?", a: "At the studio, 318 Charlton Avenue in Vaughan, on the Thornhill line, by appointment so the room and the hour are yours. Parking is at the door and it is a short run off Highway 7." },
+      { q: "What if I gain or lose weight later?", a: "Bring it back. Getting the garment right in the first place is included; if your body changes a year or two down the line that is separate work, and Sam quotes it before he starts rather than after." },
+
       { q: 'How much does a custom suit cost in Toronto?', a: "It depends on the cloth and the construction, and I would rather quote your garment than a stranger's. I keep cloth across three price shelves and I show you all three on the first visit, then give you one firm number for the exact garment you have chosen before anything is cut. Alterations are part of that price, not an extra. The first consultation costs nothing, so you can get the real figure without committing to a thing." },
       { q: "What's the difference between bespoke, made-to-measure and off-the-rack?", a: "Off-the-rack is cut to an average and altered toward you. Made-to-measure adjusts a factory's existing pattern to your numbers. Bespoke starts with no pattern at all: a fresh one is drafted for your body alone. Different price, different fit, different life." },
       { q: 'Is a bespoke suit actually worth it?', a: "For a hard-to-fit body, a wedding, or a man who wears a suit weekly, yes. For a suit you'll wear twice a year, made-to-measure is the smarter spend, and I'll tell you so. I'd rather you buy the right tier once than overspend to impress me." },
@@ -58,6 +71,10 @@ export const garments = [
   },
   {
     slug: 'tuxedos',
+    answerQ: "Should I buy a tuxedo rather than rent one?",
+    answer: "If you will wear black tie more than twice, buying wins on both fit and cost. A rental is cut for whoever wore it last; yours is measured to you and stays yours. <strong>Three to four weeks</strong> on the bench, half paid at cloth, half on delivery, alterations included.",
+    reviewPicks: [3, 0, 9],
+    almanacRead: { href: "/almanac/rental-disasters", label: "Tales of rentals that fit nobody" },
     optionPhotos: [
       { src: '/media/sam/sam-red-jacket.webp', alt: "Sam pinning a red dinner jacket with a black shawl lapel on the dress form, tape around his neck", label: 'The lapel' },
       { src: '/media/sam/sam-collar.webp', alt: "Sam taking a neck measurement with a tape at a client's collar in the Vaughan studio", label: 'The collar' },
@@ -103,6 +120,9 @@ export const garments = [
   },
   {
     slug: 'trousers',
+    answerQ: "Can I order trousers without a whole suit?",
+    answer: "Yes, and plenty do. Trousers are measured to your rise, seat and break at the Vaughan studio, then kept on the same pattern as everything else. <strong>Two to three weeks</strong> once that pattern exists, and a second pair in a different cloth is a phone call.",
+    reviewPicks: [8, 2, 11],
     optionPhotos: [
       { src: '/media/sam/sam-fitting-shoulder.webp', alt: "Sam measuring sleeve length from the shoulder; the client's shirt cuff carries a stitched monogram", label: 'Measured on you' },
       { src: '/media/cloth/f090.webp', alt: "Close weave of a mid-grey trouser cloth", label: 'The cloth' },
@@ -147,6 +167,10 @@ export const garments = [
   },
   {
     slug: 'dress-shirts',
+    answerQ: "How does a custom dress shirt work here?",
+    answer: "Your collar, cuff and body are measured once at the Vaughan studio and drawn into a pattern Sam keeps. Two-ply cottons, <strong>two to three weeks</strong> for the first shirt and the twentieth alike. After that a reorder is a phone call: name a cloth and a collar, and nobody measures you again.",
+    reviewPicks: [7, 2, 11],
+    almanacRead: { href: "/almanac/quiet-triumphs", label: "Tales of small alterations that changed a man" },
     optionPhotos: [
       { src: '/media/sam/sam-collar.webp', alt: "Sam taking a neck measurement with a tape at a client's collar in the Vaughan studio", label: 'The collar' },
       { src: '/media/sam/sam-fitting-cuff.webp', alt: "Sam measuring a client's cuff, the working buttonholes on the navy sleeve visible under the tape", label: 'The cuff' },
@@ -194,6 +218,9 @@ export const garments = [
   },
   {
     slug: 'short-sleeve-shirts',
+    answerQ: "Are short-sleeve shirts worth having made?",
+    answer: "If off-the-rack short sleeves catch you at the wrong point on the arm, yes. The sleeve is cut to your actual arm and the body to your chest, from the same kept pattern as your dress shirts. <strong>Two to three weeks.</strong>",
+    reviewPicks: [7, 2, 11],
     nav: 'Short-Sleeved Shirts',
     eyebrow: 'The Garments',
     title: 'Short-Sleeved Shirts',
@@ -229,6 +256,9 @@ export const garments = [
   },
   {
     slug: 'outerwear',
+    answerQ: "What makes a custom overcoat worth having?",
+    answer: "A coat has to sit over a jacket without straining across the back, which is the thing off-the-rack most often gets wrong. Yours is measured over the layers you actually wear. <strong>Three to four weeks</strong> on the bench, half at cloth and half on delivery, alterations included.",
+    reviewPicks: [2, 8, 11],
     nav: 'Outerwear',
     eyebrow: 'The Garments',
     title: 'Outerwear',
@@ -265,6 +295,10 @@ export const garments = [
   },
   {
     slug: 'kapotas',
+    answerQ: "Where can I have a kapota or bekishe made near Thornhill?",
+    answer: "At the studio on the Vaughan and Thornhill line, measured and fitted by Sam personally, with proper allowance for the gartel and tzitzis. Made bespoke to your community's custom, in satin or fine wool. <strong>Three to four weeks</strong>, so order before Yom Tov rather than during it. Never fitted on Shabbos.",
+    reviewPicks: [10, 4, 11],
+    almanacRead: { href: "/almanac/quiet-triumphs", label: "Tales from the fitting room" },
     optionPhotos: [
       { src: '/media/sam/sam-red-jacket.webp', alt: "Sam pinning a red dinner jacket with a black shawl lapel on the dress form, tape around his neck", label: 'On the form' },
       { src: '/media/sam/sam-collar.webp', alt: "Sam taking a neck measurement with a tape at a client's collar in the Vaughan studio", label: 'The collar' },
@@ -312,6 +346,10 @@ export const garments = [
   },
   {
     slug: 'kids-teen-suits',
+    answerQ: "How do you fit a boy who is still growing?",
+    answer: "The suit is cut with room to let out in the sleeve and trouser over the next two years, and the pattern stays in the notebook for the one after. Fathers are often measured at the same visit, so father and son are cut to match in the photographs.",
+    reviewPicks: [4, 10, 11],
+    almanacRead: { href: "/almanac/fathers-and-sons", label: "Tales of fathers and sons at the bench" },
     nav: 'Kids & Teen Suits',
     eyebrow: 'The Garments',
     title: "Boys' & Teen Suits",
@@ -351,6 +389,9 @@ export const garments = [
   },
   {
     slug: 'casual',
+    answerQ: "Does Sam make anything less formal than a suit?",
+    answer: "Yes: soft unstructured jackets, odd trousers and shirts for days off the clock, cut from the same kept pattern as the formal wardrobe. Measured at the Vaughan studio, two to three weeks for a shirt and three to four for a jacket.",
+    reviewPicks: [2, 6, 11],
     nav: 'Casual & Sport Coats',
     eyebrow: 'The Garments',
     title: 'Casual Tailoring & Sport Coats',
@@ -390,6 +431,9 @@ export const garments = [
   },
   {
     slug: 'vegan',
+    answerQ: "Can a suit be made without any animal fibre?",
+    answer: "Yes. The cloth, the canvas, the lining, the thread and the buttons all have non-animal alternatives, and the whole garment is built from them rather than one part swapped out. Measured and fitted at the Vaughan studio, <strong>three to four weeks</strong> on the bench.",
+    reviewPicks: [2, 6, 11],
     nav: 'Vegan Tailoring',
     eyebrow: 'The Garments',
     title: 'Vegan & Cruelty-Free Tailoring',
@@ -428,6 +472,9 @@ export const garments = [
   },
   {
     slug: 'womens',
+    answerQ: "Do you make tailoring for women?",
+    answer: "Yes, drafted for a woman's frame from the first line rather than adapted down from a man's block. Measured and fitted by Sam at the Vaughan studio, <strong>three to four weeks</strong> on the bench, and the pattern is kept so the next jacket starts where this one finished.",
+    reviewPicks: [2, 6, 11],
     optionPhotos: [
       { src: '/media/sam/sam-fitting-shoulder.webp', alt: "Sam measuring sleeve length from the shoulder; the client's shirt cuff carries a stitched monogram", label: 'The shoulder' },
       { src: '/media/sam/sam-fitting-cuff.webp', alt: "Sam measuring a client's cuff, the working buttonholes on the navy sleeve visible under the tape", label: 'The sleeve' },
