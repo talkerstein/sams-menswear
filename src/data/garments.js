@@ -112,6 +112,15 @@ export const garments = [
     serviceName: 'Custom Tuxedos',
     serviceDesc: 'Black-tie tuxedos in midnight or black with satin peak or shawl lapels, measured and built for you in Vaughan, with fittings across Toronto.',
     faqs: [
+      { q: "What actually counts as black tie?", a: "A dinner jacket in black or midnight blue with a silk-faced lapel, matching trousers with a braid down the side, a white dress shirt, a black bow tie you tie yourself, and a waist covering: cummerbund or low waistcoat. A dark business suit and a black tie is not black tie, whatever the invitation says." },
+      { q: "Peak lapel or shawl collar?", a: "Peak is the more formal and the more common; shawl reads softer and slightly more of an evening piece. Both are correct. Sam will hold each against your face and shoulders at the fitting, because which one suits you depends on your build far more than on fashion." },
+      { q: "Black or midnight blue?", a: "Midnight blue photographs richer than black under artificial light, which is where you will nearly always be wearing it. True black can flatten under a flash. Both are correct black tie, so it comes down to which you want in the pictures." },
+      { q: "Cummerbund or waistcoat?", a: "One or the other, never neither: the point is to cover the waistband so the shirt does not break the line. A cummerbund is cooler in a warm room and the pleats face up. A low-cut waistcoat is dressier and holds its shape through a long night." },
+      { q: "Will I ever wear it again?", a: "That is the honest question, and the answer is usually yes if you own one rather than rent. Galas, weddings, New Year, a company dinner. A tuxedo cut to you is a garment you will still be wearing in fifteen years, which is where the maths turns against renting." },
+      { q: "How long does a tuxedo take?", a: "Three to four weeks on the bench, and twelve days at an absolute push if the cloth is on hand. For a wedding or a gala, come earlier than that: the extra weeks buy you an unrushed choice of cloth, not extra making time." },
+      { q: "What shirt and shoes go with it?", a: "A white dress shirt, either a pleated front or a plain marcella, with a turndown collar and double cuffs for links. Black shoes, polished: plain oxfords or patent if you like the old form. Sam cuts the shirt to the same pattern as the tuxedo so the cuff sits right." },
+      { q: "Can you match a tuxedo across a group?", a: "Yes, and that is the usual request for a wedding. The party is measured against the same notebook and cut from one cloth run, so the lapels match and the black actually matches, which two rented tuxedos will not." },
+
       { q: 'Should I buy or rent a tuxedo?', a: "If you'll wear black tie more than twice, buy. A rental never fits your shoulders and you've nothing to show for the money. I make tuxedos to your measurements so the satin sits flat and the black line stays clean, and it's yours for every formal night after." },
       { q: 'What makes a real tuxedo different from a black suit?', a: "A proper tuxedo has satin (on the lapel facing, the buttons and the trouser side-stripe) and is cut to true black-tie codes. A black suit worn with a bow tie is not a tuxedo. I build the real thing, in black or midnight blue." },
       { q: 'Black or midnight blue for a tuxedo?', a: "Midnight blue reads richer than black under evening light and photographs beautifully. Most men are surprised. Both are correct black tie; I'll show you each against your skin before you choose." },
@@ -159,6 +168,13 @@ export const garments = [
     serviceName: 'Trousers',
     serviceDesc: 'Trousers cut to your rise and finished to your shoe: flat-front or pleated, in wool, flannel, cotton and linen.',
     faqs: [
+      { q: "Can you copy a pair I already own?", a: "Bring them in. Sam can read the rise, the seat and the leg off a pair you like and correct what you never liked about them, which is usually faster than describing it in words. That reading becomes your kept pattern." },
+      { q: "Flat front or pleats?", a: "Flat front reads modern and sits cleaner on a slimmer build. Pleats give room across the thigh and seat and sit better on a fuller one, and they are not the dated choice people assume: they are the older and more comfortable one. Your build decides it." },
+      { q: "What rise should I be wearing?", a: "Higher than most ready-to-wear gives you. A trouser meant to be worn with a jacket should sit at or near your natural waist so no shirt shows when you move. Low-rise trousers under a jacket are why so many men look untucked by lunchtime." },
+      { q: "How much break?", a: "A half break is the safe default: one soft fold on the shoe. No break reads sharper, a full break more traditional. Sam pins it on you in the shoes you actually intend to wear, which is why you should bring them." },
+      { q: "Cuffs or a plain hem?", a: "Cuffs add weight and hang, and suit a pleated or heavier trouser. A plain hem is cleaner and slightly more formal, and is the right answer for black tie. Either is correct; it is a question of what the trouser is for." },
+      { q: "Can trousers be reordered on their own?", a: "Yes, and it is one of the most common repeat orders. Once your pattern is on file, a second pair in a different cloth is a phone call: two to three weeks, no fitting needed." },
+
       { q: 'Why order custom trousers instead of buying off the rack?', a: "Off-the-rack trousers compromise between a waist, a rise and an inseam that rarely belong to the same man. Cut to measure, the waist sits without cinching, the rise is comfortable all day, and the break at the shoe is your call." },
       { q: 'Flat-front or pleated trousers?', a: "Flat-front reads clean and modern; a single pleat adds room and an old-world drape. It depends on your build and how you'll wear them. I'll show you both on you before we finish." },
       { q: 'Can you make trousers to match a jacket I already own?', a: "Often, yes. Bring the jacket and I'll match cloth as closely as the mills allow, or cut odd trousers in grey to pair with it. Some matches hold up; some don't, and I'll tell you which." },
@@ -210,6 +226,15 @@ export const garments = [
     serviceName: 'Custom Dress Shirts',
     serviceDesc: "Dress shirts cut to your collar, cuff and body in two-ply cotton, with a monogram if you like and a kept pattern that makes reorders a phone call.",
     faqs: [
+      { q: "How many shirts should I start with?", a: "Two or three is a sensible first order: it tells you how the collar and cuff feel over a full week before you commit to a dozen. Once the pattern is on file, adding to it is a phone call rather than another appointment." },
+      { q: "Which collar should I choose?", a: "It depends on your face and how you wear a tie. A spread suits a narrower face and carries a wider knot; a point lengthens a rounder face; a cutaway is the dressiest; a button-down is the most casual. Sam will hold each against you rather than have you guess from a diagram." },
+      { q: "Barrel cuff or French cuff?", a: "Barrel for daily wear, French for links and black tie. If you are ordering more than one shirt, it is worth having both, because the same cloth in a different cuff genuinely changes what the shirt is for." },
+      { q: "What fabric should I pick?", a: "Poplin presses crispest and is the business default. Twill is softer, drapes better and resists creasing on a long day. Oxford is heavier and reads casual, which is right for a weekend shirt. All two-ply cottons, which is what keeps a shirt going past a season." },
+      { q: "Do custom shirts shrink?", a: "Cloth is accounted for before it is cut, so a shirt that fits on delivery still fits after washing. Wash cool and hang it damp rather than tumbling it hot and the collar and cuffs will outlast the body of the shirt." },
+      { q: "Can you fit an athletic or larger build?", a: "That is exactly where a made shirt earns its place. A big chest with a smaller waist, long arms, a heavy neck: off-the-rack forces you to buy for the largest measurement and swim in the rest. Yours is cut to each measurement separately." },
+      { q: "How long does a shirt take?", a: "Two to three weeks, the first shirt and the twentieth alike. What the kept pattern changes is not the making time but everything before it: no measuring, no guessing, no starting again." },
+      { q: "Can I have a monogram?", a: "Yes, on the cuff or the breast, in thread you choose. Two or three letters is the usual. It is the detail nobody else notices and you do, which is rather the point of having a shirt made." },
+
       { q: 'Where can I get custom dress shirts in Toronto or Vaughan?', a: "I make custom dress shirts to measure at the Vaughan studio and travel to Toronto clients by appointment. Your collar, cuff and body are cut to you, and your pattern is kept so reorders take a phone call." },
       { q: 'Is a custom dress shirt worth it over off-the-rack?', a: "If a store collar gapes, the body billows or the cuff swallows your watch, then yes. A shirt cut to your neck, shoulders and arm length is an upgrade you notice every morning, and it's reorderable once the pattern exists." },
       { q: 'How many custom shirts should I start with?', a: "Most men start with two or three in white and blue to prove the pattern, then reorder in stripes and weekend cloths. There's no minimum with me. Begin with one if you like." },
@@ -249,6 +274,13 @@ export const garments = [
     serviceName: 'Short-Sleeved & Summer Shirts',
     serviceDesc: 'Short-sleeved and camp-collar summer shirts in linen and cotton, measured so the shoulder sits clean and the body keeps its shape.',
     faqs: [
+      { q: "Who are short-sleeve shirts actually for?", a: "Men whose summers are spent outside an air-conditioned office, and men whose arms are a difficult length off the rack. If your ready-to-wear short sleeve either grips the bicep or hangs to the elbow, having one cut is the fix." },
+      { q: "Where should the sleeve end?", a: "Roughly mid-bicep, and cut close enough not to flap but not so close that it grips. That point is different on every arm, which is precisely why the ready-to-wear version so rarely looks right." },
+      { q: "What cloth is best for summer?", a: "Something with air in it. A linen or a linen and cotton blend for the hottest weeks, an oxford or a lighter twill if you want it to hold a shape. Sam will steer you by whether you want it to look crisp or to feel cool, because you rarely get both." },
+      { q: "Can I wear one under a jacket?", a: "Sam will make it, but he will also tell you not to. A short sleeve under a jacket leaves nothing at the cuff and the jacket sleeve rides on bare arm. If you need a jacket, have a long-sleeve shirt in a light cloth instead." },
+      { q: "Is it the same pattern as my dress shirts?", a: "It starts from the same one: same neck, same chest, same body. Only the sleeve and often the collar change, which is why it can be added to an existing order without another fitting." },
+      { q: "How long do they take?", a: "Two to three weeks, the same as any shirt. Order in spring rather than in the first week of July, when everyone else remembers at once." },
+
       { q: 'Can you make short-sleeved shirts to measure?', a: "Yes. Camp-collar and short-sleeved summer shirts in linen and light cotton, cut with a clean shoulder and a body that follows you instead of the boxy cut most rack short-sleeves settle for." },
       { q: 'What cloth is best for a summer shirt?', a: "Linen and linen-cotton blends breathe best through a humid Toronto summer; light cottons press crisper. I'll show you weaves chosen for a warm day, not a boardroom." },
       { q: 'Can you use my existing shirt pattern for a summer shirt?', a: "If you already have a shirt pattern with me, a short-sleeved shirt starts right from it. No new measuring needed." },
@@ -287,6 +319,13 @@ export const garments = [
     serviceName: 'Outerwear',
     serviceDesc: 'Overcoats and topcoats built to go over a suit: Chesterfield, polo and car coats in heavy wool and cashmere for the Toronto winter.',
     faqs: [
+      { q: "Overcoat or topcoat?", a: "A topcoat is lighter and shorter, made for spring and autumn over a suit. An overcoat is heavier and longer, made for a Toronto January. If you are only having one made, the overcoat earns its keep for more months of the year here." },
+      { q: "What length?", a: "Below the knee is the classic and it keeps you warm; mid-thigh is easier to drive in. The one rule worth keeping is that the coat must cover the jacket beneath it, or the suit hem shows and the line is lost." },
+      { q: "Will it fit over a suit jacket?", a: "It is measured over the layers you actually wear, which is exactly what off-the-rack gets wrong. Tell Sam whether it goes over a jacket, a jacket and a knit, or just a shirt, and bring the jacket to the fitting." },
+      { q: "What cloth survives a Toronto winter?", a: "Something with weight and some body: a heavier wool, a wool and cashmere blend for softness, or a tighter weave if wind matters more than snow. Sam will steer you by how you actually commute rather than by what feels dear in the hand." },
+      { q: "How long does a coat take?", a: "Three to four weeks on the bench. Order in the autumn rather than the week the first snow arrives, and you get the choice of cloth rather than what is left." },
+      { q: "Can the lining be something unusual?", a: "Yes, and a coat is the best place for it, because the lining is the part only you see. A colour, a pattern, or a monogram at the inside pocket." },
+
       { q: 'Why have an overcoat made instead of buying one?', a: "A store coat is cut for a man in a sweater. Drop a suit jacket underneath and it pulls across the back and rides up at the collar. A made overcoat is drafted to sit cleanly over tailoring, warm without the bulk." },
       { q: 'What overcoat styles do you make?', a: "The velvet-collared Chesterfield, the camel polo coat, a topcoat for milder days and an everyday car coat, in cloth heavy enough for a real Toronto winter." },
       { q: 'What cloth is best for a Toronto winter coat?', a: "Melton, wool-cashmere, camel-hair and covert cloth: heavy enough to hold warmth and their line, but still able to drape. I'll match the weight to how cold you actually run." },
@@ -339,6 +378,13 @@ export const garments = [
     serviceName: 'Kapotas & Traditional Jewish Menswear',
     serviceDesc: 'Bekishe, kapota, kittel, the fine dark Shabbos suit, and bar-mitzvah and chosson tailoring, cut to the tradition in Vaughan and Thornhill.',
     faqs: [
+      { q: "What is the difference between a bekishe, a kapota and a rekel?", a: "A rekel is the long weekday jacket. A kapota is a coat cut to its own pattern with a waist seam, worn for Shabbos by many. A bekishe is the silk or satin Shabbos and simcha coat. Which is right follows your community's minhag, not a rule Sam would presume to set." },
+      { q: "Satin or fine wool?", a: "A bekishe is traditionally satin or silk; a kapota and a rekel are usually fine wool. Wool holds a press better through a warm shul and wears longer. Sam will show you both weights and say which will survive the way you actually wear it." },
+      { q: "Do you allow for a gartel and tzitzis?", a: "Yes, and it is one of the things most often got wrong. The garment is cut with proper allowance so nothing pulls or rides when the gartel is on, and so the tzitzis sit as they should." },
+      { q: "When should I order before Yom Tov?", a: "Three to four weeks is the bench time, so order well before rather than during. Kittels for the Yamim Noraim are best ordered by the end of Elul. If a date is tight, call, and you will be told straight what is still possible." },
+      { q: "Can you copy a garment I already have?", a: "Often the easiest route. Bring the bekishe or kapota you own and Sam will read the pattern off it, keep what your community expects, and correct the fit where it never sat right." },
+      { q: "What about shatnez?", a: "Garments go to a shatnez checker of Sam's choosing. If you would rather use your own checker, say so at the consultation and that is arranged instead." },
+
       { q: 'Do you make the bekishe, kapota and kittel?', a: "Yes: the bekishe, the kapota, the kittel, the fine dark Shabbos suit and simcha garments, all cut to the tradition and to you. I've dressed the Vaughan and Thornhill community for years and know what each garment is for." },
       { q: 'Can you make a bar-mitzvah or chosson outfit?', a: "Yes. The bar-mitzvah boy for his aliyah and the chosson for the chuppah, measured with care and coordinated with the fathers. Everything made to fit, never rented." },
       { q: 'Is the fitting discreet?', a: "Always. Everything is one-on-one and by appointment, behind a closed door, with the discretion the community expects, father to son." },
@@ -382,6 +428,13 @@ export const garments = [
     serviceName: "Boys' & Teen Suits",
     serviceDesc: "Bar-mitzvah suits, first suits and growing-room tailoring for boys and teens, measured and fitted personally in Vaughan.",
     faqs: [
+      { q: "What age does this start at?", a: "Whenever a boy has an occasion and nothing that fits: a bar mitzvah, a brother's wedding, a first interview. There is no lower age, though the younger he is the more the growing room matters." },
+      { q: "How much growing room do you leave?", a: "Enough to let the sleeve and the trouser out over about two years, which is the realistic life of a boy's suit. The seams are left generous where they can be without spoiling the line, and the pattern stays in the notebook for the next one." },
+      { q: "When should we order for a bar mitzvah?", a: "About six months out. That is not making time, which is three to four weeks: it is room for him to grow between the fitting and the day, and for a final adjustment close to it. Boys grow fastest in spring, which catches families out every year." },
+      { q: "Will he wear it again?", a: "Usually yes, once or twice more, and that is what the let-out allowance is for. Be realistic though: a suit bought at thirteen is not going to last to sixteen, and Sam would rather tell you that than sell you a size too big." },
+      { q: "Can father and son be made to match?", a: "That is one of the most common requests, and the easiest thing to get right when both are measured at the same visit. Same cloth run, coordinated details, cut to two very different bodies." },
+      { q: "Does he need to stand still for long?", a: "Not really. The measuring is a few minutes, and Sam has done this with enough eleven-year-olds to work quickly. Bring the shoes he will actually wear on the day." },
+
       { q: 'Do you make bar-mitzvah suits?', a: "Yes. Bar-mitzvah suits for boys in Vaughan and Thornhill, cut to fit properly and to look right in shul and at the celebration. Fathers are often measured at the same time." },
       { q: 'Will the suit still fit as he grows?', a: "I cut boys' suits with generous inlays so a good tailor can let out the sleeve, waist and hem as he grows. The suit lasts more than one occasion." },
       { q: 'Can you dress a whole family for a simcha?', a: "Yes: the boy, the father, and the party, measured together and coordinated so the whole family matches in the photographs." },
@@ -424,6 +477,13 @@ export const garments = [
     serviceName: 'Casual Tailoring & Sport Coats',
     serviceDesc: 'Soft-shoulder sport coats, blazers, chinos and casual shirts, each cut to your measurements for days off the clock.',
     faqs: [
+      { q: "What makes a casual jacket different from a suit jacket?", a: "Less structure. A soft jacket drops the heavy canvas and padding, so it moves like a cardigan and drapes off the shoulder rather than holding a line. It is a different garment, not a suit jacket in a louder cloth." },
+      { q: "What do I wear an odd jacket with?", a: "Trousers in a clearly different cloth and weight, not orphaned suit trousers, which always look like exactly that. Grey flannel under a tweed, or a navy hopsack, is the reliable answer, and Sam can cut both to the same pattern." },
+      { q: "Which cloths work for a soft jacket?", a: "Ones with texture, because texture is what reads casual: hopsack, tweed, linen blends for summer, corduroy in the cold. A smooth worsted in a soft jacket tends to look like a suit that has lost its trousers." },
+      { q: "Can it be dressed up?", a: "To a point. A soft navy jacket with a shirt and good trousers is right for most rooms that are not a boardroom or a wedding. It will not stand in for a suit, and Sam would rather say so than sell you one garment for two jobs." },
+      { q: "How long does it take?", a: "Three to four weeks for a jacket, two to three for shirts and trousers. Once the pattern is on file, the next one is a phone call." },
+      { q: "Does it use the same pattern as my suits?", a: "It starts from it, then relaxes: more room through the chest and a softer shoulder, because the point of the garment is comfort. Same numbers, different intent." },
+
       { q: 'Do you make casual jackets, not just suits?', a: "Yes. Soft, unstructured sport coats and blazers are some of my favourite things to make. Cut to your shoulders with little padding, they feel easy and look like proper tailoring." },
       { q: 'Can you make chinos and casual trousers?', a: "Yes: cotton and linen trousers cut to your rise and break, on their own or to pair with a sport coat. Same fit, less formality." },
       { q: 'What cloth works for a casual jacket?', a: "Hopsacks, linens, cottons and soft tweeds: textured, breathable cloths that read relaxed. I'll steer you by how and where you'll actually wear it." },
@@ -465,6 +525,13 @@ export const garments = [
     serviceName: 'Vegan & Cruelty-Free Tailoring',
     serviceDesc: 'Suits, jackets and shirts in vegan, wool-free cloths, cut to your measurements in Vaughan.',
     faqs: [
+      { q: "What actually makes a normal suit non-vegan?", a: "More than the cloth. A conventional jacket can carry wool or horsehair canvas in the chest, silk in the lining or the thread, and horn or mother-of-pearl buttons. Swapping the outer cloth alone still leaves an animal-derived garment underneath." },
+      { q: "So what goes into a vegan one?", a: "Every layer is chosen instead of assumed: a non-animal cloth, a synthetic or plant-fibre canvas, cupro or viscose lining, polyester thread, and corozo, galalith-free resin or cloth-covered buttons. Sam can tell you what each component in your garment is, which is the part most shops cannot." },
+      { q: "Will it wear as well as wool?", a: "Differently, and it would be daft to pretend otherwise. Wool breathes and recovers from creasing in ways the alternatives still do not match, and Sam will say so rather than pretend otherwise. What a made vegan suit does give you is a fit no rack suit will, and construction that is not glued together." },
+      { q: "Is it fused?", a: "No. Sam does not fuse suits, and that does not change here: a non-animal canvas is floated in the same way a wool one would be. Fusing is the shortcut that makes a chest bubble, whatever the cloth is made of." },
+      { q: "How long does it take?", a: "Three to four weeks on the bench, the same as any other suit. Cloth choice can take a little longer at the consultation, simply because the range of non-animal suiting is narrower and worth seeing properly." },
+      { q: "Can shirts and coats be done the same way?", a: "Yes. Cotton and linen shirting is already animal-free; the things to watch are the interlining in a collar and the buttons. Coats are the harder one, because warmth without wool takes some thought, and Sam will be straight with you about the trade." },
+
       { q: 'Do you make vegan suits?', a: "Yes. Made-to-measure suits and jackets in plant-based and cruelty-free cloths, with vegan linings and buttons, built with the same hand construction as any other garment." },
       { q: 'What vegan fabrics can I choose?', a: "Organic cottons, linens, and modern vegan wool alternatives and blends. I'll show you the ones that actually drape and last, and tell you exactly how each behaves." },
       { q: 'Are the linings and buttons vegan too?', a: "They can be: cupro or viscose linings and corozo (nut) or recycled buttons instead of horn, with no animal-derived interlinings where you'd rather avoid them." },
@@ -513,6 +580,13 @@ export const garments = [
     serviceName: "Women's Suits & Skirts",
     serviceDesc: "Women's suits, blazers, skirts and trousers, each drafted from your own measurements in Vaughan, with fittings across Toronto.",
     faqs: [
+      { q: "Is this cut from a men's pattern?", a: "No, and that is the whole point. A woman's jacket is drafted for her frame from the first line: the bust, the waist suppression, the shoulder slope and the hip are all separate problems, not a men's block taken in." },
+      { q: "What can Sam make?", a: "Jackets, trousers, skirts and full suits, plus shirts and coats. If it is tailoring rather than dressmaking, it is very likely in range. Bring a picture if that is easier than words." },
+      { q: "Trouser suit or skirt suit?", a: "Whichever you actually wear. A trouser suit is the more versatile and the more common request; a skirt suit reads more formal in some rooms. Many clients have the jacket made first and add the second bottom later off the same pattern." },
+      { q: "How many fittings?", a: "Usually one, on the finished garment. For a build that is harder to fit, or a first commission where the shape matters, Sam will make a sample to try on before the good cloth is cut." },
+      { q: "How long does it take?", a: "Three to four weeks on the bench for a jacket or a suit, two to three for a shirt. Half is paid when the cloth is chosen and half on delivery, with the alterations that get it right included." },
+      { q: "Can I reorder without another fitting?", a: "Yes. The pattern is kept, so a second jacket or another pair of trousers is a phone call and a cloth choice rather than starting again." },
+
       { q: 'Do you make women’s suits?', a: "Yes. Bespoke women's suits, blazers, skirts and trousers, drafted from your own measurements rather than adapted from a men's or a factory pattern. Cut for a woman's proportions." },
       { q: 'Can you make a skirt suit or a trouser suit?', a: "Either: a matched skirt- or trouser-suit, or separates cut to mix. A pencil or A-line skirt, or trousers cut from the hip, finished to your line." },
       { q: 'Is it the same process as the menswear?', a: "The same bespoke method (a pattern drafted to you, fittings, and hand finishing), cut for a woman's frame, and kept on file for the next one." },
