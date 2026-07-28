@@ -60,26 +60,72 @@
     '3:00 PM',  '3:30 PM',  '4:00 PM',  '4:30 PM',
     '5:00 PM',  '5:30 PM',  '6:00 PM',  '6:30 PM',  '7:00 PM',
   ];
-  // All slots show as open — this is a REQUEST, not a live calendar; Sam
+  // All slots show as open. This is a REQUEST, not a live calendar; Sam
   // confirms personally. Never fake availability the calendar doesn't know.
   function unavailableSlots(d) {
     return new Set();
   }
-  function isClosed(d) {
-    const dow = d.getDay();
-    // Saturday: closed all day
-    if (dow === 6) return true;
-    return false;
+
+  // ── Closures ───────────────────────────────────────────────────────────
+  // public/closures.json is generated at build time from the Hebrew calendar
+  // (scripts/build-closures.mjs) so the widget can never offer a fitting on
+  // Yom Tov, and so the Friday cutoff follows real sundown in Vaughan instead
+  // of a hardcoded 2:30pm that was wrong for eight months of the year.
+  let CLOSURES = { closed: [], cholHamoed: [], earlyClose: {}, labels: {} };
+  fetch('/closures.json')
+    .then(r => (r.ok ? r.json() : null))
+    .then(j => { if (j) { CLOSURES = j; render(); } })
+    .catch(() => {});
+
+  function ymd(d) {
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') +
+           '-' + String(d.getDate()).padStart(2, '0');
   }
-  function isFridayShort(d) { return d.getDay() === 5; }
+  function closureLabel(d) {
+    const k = ymd(d);
+    if (d.getDay() === 6) return 'Shabbos';
+    if (CLOSURES.closed.indexOf(k) !== -1) return CLOSURES.labels[k] || 'Yom Tov';
+    return null;
+  }
+  function isCholHamoed(d) { return CLOSURES.cholHamoed.indexOf(ymd(d)) !== -1; }
+
+  function isClosed(d) {
+    if (d.getDay() === 6) return true;                       // Shabbos
+    return CLOSURES.closed.indexOf(ymd(d)) !== -1;           // Yom Tov
+  }
+
+  // Minutes past midnight for a '4:30 PM' style label.
+  function slotMinutes(label) {
+    const m = label.match(/^(\d{1,2}):(\d{2}) (AM|PM)$/);
+    if (!m) return 0;
+    let h = parseInt(m[1], 10) % 12;
+    if (m[3] === 'PM') h += 12;
+    return h * 60 + parseInt(m[2], 10);
+  }
+  function earlyCloseMinutes(d) {
+    const t = CLOSURES.earlyClose[ymd(d)];
+    if (!t) return null;
+    const [h, mm] = t.split(':').map(Number);
+    return h * 60 + mm;
+  }
+  function isFridayShort(d) { return earlyCloseMinutes(d) !== null; }
 
   function slotsFor(d) {
     if (isClosed(d)) return [];
-    if (isFridayShort(d)) {
-      // Friday: close at 3pm (so end at 2:30pm last slot, summer-ish hours)
-      return SLOTS_BASE.slice(0, SLOTS_BASE.findIndex(s => s === '3:00 PM'));
+    let slots = SLOTS_BASE;
+
+    // Erev Shabbos / erev chag: stop two hours before candle lighting.
+    const cut = earlyCloseMinutes(d);
+    if (cut !== null) slots = slots.filter(s => slotMinutes(s) <= cut);
+
+    // Today: an hour that has already gone is not an option. Leave a little
+    // lead time so nobody requests a fitting starting in ten minutes.
+    const now = new Date();
+    if (sameDay(d, now)) {
+      const soonest = now.getHours() * 60 + now.getMinutes() + 90;
+      slots = slots.filter(s => slotMinutes(s) >= soonest);
     }
-    return SLOTS_BASE;
+    return slots;
   }
 
   // ── DOM helpers ──────────────────────────────────────────────────────
@@ -272,7 +318,7 @@
     w.innerHTML = `
       <div class="chapter-no">№ 01 · Begin</div>
       <h2>What brings you <em>through the door?</em></h2>
-      <p class="step-prompt">Pick whichever feels closest. We can change it later — what matters now is the conversation Sam will prepare for.</p>
+      <p class="step-prompt">Pick whichever feels closest. We can change it later; what matters now is the conversation Sam will prepare for.</p>
     `;
     const grid = el('div', 'opt-grid opt-grid--3');
     for (const h of HOUSES) {
@@ -324,7 +370,7 @@
     w.innerHTML = `
       <div class="chapter-no">№ 03 · When</div>
       <h2>Pick a <em>quiet hour.</em></h2>
-      <p class="step-prompt">Appointments are private — one client at a time. Mid-morning and evening slots run long-est; lunchtime is brisker.</p>
+      <p class="step-prompt">Appointments are private, one client at a time. Mid-morning and evening slots run longest; lunchtime is brisker.</p>
     `;
     const cal = el('div', 'cal');
     cal.appendChild(renderCalendar());
@@ -439,7 +485,12 @@
     }
     const slots = slotsFor(state.date);
     if (slots.length === 0) {
-      const empty = el('div', 'empty', 'The atelier is closed this day.');
+      const why = closureLabel(state.date);
+      const isToday = sameDay(state.date, new Date());
+      const empty = el('div', 'empty',
+        why ? ('Closed for ' + why + '.')
+            : isToday ? 'No hours left today. Try tomorrow, or call and Sam will find you one.'
+            : 'The studio is closed this day.');
       wrap.appendChild(empty);
       return wrap;
     }
@@ -458,10 +509,19 @@
       slotsWrap.appendChild(b);
     });
     wrap.appendChild(slotsWrap);
+    const noteStyle = 'margin-top:14px;font-family:var(--serif);font-style:italic;font-size:13px;color:var(--ink-mute);line-height:1.4';
     if (isFridayShort(state.date)) {
       const note = el('div', '');
-      note.style.cssText = 'margin-top:14px;font-family:var(--serif);font-style:italic;font-size:13px;color:var(--ink-mute);line-height:1.4';
-      note.textContent = 'Friday — closing two hours before sundown for Shabbos.';
+      note.style.cssText = noteStyle;
+      note.textContent = state.date.getDay() === 5
+        ? 'Friday hours: the studio closes two hours before sundown for Shabbos.'
+        : 'Short day: the studio closes two hours before candle lighting.';
+      wrap.appendChild(note);
+    }
+    if (isCholHamoed(state.date)) {
+      const note = el('div', '');
+      note.style.cssText = noteStyle;
+      note.textContent = 'Chol hamoed. Sam may keep shorter hours, so he will confirm this one with you.';
       wrap.appendChild(note);
     }
     return wrap;

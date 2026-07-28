@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "node scripts/build-closures.mjs && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -19,6 +19,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@hebcal/core": "^6.8.2",
     "qrcode": "^1.5.4"
   }
 }
