@@ -192,7 +192,7 @@ export const garments = [
       { src: '/media/sam/sam-collar.webp', alt: "Sam taking a neck measurement with a tape at a client's collar in the Vaughan studio", label: 'The collar' },
       { src: '/media/sam/sam-fitting-cuff.webp', alt: "Sam measuring a client's cuff, the working buttonholes on the navy sleeve visible under the tape", label: 'The cuff' },
       { src: '/media/sam/sam-fitting-shoulder.webp', alt: "Sam measuring sleeve length from the shoulder; the client's shirt cuff carries a stitched monogram", label: 'The sleeve' },
-      { src: '/media/cloth/f003.webp', alt: "Close weave of a two-ply cotton shirting", label: 'The cloth' },
+      { src: '/media/cloth/mother-of-pearl.webp', alt: 'Four mother-of-pearl shirt buttons on pale blue cotton shirting, each showing the iridescent shimmer and layered depth of real shell', label: 'Real shell' },
     ],
     turnaround: 'Two to three weeks, the first shirt and the twentieth alike.',
     ctaLabel: 'Order your first shirt',
@@ -630,7 +630,7 @@ export const garments = [
     optionPhotos: [
       {"src": "/media/art/business-lining.webp", "alt": "A jacket held open to show an oxblood cupro lining with a flat cap and bow tie embroidered at the inside pocket", "label": "The house mark"},
       {"src": "/media/cloth/cupro-vs-polyester.webp", "alt": "Two squares of burgundy lining side by side on oak under identical light: the left matte and absorbing, the right slick with hard specular highlights", "label": "Cupro, then polyester"},
-      {"src": "/media/sam/sam-fitting-cuff.webp", "alt": "Sam measuring a client's cuff, working buttonholes visible on the navy sleeve", "label": "The detail"},
+      {"src": "/media/cloth/oxblood-bolt.webp", "alt": "The cut end of a rolled bolt of deep oxblood cupro lining on a worn oak bench, the sheen graduating around the roll", "label": "The bolt"},
       {"src": "/media/cloth/thread-spools.webp", "alt": "Three wooden spools of tailoring thread on unbleached cotton: oxblood, antique gold and ink brown, with a length of oxblood thread trailing", "label": "Your thread"},
     ],
     turnaround: "Chosen at the same fitting as the cloth, so it adds nothing to the three to four weeks.",
