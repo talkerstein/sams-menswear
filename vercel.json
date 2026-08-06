@@ -246,6 +246,16 @@
       "source": "/book-appointment/",
       "destination": "/book",
       "permanent": true
+    },
+    {
+      "source": "/journal/why-three-fittings",
+      "destination": "/journal/why-the-fitting-matters",
+      "permanent": true
+    },
+    {
+      "source": "/journal/why-three-fittings/",
+      "destination": "/journal/why-the-fitting-matters",
+      "permanent": true
     }
   ]
 }

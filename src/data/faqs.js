@@ -41,9 +41,9 @@ export const faqs = [
 
   // ── Timeline & fittings ───────────────────────────────────────
   { cat: 'Timeline & fittings', q: 'How long does a custom suit take?', a: "About three to four weeks for a suit, and two to three for a shirt. Once your pattern is on file the clock doesn't change much, but everything before the cutting does: no measuring, no guessing, no starting from zero." },
-  { cat: 'Timeline & fittings', q: 'How far ahead should I order a wedding suit?', a: "Start 9–12 months out for a wedding. That's not construction time; it's breathing room for cloth choices, coordinating a party, and two or three fittings with no clock on any of them as the date closes in." },
+  { cat: 'Timeline & fittings', q: 'How far ahead should I order a wedding suit?', a: "Start 9–12 months out for a wedding. That's not construction time; it's breathing room for cloth choices, coordinating a party, and a fitting with no clock on it as the date closes in." },
   { cat: 'Timeline & fittings', q: 'Can you do a rush order?', a: "Twelve days is the fastest I'll go, and only if the cloth is on hand and my bench allows it that month. Call me and I'll tell you straight whether I can do it justice in the time, rather than promise and disappoint." },
-  { cat: 'Timeline & fittings', q: 'How many fittings will I need?', a: "Usually two or three for bespoke (basted, intermediate and final), so the cloth learns your shape in stages. Made-to-measure is often one fitting plus collection. Reorders from your pattern can need none." },
+  { cat: 'Timeline & fittings', q: 'How many fittings will I need?', a: "Usually one. The garment comes to the fitting finished and is corrected on your body. Where a build is harder to fit, Sam makes a sample suit first and tries that on you before the good cloth is cut. Reorders from a kept pattern need no fitting at all." },
   { cat: 'Timeline & fittings', q: "I'm planning to lose (or gain) weight. Should I wait before ordering?", a: "If a big change is coming soon, wait until you're near your steady weight; cloth cut to a body in motion fights you later. If the date can't move, we cut with seam allowance and I adjust at the fittings. Tell me your plans and we'll time it right." },
 
   // ── First fitting ─────────────────────────────────────────────

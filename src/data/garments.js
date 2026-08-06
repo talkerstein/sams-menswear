@@ -243,6 +243,11 @@ export const garments = [
   },
   {
     slug: 'short-sleeve-shirts',
+    optionPhotos: [
+      { src: "/media/sam/sam-collar.webp", alt: "Sam taking a neck measurement with a tape at a client's collar", label: "The collar" },
+      { src: "/media/sam/sam-fitting-cuff.webp", alt: "Sam measuring a client's cuff, working buttonholes visible on the navy sleeve", label: "The sleeve" },
+      { src: "/media/cloth/f003.webp", alt: "Close weave of a two-ply cotton shirting", label: "The cloth" },
+    ],
     answerQ: "Are short-sleeve shirts worth having made?",
     answer: "If off-the-rack short sleeves catch you at the wrong point on the arm, yes. The sleeve is cut to your actual arm and the body to your chest, from the same kept pattern as your dress shirts. <strong>Two to three weeks.</strong>",
     reviewPicks: [7, 2, 11],
@@ -288,6 +293,12 @@ export const garments = [
   },
   {
     slug: 'outerwear',
+    optionPhotos: [
+      { src: "/media/sam/sam-fitting-shoulder.webp", alt: "Sam measuring a client's sleeve length from the shoulder at the Vaughan studio", label: "Measured over the layers" },
+      { src: "/media/cloth/f142.webp", alt: "Close weave of a heavy dark wool", label: "The cloth" },
+      { src: "/media/sam/sam-collar.webp", alt: "Sam taking a neck measurement with a tape at a client's collar", label: "The collar" },
+      { src: "/media/sam/sam-consult.webp", alt: "Sam sitting with a client, choosing cloth and details over the lookbook", label: "The choosing" },
+    ],
     answerQ: "What makes a custom overcoat worth having?",
     answer: "A coat has to sit over a jacket without straining across the back, which is the thing off-the-rack most often gets wrong. Yours is measured over the layers you actually wear. <strong>Three to four weeks</strong> on the bench, half at cloth and half on delivery, alterations included.",
     reviewPicks: [2, 8, 11],
@@ -392,6 +403,12 @@ export const garments = [
   },
   {
     slug: 'kids-teen-suits',
+    optionPhotos: [
+      { src: "/media/sam/sam-collar.webp", alt: "Sam taking a neck measurement with a tape at a client's collar", label: "The measure" },
+      { src: "/media/cloth/f024.webp", alt: "Close weave of a fine suiting cloth", label: "The cloth" },
+      { src: "/media/sam/sam-fitting-cuff.webp", alt: "Sam measuring a client's cuff, working buttonholes visible on the navy sleeve", label: "Room to let out" },
+      { src: "/media/sam/sam-consult.webp", alt: "Sam sitting with a client, choosing cloth and details over the lookbook", label: "Father and son" },
+    ],
     answerQ: "How do you fit a boy who is still growing?",
     answer: "The suit is cut with room to let out in the sleeve and trouser over the next two years, and the pattern stays in the notebook for the one after. Fathers are often measured at the same visit, so father and son are cut to match in the photographs.",
     reviewPicks: [4, 10, 11],
@@ -442,6 +459,12 @@ export const garments = [
   },
   {
     slug: 'casual',
+    optionPhotos: [
+      { src: "/media/sam/sam-fitting-shoulder.webp", alt: "Sam measuring a client's sleeve length from the shoulder at the Vaughan studio", label: "The shoulder" },
+      { src: "/media/cloth/f090.webp", alt: "Close weave of a textured mid-grey cloth", label: "The cloth" },
+      { src: "/media/sam/sam-fitting-cuff.webp", alt: "Sam measuring a client's cuff, working buttonholes visible on the navy sleeve", label: "The sleeve" },
+      { src: "/media/sam/sam-consult.webp", alt: "Sam sitting with a client, choosing cloth and details over the lookbook", label: "The choosing" },
+    ],
     answerQ: "Does Sam make anything less formal than a suit?",
     answer: "Yes: soft unstructured jackets, odd trousers and shirts for days off the clock, cut from the same kept pattern as the formal wardrobe. Measured at the Vaughan studio, two to three weeks for a shirt and three to four for a jacket.",
     reviewPicks: [2, 6, 11],
@@ -491,6 +514,12 @@ export const garments = [
   },
   {
     slug: 'vegan',
+    optionPhotos: [
+      { src: "/media/sam/sam-fitting-shoulder.webp", alt: "Sam measuring a client's sleeve length from the shoulder at the Vaughan studio", label: "The shoulder" },
+      { src: "/media/cloth/f104.webp", alt: "Close weave of a fine suiting cloth", label: "The cloth" },
+      { src: "/media/sam/sam-fitting-cuff.webp", alt: "Sam measuring a client's cuff, working buttonholes visible on the navy sleeve", label: "The sleeve" },
+      { src: "/media/sam/sam-consult.webp", alt: "Sam sitting with a client, choosing cloth and details over the lookbook", label: "The choosing" },
+    ],
     answerQ: "Can a suit be made without any animal fibre?",
     answer: "Yes. The cloth, the canvas, the lining, the thread and the buttons all have non-animal alternatives, and the whole garment is built from them rather than one part swapped out. Measured and fitted at the Vaughan studio, <strong>three to four weeks</strong> on the bench.",
     reviewPicks: [2, 6, 11],

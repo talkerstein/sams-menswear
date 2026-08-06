@@ -31,9 +31,9 @@ If you've got even shoulders, a fairly proportional build, and no big posture qu
 
 ## How many fittings does each need?
 
-Made-to-measure is usually one fitting, sometimes none. True bespoke is two to three, including the baste fitting where the suit is loosely stitched in white thread so I can rip it open and re-cut on you.
+Made-to-measure is usually one fitting, sometimes none. Classical bespoke, as practised in the old London houses, runs to two or three, including a baste fitting where the suit is loosely stitched in white thread and then opened up and re-cut.
 
-That baste fitting is the heart of bespoke. The jacket arrives half-built and held together with basting stitches. I put it on you, see how the cloth actually falls on *your* frame, mark it up, then open seams and re-cut. You can't do that with made-to-measure, because there's no pattern to reshape and the suit shows up finished. More fittings means more chances to correct, which is why bespoke gets closer to perfect.
+That baste fitting is the heart of the classical method: the jacket arrives half-built, gets marked on the body, and is taken apart again. Here, the garment comes to your fitting finished and is corrected on you instead, and where a build is genuinely hard to fit Sam makes a sample suit to try on first. It reaches the same place by a different road. What you cannot do with made-to-measure, because there's no pattern to reshape and the suit shows up finished. More fittings means more chances to correct, which is why bespoke gets closer to perfect.
 
 ## What does each one cost, and where's the smart spend?
 

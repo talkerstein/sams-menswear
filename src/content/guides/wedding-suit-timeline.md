@@ -19,7 +19,7 @@ Start your wedding suit **9–12 months before the date**. That isn't sewing tim
 - **6–8 months out**: measure the groom and the party; cloth ordered.
 - **2–3 months out**: first and second fittings.
 - **2–3 weeks out**: final fitting and finishing, with margin for one last adjustment.
-- **The morning of**: pressed, boxed, and hand-delivered if you're in Vaughan or Thornhill.
+- **Before the day**: pressed, boxed and collected in good time, rather than left to the morning itself.
 
 ## Coordinating groomsmen, even out of town
 

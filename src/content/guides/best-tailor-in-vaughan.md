@@ -27,7 +27,7 @@ Bring these five to any consultation:
 
 - **"Is the pattern made for me, or are you adjusting a template?"** A true [custom suit](/design) starts from your measurements, not a size chart.
 - **"Where is it cut and sewn?"** Some showrooms measure you, then ship your cloth overseas and hand back whatever comes off the line. You want the person who measured you to be the one building it.
-- **"How many fittings do I get?"** A real fitting process is at least two: a basted or shell fitting to check the bones, then refinements. One appointment isn't tailoring.
+- **"What happens at the fitting, and what if it needs more?"** The answer you want is that the garment gets corrected on your body rather than handed over and hoped for. Ask what happens if it is not right, and whether that correction costs extra. A tailor who cannot answer that plainly is telling you something.
 - **"Can I see your buttonhole and canvas work?"** Ask about the [canvas inside the jacket](/guides/bespoke-vs-made-to-measure-vs-off-the-rack): a floating canvas moves with you; a fused (glued) front can bubble after a few dry cleans.
 - **"Do you keep my pattern on file?"** A tailor who archives your pattern will make your second suit better than your first, and can rebuild if your body changes.
 
