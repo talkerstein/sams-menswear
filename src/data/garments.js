@@ -77,7 +77,7 @@ export const garments = [
     reviewPicks: [3, 0, 9],
     almanacRead: { href: "/almanac/rental-disasters", label: "Tales of rentals that fit nobody" },
     optionPhotos: [
-      { src: '/media/sam/sam-red-jacket.webp', alt: "Sam pinning a red dinner jacket with a black shawl lapel on the dress form, tape around his neck", label: 'The lapel' },
+      { src: '/media/cloth/black-tie-parts.webp', alt: "An untied black silk bow tie, a pleated cummerbund and three onyx dress studs laid on cream tissue paper", label: 'Bow, sash, studs' },
       { src: '/media/sam/sam-collar.webp', alt: "Sam taking a neck measurement with a tape at a client's collar in the Vaughan studio", label: 'The collar' },
       { src: '/media/cloth/f001.webp', alt: "Close weave of a midnight barathea tuxedo cloth", label: 'The cloth' },
       { src: '/media/sam/sam-fitting-cuff.webp', alt: "Sam measuring a client's cuff, the working buttonholes on the navy sleeve visible under the tape", label: 'The cuff' },
