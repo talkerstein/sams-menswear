@@ -13,7 +13,7 @@ export const garments = [
     optionPhotos: [
       { src: '/media/sam/sam-fitting-shoulder.webp', alt: "Sam measuring sleeve length from the shoulder; the client's shirt cuff carries a stitched monogram", label: 'The shoulder' },
       { src: '/media/sam/sam-fitting-cuff.webp', alt: "Sam measuring a client's cuff, the working buttonholes on the navy sleeve visible under the tape", label: 'The sleeve' },
-      { src: '/media/cloth/f021.webp', alt: "Close weave of a charcoal worsted suiting", label: 'The cloth' },
+      { src: '/media/cloth/canvas-vs-cloth.webp', alt: "A cut edge of pale canvas interlining laid over folded charcoal suiting, the two weaves clearly different materials", label: 'Canvas, not glue' },
       { src: '/media/sam/sam-red-jacket.webp', alt: "Sam pinning a red dinner jacket with a black shawl lapel on the dress form, tape around his neck", label: 'The finishing' },
     ],
     turnaround: 'Three to four weeks. Twelve days if it is urgent and the cloth is in.',
