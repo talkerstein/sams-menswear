@@ -628,7 +628,7 @@ export const garments = [
     reviewPicks: [2, 6, 11],
     optionPhotos: [
       {"src": "/media/art/business-lining.webp", "alt": "A jacket held open to show an oxblood cupro lining with a flat cap and bow tie embroidered at the inside pocket", "label": "The house mark"},
-      {"src": "/media/cloth/f024.webp", "alt": "Close weave of a fine suiting cloth", "label": "The shell"},
+      {"src": "/media/cloth/cupro-vs-polyester.webp", "alt": "Two squares of burgundy lining side by side on oak under identical light: the left matte and absorbing, the right slick with hard specular highlights", "label": "Cupro, then polyester"},
       {"src": "/media/sam/sam-fitting-cuff.webp", "alt": "Sam measuring a client's cuff, working buttonholes visible on the navy sleeve", "label": "The detail"},
       {"src": "/media/sam/sam-consult.webp", "alt": "Sam sitting with a client choosing cloth and details over the lookbook", "label": "The choosing"},
     ],
