@@ -15,7 +15,7 @@ export const garments = [
       { src: '/media/sam/sam-fitting-cuff.webp', alt: "Sam measuring a client's cuff, the working buttonholes on the navy sleeve visible under the tape", label: 'The sleeve' },
       { src: '/media/cloth/three-shelves.webp', alt: 'Three folded suiting cloths stacked with their edges stepped: mid-grey, navy and a charcoal herringbone, each weave clearly different', label: 'Three shelves' },
       { src: '/media/cloth/canvas-vs-cloth.webp', alt: "A cut edge of pale canvas interlining laid over folded charcoal suiting, the two weaves clearly different materials", label: 'Canvas, not glue' },
-      { src: '/media/sam/sam-red-jacket.webp', alt: "Sam pinning a red dinner jacket with a black shawl lapel on the dress form, tape around his neck", label: 'The finishing' },
+      { src: '/media/cloth/chalk-and-shears.webp', alt: "Tailor's chalk resting mid-mark on dark charcoal suiting beside open steel shears, one chalk line already drawn", label: 'Chalk on cloth' },
     ],
     turnaround: 'Three to four weeks. Twelve days if it is urgent and the cloth is in.',
     ctaLabel: 'Book a suit fitting',
