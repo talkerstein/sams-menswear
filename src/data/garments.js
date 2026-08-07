@@ -189,7 +189,7 @@ export const garments = [
     reviewPicks: [7, 2, 11],
     almanacRead: { href: "/almanac/quiet-triumphs", label: "Tales of small alterations that changed a man" },
     optionPhotos: [
-      { src: '/media/sam/sam-collar.webp', alt: "Sam taking a neck measurement with a tape at a client's collar in the Vaughan studio", label: 'The collar' },
+      { src: '/media/cloth/shirting-fan.webp', alt: "Four squares of two-ply cotton shirting fanned on oak: a white poplin, a blue twill, a textured oxford and a fine end-on-end, each weave clearly different", label: 'Four weaves' },
       { src: '/media/sam/sam-fitting-cuff.webp', alt: "Sam measuring a client's cuff, the working buttonholes on the navy sleeve visible under the tape", label: 'The cuff' },
       { src: '/media/sam/sam-fitting-shoulder.webp', alt: "Sam measuring sleeve length from the shoulder; the client's shirt cuff carries a stitched monogram", label: 'The sleeve' },
       { src: '/media/cloth/mother-of-pearl.webp', alt: 'Four mother-of-pearl shirt buttons on pale blue cotton shirting, each showing the iridescent shimmer and layered depth of real shell', label: 'Real shell' },
