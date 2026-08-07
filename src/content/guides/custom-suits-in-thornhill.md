@@ -17,7 +17,7 @@ Sam's studio sits in Vaughan, right on the Thornhill line, and has for thirty-pl
 
 Sam's is in Vaughan, sitting right on the Thornhill line. For most of Thornhill it's a short local drive, no 407, no downtown parking.
 
-Thornhill straddles the Vaughan and Markham border along Yonge and Bathurst, and Sam's studio sits inside that catchment. If you're near Bathurst and Centre, Promenade, or Old Thornhill, you're minutes away. And if even that's too far, [Sam comes to you](/guides/the-traveling-tailor): home or office, anywhere in the GTA.
+Thornhill straddles the Vaughan and Markham border along Yonge and Bathurst, and Sam's studio sits inside that catchment. If you're near Bathurst and Centre, Promenade, or Old Thornhill, you're minutes away. And if getting here is genuinely difficult, [ask](/guides/the-traveling-tailor) rather than assume: the studio is where the fitting is properly done, but Sam will give you a straight answer.
 
 ## Why go to a local tailor instead of a downtown showroom?
 

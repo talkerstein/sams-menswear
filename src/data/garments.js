@@ -24,7 +24,7 @@ export const garments = [
     title: 'Custom & Tailored Suits',
     h1: 'Custom Suits in Vaughan and Toronto',
     metaTitle: "Custom Suits in Vaughan & Toronto · Sam's Menswear",
-    metaDesc: "Men's custom and tailored suits for Toronto & Vaughan: bespoke or made-to-measure, measured and fitted by Sam. Navy, charcoal, three-piece and separates, drafted to your body and kept on a pattern. First fitting free; Sam comes to you across the GTA.",
+    metaDesc: "Men's custom and tailored suits for Toronto & Vaughan: bespoke or made-to-measure, measured and fitted by Sam. Navy, charcoal, three-piece and separates, drafted to your body and kept on a pattern. First fitting free at the Vaughan studio.",
     lede: 'A custom-tailored suit is the whole craft in one garment: a pattern drafted to your body, cloth chosen for how you live, and a fit off-the-rack can never reach. Sam measures and fits each one personally in Vaughan.',
     image: '/media/art/garment-suit.webp',
     imageAlt: 'A finished navy three-piece suit on a tailor’s dress form',

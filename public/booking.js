@@ -36,9 +36,9 @@
     },
     {
       id: 'home',
-      tag: 'For wedding parties',
-      title: 'Have Sam come to you',
-      copy: 'Sam brings tape, cloths and notebook. GTA-wide; minimum two garments.',
+      tag: 'By arrangement',
+      title: 'Ask about coming to you',
+      copy: 'The exception, not the service. Sam decides case by case and will tell you straight.',
       icon: 'M20 36 C 28 26, 32 20, 32 14 A 12 12 0 1 0 8 14 C 8 20, 12 26, 20 36 Z|M20 14 m -4 0 a 4 4 0 1 0 8 0 a 4 4 0 1 0 -8 0',
       iconStroke: true,
     },
@@ -280,9 +280,9 @@
       }
       if (state.where) {
         const w = WHERES.find(w => w.id === state.where);
-        parts.push(w && w.title.replace(/^Visit |Have Sam come to you|A video consultation/, m => ({
+        parts.push(w && w.title.replace(/^Visit |Ask about coming to you|A video consultation/, m => ({
           'Visit the atelier': 'the atelier',
-          'Have Sam come to you': 'Sam comes to you',
+          'Ask about coming to you': 'asking about a visit',
           'A video consultation': 'video call',
         })[m] || m));
       }
@@ -342,7 +342,7 @@
     w.innerHTML = `
       <div class="chapter-no">№ 02 · Where</div>
       <h2>Where shall <em>we meet?</em></h2>
-      <p class="step-prompt">Most first conversations happen at the Vaughan atelier. For wedding parties of 6+, Sam comes to you. Video calls work well for first-timers across town.</p>
+      <p class="step-prompt">Most first conversations happen at the Vaughan studio, which is where the cloth, the mirrors and the light all are. Video calls work well for first-timers across town.</p>
     `;
     const grid = el('div', 'opt-grid opt-grid--3');
     for (const opt of WHERES) {

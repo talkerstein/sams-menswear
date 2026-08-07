@@ -295,7 +295,7 @@ export const locations = [
     headline: 'Pay for the tailor, not the showroom.',
     metaTitle: "Bespoke Suits in Yorkville: the Tailor, Not the Showroom | Sam's Menswear",
     h1: "Bespoke suits, <em>Yorkville.</em>",
-    metaDesc: "Bespoke and made-to-measure suits for Yorkville and Bloor West: the craft of a proper tailor without the Mink Mile markup. Sam measures and fits every garment personally, or comes to your condo. Custom, wedding and black-tie tailoring.",
+    metaDesc: "Bespoke and made-to-measure suits for Yorkville and Bloor West: the craft of a proper tailor without the Mink Mile markup. Sam measures and fits every garment personally at the studio, a short run north. Custom, wedding and black-tie tailoring.",
     blurb:
       "In Yorkville you can pay for a showroom or pay for a tailor. With Sam, every dollar goes into the cloth and the hand that cuts it, not the address.",
     services: ['Bespoke Suits', 'Made-to-Measure', 'Custom Tuxedos', 'Custom Shirts'],
